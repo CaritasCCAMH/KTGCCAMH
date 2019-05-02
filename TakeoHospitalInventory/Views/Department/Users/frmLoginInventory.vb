@@ -251,7 +251,7 @@ Public Class frmLoginInventory
 
     End Sub
 
-    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 
@@ -292,5 +292,11 @@ Public Class frmLoginInventory
         '    btnDisconect.Visible = False
         '    BtnConnected.Visible = True
         'End If
+    End Sub
+
+   
+
+    Private Sub BtnClose_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnClose.Click
+        Application.Exit()
     End Sub
 End Class

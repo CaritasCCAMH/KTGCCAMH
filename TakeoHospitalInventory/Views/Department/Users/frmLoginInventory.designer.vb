@@ -40,17 +40,17 @@ Partial Class frmLoginInventory
         Me.txtUserName = New System.Windows.Forms.TextBox
         Me.txtPassword = New System.Windows.Forms.TextBox
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.BtnClose = New System.Windows.Forms.Button
         Me.BtnOk = New System.Windows.Forms.Button
         Me.BgLogin = New System.ComponentModel.BackgroundWorker
         Me.Panel1 = New System.Windows.Forms.Panel
         Me.Label4 = New System.Windows.Forms.Label
         Me.Label5 = New System.Windows.Forms.Label
-        Me.Button1 = New System.Windows.Forms.Button
         Me.Button2 = New System.Windows.Forms.Button
         Me.BtnConnected = New System.Windows.Forms.Button
         Me.BtnExit = New System.Windows.Forms.Button
         Me.btnDisconect = New System.Windows.Forms.Button
-        Me.Label1 = New System.Windows.Forms.Label
+        Me.Button1 = New System.Windows.Forms.Button
         Me.Panel2 = New System.Windows.Forms.Panel
         Me.PictLoading = New System.Windows.Forms.PictureBox
         Me.LblDate = New System.Windows.Forms.Label
@@ -60,6 +60,7 @@ Partial Class frmLoginInventory
         Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.Label3 = New System.Windows.Forms.Label
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -118,16 +119,33 @@ Partial Class frmLoginInventory
         '
         Me.GroupBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox1.Controls.Add(Me.BtnClose)
         Me.GroupBox1.Controls.Add(Me.BtnOk)
         Me.GroupBox1.Controls.Add(Me.UsernameLabel)
         Me.GroupBox1.Controls.Add(Me.PasswordLabel)
         Me.GroupBox1.Controls.Add(Me.txtUserName)
         Me.GroupBox1.Controls.Add(Me.txtPassword)
-        Me.GroupBox1.Location = New System.Drawing.Point(360, 255)
+        Me.GroupBox1.Location = New System.Drawing.Point(360, 370)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(548, 253)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
+        '
+        'BtnClose
+        '
+        Me.BtnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.BtnClose.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnClose.ForeColor = System.Drawing.Color.White
+        Me.BtnClose.Image = CType(resources.GetObject("BtnClose.Image"), System.Drawing.Image)
+        Me.BtnClose.Location = New System.Drawing.Point(281, 182)
+        Me.BtnClose.Name = "BtnClose"
+        Me.BtnClose.Size = New System.Drawing.Size(250, 65)
+        Me.BtnClose.TabIndex = 4
+        Me.BtnClose.Text = "Close..."
+        Me.BtnClose.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnClose.UseVisualStyleBackColor = False
         '
         'BtnOk
         '
@@ -136,11 +154,13 @@ Partial Class frmLoginInventory
         Me.BtnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnOk.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnOk.ForeColor = System.Drawing.Color.White
-        Me.BtnOk.Location = New System.Drawing.Point(104, 181)
+        Me.BtnOk.Image = CType(resources.GetObject("BtnOk.Image"), System.Drawing.Image)
+        Me.BtnOk.Location = New System.Drawing.Point(62, 182)
         Me.BtnOk.Name = "BtnOk"
-        Me.BtnOk.Size = New System.Drawing.Size(341, 45)
+        Me.BtnOk.Size = New System.Drawing.Size(197, 65)
         Me.BtnOk.TabIndex = 3
         Me.BtnOk.Text = "Login ..."
+        Me.BtnOk.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.BtnOk.UseVisualStyleBackColor = False
         '
         'BgLogin
@@ -153,12 +173,8 @@ Partial Class frmLoginInventory
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.BtnConnected)
         Me.Panel1.Controls.Add(Me.BtnExit)
-        Me.Panel1.Controls.Add(Me.btnDisconect)
-        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.ForeColor = System.Drawing.Color.White
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -176,6 +192,7 @@ Partial Class frmLoginInventory
         Me.Label4.Size = New System.Drawing.Size(215, 17)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "CTEH DB Production Connection"
+        Me.Label4.Visible = False
         '
         'Label5
         '
@@ -188,21 +205,7 @@ Partial Class frmLoginInventory
         Me.Label5.Size = New System.Drawing.Size(211, 17)
         Me.Label5.TabIndex = 15
         Me.Label5.Text = "CTEH DB Screening Connection"
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(5, 5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(35, 29)
-        Me.Button1.TabIndex = 18
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Label5.Visible = False
         '
         'Button2
         '
@@ -218,6 +221,7 @@ Partial Class frmLoginInventory
         Me.Button2.Size = New System.Drawing.Size(35, 29)
         Me.Button2.TabIndex = 17
         Me.Button2.UseVisualStyleBackColor = False
+        Me.Button2.Visible = False
         '
         'BtnConnected
         '
@@ -229,7 +233,7 @@ Partial Class frmLoginInventory
         Me.BtnConnected.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnConnected.ForeColor = System.Drawing.Color.White
         Me.BtnConnected.Image = CType(resources.GetObject("BtnConnected.Image"), System.Drawing.Image)
-        Me.BtnConnected.Location = New System.Drawing.Point(1173, 1)
+        Me.BtnConnected.Location = New System.Drawing.Point(1141, 101)
         Me.BtnConnected.Name = "BtnConnected"
         Me.BtnConnected.Size = New System.Drawing.Size(50, 39)
         Me.BtnConnected.TabIndex = 16
@@ -252,6 +256,7 @@ Partial Class frmLoginInventory
         Me.BtnExit.Size = New System.Drawing.Size(39, 40)
         Me.BtnExit.TabIndex = 14
         Me.BtnExit.UseVisualStyleBackColor = False
+        Me.BtnExit.Visible = False
         '
         'btnDisconect
         '
@@ -263,25 +268,28 @@ Partial Class frmLoginInventory
         Me.btnDisconect.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDisconect.ForeColor = System.Drawing.Color.White
         Me.btnDisconect.Image = CType(resources.GetObject("btnDisconect.Image"), System.Drawing.Image)
-        Me.btnDisconect.Location = New System.Drawing.Point(1173, 0)
+        Me.btnDisconect.Location = New System.Drawing.Point(1206, 101)
         Me.btnDisconect.Name = "btnDisconect"
         Me.btnDisconect.Size = New System.Drawing.Size(50, 39)
         Me.btnDisconect.TabIndex = 15
         Me.btnDisconect.UseVisualStyleBackColor = False
         Me.btnDisconect.Visible = False
         '
-        'Label1
+        'Button1
         '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(526, 6)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(254, 23)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Takeo Eye Screening System"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(36, 76)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(35, 29)
+        Me.Button1.TabIndex = 18
+        Me.Button1.UseVisualStyleBackColor = False
+        Me.Button1.Visible = False
         '
         'Panel2
         '
@@ -292,7 +300,7 @@ Partial Class frmLoginInventory
         Me.Panel2.Controls.Add(Me.LblStatus)
         Me.Panel2.Controls.Add(Me.Label2)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 573)
+        Me.Panel2.Location = New System.Drawing.Point(0, 803)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(1268, 41)
         Me.Panel2.TabIndex = 11
@@ -351,9 +359,9 @@ Partial Class frmLoginInventory
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(570, 80)
+        Me.PictureBox1.Location = New System.Drawing.Point(517, 118)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(149, 146)
+        Me.PictureBox1.Size = New System.Drawing.Size(234, 234)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
@@ -365,7 +373,7 @@ Partial Class frmLoginInventory
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(564, 226)
+        Me.Label3.Location = New System.Drawing.Point(551, 341)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(167, 25)
         Me.Label3.TabIndex = 13
@@ -376,19 +384,36 @@ Partial Class frmLoginInventory
         '
         Me.Timer1.Interval = 1000
         '
+        'Label1
+        '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(335, 45)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(588, 70)
+        Me.Label1.TabIndex = 14
+        Me.Label1.Text = "CENTER FOR CHILD AND ADOLESCENT MENTAL HEALTH" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Dr.MARCEL.ROY FOUNDATION FOR THE C" & _
+            "HILDREN OF CAMBODIA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CHEY CHUMNEAS HOSPTAL, TAKHMAU, KANDAL" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'frmLoginInventory
         '
         Me.AcceptButton = Me.BtnOk
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1268, 614)
+        Me.ClientSize = New System.Drawing.Size(1268, 844)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.BtnConnected)
+        Me.Controls.Add(Me.btnDisconect)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -414,7 +439,6 @@ Partial Class frmLoginInventory
     End Sub
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents LblStatus As System.Windows.Forms.Label
@@ -433,4 +457,6 @@ Partial Class frmLoginInventory
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents BtnClose As System.Windows.Forms.Button
 End Class

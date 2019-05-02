@@ -439,11 +439,11 @@
     End Sub
 
 
-    Private Sub BtnPatientRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPatientRegistration.Click
+    Private Sub BtnPatientRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, PatientPayment, "", True)
     End Sub
 
-    Private Sub BtnNewPatientBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnNewPatientBook.Click
+    Private Sub BtnNewPatientBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, NewOldPatientBook, "", True)
     End Sub
 
@@ -510,5 +510,9 @@
     Private Sub BtnAdjustock_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnAdjustock.Click
         'GeneralAddControl(uiPanelMainContainer, UDashboardAdjustStock, "Department items adjust stock.")
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UDashboardAdjustStock, "", True)
+    End Sub
+
+    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
+
     End Sub
 End Class
