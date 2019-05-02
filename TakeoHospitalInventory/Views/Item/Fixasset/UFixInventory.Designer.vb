@@ -81,7 +81,7 @@ Partial Class UFixInventory
         'ToolStripButton1
         '
         Me.ToolStripButton1.ForeColor = System.Drawing.Color.Blue
-        Me.ToolStripButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1342235152_navigation_down_button_basic_blue
+        Me.ToolStripButton1.Image = Global.KTGSYS.My.Resources.Resources._1342235152_navigation_down_button_basic_blue
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(126, 25)
@@ -95,7 +95,7 @@ Partial Class UFixInventory
         'BtnUpdateFixAsset
         '
         Me.BtnUpdateFixAsset.ForeColor = System.Drawing.Color.Blue
-        Me.BtnUpdateFixAsset.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.BtnUpdateFixAsset.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.BtnUpdateFixAsset.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnUpdateFixAsset.Name = "BtnUpdateFixAsset"
         Me.BtnUpdateFixAsset.Size = New System.Drawing.Size(144, 25)
@@ -109,7 +109,7 @@ Partial Class UFixInventory
         'BtnDeleteAsset
         '
         Me.BtnDeleteAsset.ForeColor = System.Drawing.Color.Blue
-        Me.BtnDeleteAsset.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteAsset.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteAsset.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteAsset.Name = "BtnDeleteAsset"
         Me.BtnDeleteAsset.Size = New System.Drawing.Size(107, 25)
@@ -123,7 +123,7 @@ Partial Class UFixInventory
         'ViewAsset
         '
         Me.ViewAsset.ForeColor = System.Drawing.Color.Blue
-        Me.ViewAsset.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.ViewAsset.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.ViewAsset.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ViewAsset.Name = "ViewAsset"
         Me.ViewAsset.Size = New System.Drawing.Size(127, 25)
@@ -137,7 +137,7 @@ Partial Class UFixInventory
         'BtnNewCheckAsset
         '
         Me.BtnNewCheckAsset.ForeColor = System.Drawing.Color.Blue
-        Me.BtnNewCheckAsset.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit1
+        Me.BtnNewCheckAsset.Image = Global.KTGSYS.My.Resources.Resources.edit1
         Me.BtnNewCheckAsset.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewCheckAsset.Name = "BtnNewCheckAsset"
         Me.BtnNewCheckAsset.Size = New System.Drawing.Size(149, 25)

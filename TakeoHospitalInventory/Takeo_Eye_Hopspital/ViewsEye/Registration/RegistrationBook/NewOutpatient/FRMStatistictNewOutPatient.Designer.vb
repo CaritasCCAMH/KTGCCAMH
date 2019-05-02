@@ -512,7 +512,7 @@ Partial Class FRMStatistictNewOutPatient
         '
         'Pict1
         '
-        Me.Pict1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.Pict1.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.Pict1.Location = New System.Drawing.Point(691, 93)
         Me.Pict1.Name = "Pict1"
         Me.Pict1.Size = New System.Drawing.Size(264, 25)

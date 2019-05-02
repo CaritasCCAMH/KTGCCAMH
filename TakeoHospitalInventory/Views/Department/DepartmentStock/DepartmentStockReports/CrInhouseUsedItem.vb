@@ -45,7 +45,7 @@ Public Class CrInhouseUsedItem
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrInhouseUsedItem.rpt"
+            Return "KTGSYS.CrInhouseUsedItem.rpt"
         End Get
         Set
             'Do nothing

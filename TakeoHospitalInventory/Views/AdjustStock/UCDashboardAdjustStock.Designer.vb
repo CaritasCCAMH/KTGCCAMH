@@ -52,7 +52,7 @@ Partial Class UCDashboardAdjustStock
         '
         'BtnApproved
         '
-        Me.BtnApproved.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Approved
+        Me.BtnApproved.Image = Global.KTGSYS.My.Resources.Resources.Approved
         Me.BtnApproved.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnApproved.Name = "BtnApproved"
         Me.BtnApproved.Size = New System.Drawing.Size(125, 31)
@@ -66,7 +66,7 @@ Partial Class UCDashboardAdjustStock
         'BtnRevert
         '
         Me.BtnRevert.AutoSize = False
-        Me.BtnRevert.Image = Global.TakeoHospitalInventory.My.Resources.Resources.RightLeft2Red
+        Me.BtnRevert.Image = Global.KTGSYS.My.Resources.Resources.RightLeft2Red
         Me.BtnRevert.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRevert.Name = "BtnRevert"
         Me.BtnRevert.Size = New System.Drawing.Size(80, 31)
@@ -76,7 +76,7 @@ Partial Class UCDashboardAdjustStock
         'BtnRefreshData
         '
         Me.BtnRefreshData.AutoSize = False
-        Me.BtnRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshData.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshData.Name = "BtnRefreshData"
         Me.BtnRefreshData.Size = New System.Drawing.Size(120, 31)

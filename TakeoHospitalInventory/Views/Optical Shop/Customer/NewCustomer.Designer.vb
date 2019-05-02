@@ -331,7 +331,7 @@ Partial Class NewCustomer
         'BtnCancel
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(478, 298)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancel.Name = "BtnCancel"
@@ -344,7 +344,7 @@ Partial Class NewCustomer
         'BtnSave
         '
         Me.BtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSave.Location = New System.Drawing.Point(397, 298)
         Me.BtnSave.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnSave.Name = "BtnSave"

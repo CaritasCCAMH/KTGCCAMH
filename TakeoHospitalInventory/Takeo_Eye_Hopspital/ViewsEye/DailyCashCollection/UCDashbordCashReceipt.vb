@@ -1,4 +1,4 @@
-Imports TakeoHospitalInventory
+Imports KTGSYS
 Public Class UCDashbordCashReceipt
 
     Private Sub cmdIPReceipt_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdIPReceipt.Click

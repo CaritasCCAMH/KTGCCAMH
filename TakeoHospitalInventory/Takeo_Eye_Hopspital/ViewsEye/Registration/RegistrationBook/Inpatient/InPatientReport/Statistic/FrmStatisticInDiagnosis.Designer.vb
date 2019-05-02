@@ -227,7 +227,7 @@ Partial Class FrmStatisticInDiagnosis
         '
         'PictLoading
         '
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PictLoading.Location = New System.Drawing.Point(12, 81)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(275, 26)

@@ -69,7 +69,7 @@ Partial Class SelectPatient
         'BtnFind
         '
         Me.BtnFind.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFind.Image = Global.TakeoHospitalInventory.My.Resources.Resources.preview
+        Me.BtnFind.Image = Global.KTGSYS.My.Resources.Resources.preview
         Me.BtnFind.Location = New System.Drawing.Point(487, 22)
         Me.BtnFind.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnFind.Name = "BtnFind"
@@ -132,7 +132,7 @@ Partial Class SelectPatient
         '
         Me.BtnOk.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnOk.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnOk.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.BtnOk.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.BtnOk.Location = New System.Drawing.Point(480, 360)
         Me.BtnOk.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnOk.Name = "BtnOk"
@@ -146,7 +146,7 @@ Partial Class SelectPatient
         '
         Me.BtnClose.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnClose.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnClose.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnClose.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnClose.Location = New System.Drawing.Point(559, 360)
         Me.BtnClose.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnClose.Name = "BtnClose"
@@ -162,7 +162,7 @@ Partial Class SelectPatient
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox1.Location = New System.Drawing.Point(88, 0)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
@@ -182,7 +182,7 @@ Partial Class SelectPatient
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox2.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox2.Location = New System.Drawing.Point(0, 1)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
@@ -214,7 +214,7 @@ Partial Class SelectPatient
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox3.Location = New System.Drawing.Point(59, 2)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"

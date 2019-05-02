@@ -45,7 +45,7 @@ Public Class CryPatientReferalByAge
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CryPatientReferalByAge.rpt"
+            Return "KTGSYS.CryPatientReferalByAge.rpt"
         End Get
         Set
             'Do nothing

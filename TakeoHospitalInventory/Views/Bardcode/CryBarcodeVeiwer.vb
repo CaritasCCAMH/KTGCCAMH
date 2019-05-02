@@ -45,7 +45,7 @@ Public Class CryBarcodeVeiwer
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CryBarcodeVeiwer.rpt"
+            Return "KTGSYS.CryBarcodeVeiwer.rpt"
         End Get
         Set
             'Do nothing

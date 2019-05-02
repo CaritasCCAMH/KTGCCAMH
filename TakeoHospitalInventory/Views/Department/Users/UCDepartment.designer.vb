@@ -222,7 +222,7 @@ Partial Class UCDepartment
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.ToolStripButton1.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(120, 28)
@@ -235,7 +235,7 @@ Partial Class UCDepartment
         '
         'BtnMenuEdit
         '
-        Me.BtnMenuEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.BtnMenuEdit.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.BtnMenuEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnMenuEdit.Name = "BtnMenuEdit"
         Me.BtnMenuEdit.Size = New System.Drawing.Size(55, 28)
@@ -248,7 +248,7 @@ Partial Class UCDepartment
         '
         'BtnViewAllPermission
         '
-        Me.BtnViewAllPermission.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnViewAllPermission.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnViewAllPermission.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnViewAllPermission.Name = "BtnViewAllPermission"
         Me.BtnViewAllPermission.Size = New System.Drawing.Size(101, 28)
@@ -317,7 +317,7 @@ Partial Class UCDepartment
         '
         'BtnNewUser
         '
-        Me.BtnNewUser.Image = Global.TakeoHospitalInventory.My.Resources.Resources.new_vendor
+        Me.BtnNewUser.Image = Global.KTGSYS.My.Resources.Resources.new_vendor
         Me.BtnNewUser.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewUser.Name = "BtnNewUser"
         Me.BtnNewUser.Size = New System.Drawing.Size(85, 28)
@@ -330,7 +330,7 @@ Partial Class UCDepartment
         '
         'BtnEditUser
         '
-        Me.BtnEditUser.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.BtnEditUser.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.BtnEditUser.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnEditUser.Name = "BtnEditUser"
         Me.BtnEditUser.Size = New System.Drawing.Size(55, 28)
@@ -343,7 +343,7 @@ Partial Class UCDepartment
         '
         'BtnChangePassword
         '
-        Me.BtnChangePassword.Image = Global.TakeoHospitalInventory.My.Resources.Resources.RightLeft2Red
+        Me.BtnChangePassword.Image = Global.KTGSYS.My.Resources.Resources.RightLeft2Red
         Me.BtnChangePassword.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnChangePassword.Name = "BtnChangePassword"
         Me.BtnChangePassword.Size = New System.Drawing.Size(138, 28)
@@ -356,7 +356,7 @@ Partial Class UCDepartment
         '
         'BtnViewAllUser
         '
-        Me.BtnViewAllUser.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnViewAllUser.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnViewAllUser.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnViewAllUser.Name = "BtnViewAllUser"
         Me.BtnViewAllUser.Size = New System.Drawing.Size(101, 28)
@@ -369,7 +369,7 @@ Partial Class UCDepartment
         '
         'BtnDeleteUser
         '
-        Me.BtnDeleteUser.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Remove
+        Me.BtnDeleteUser.Image = Global.KTGSYS.My.Resources.Resources.Remove
         Me.BtnDeleteUser.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteUser.Name = "BtnDeleteUser"
         Me.BtnDeleteUser.Size = New System.Drawing.Size(94, 28)
@@ -393,7 +393,7 @@ Partial Class UCDepartment
         '
         Me.BtnNew.AutoSize = False
         Me.BtnNew.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.BtnNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNew.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Size = New System.Drawing.Size(80, 31)
@@ -408,7 +408,7 @@ Partial Class UCDepartment
         '
         Me.btnEdit.AutoSize = False
         Me.btnEdit.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.btnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.btnEdit.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(70, 31)
@@ -423,7 +423,7 @@ Partial Class UCDepartment
         '
         Me.BtnRefresh.AutoSize = False
         Me.BtnRefresh.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(120, 30)
@@ -437,7 +437,7 @@ Partial Class UCDepartment
         'BtnPermission
         '
         Me.BtnPermission.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.BtnPermission.Image = Global.TakeoHospitalInventory.My.Resources.Resources.process
+        Me.BtnPermission.Image = Global.KTGSYS.My.Resources.Resources.process
         Me.BtnPermission.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPermission.Name = "BtnPermission"
         Me.BtnPermission.Size = New System.Drawing.Size(134, 31)

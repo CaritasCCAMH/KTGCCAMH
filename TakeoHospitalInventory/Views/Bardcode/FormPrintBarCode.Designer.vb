@@ -52,7 +52,7 @@ Partial Class FormPrintBarCode
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.ToolStripButton1.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(158, 36)

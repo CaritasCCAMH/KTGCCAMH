@@ -140,7 +140,7 @@ Partial Class frmDepartment
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.Location = New System.Drawing.Point(367, 121)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(85, 41)
@@ -154,7 +154,7 @@ Partial Class frmDepartment
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(269, 121)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(85, 41)

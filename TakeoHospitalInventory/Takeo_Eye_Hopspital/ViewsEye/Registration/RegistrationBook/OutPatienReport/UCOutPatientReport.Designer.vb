@@ -32,8 +32,8 @@ Partial Class UCOutPatientReport
         Me.Label2 = New System.Windows.Forms.Label
         Me.Label1 = New System.Windows.Forms.Label
         Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.DSOutPatientReport = New TakeoHospitalInventory.DSOutPatientReport
-        Me.DataTable1TableAdapter = New TakeoHospitalInventory.DSOutPatientReportTableAdapters.DataTable1TableAdapter
+        Me.DSOutPatientReport = New KTGSYS.DSOutPatientReport
+        Me.DataTable1TableAdapter = New KTGSYS.DSOutPatientReportTableAdapters.DataTable1TableAdapter
         Me.BgLoadReport = New System.ComponentModel.BackgroundWorker
         Me.BtnReporttim = New System.Windows.Forms.Button
         Me.GroupBox1.SuspendLayout()
@@ -240,8 +240,8 @@ Partial Class UCOutPatientReport
     Friend WithEvents BtnPreview As System.Windows.Forms.Button
     Friend WithEvents DateFrom As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateTo As System.Windows.Forms.DateTimePicker
-    Friend WithEvents DSOutPatientReport As TakeoHospitalInventory.DSOutPatientReport
-    Friend WithEvents DataTable1TableAdapter As TakeoHospitalInventory.DSOutPatientReportTableAdapters.DataTable1TableAdapter
+    Friend WithEvents DSOutPatientReport As KTGSYS.DSOutPatientReport
+    Friend WithEvents DataTable1TableAdapter As KTGSYS.DSOutPatientReportTableAdapters.DataTable1TableAdapter
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents BgLoadReport As System.ComponentModel.BackgroundWorker
     Friend WithEvents BtnNewOutStatistic As System.Windows.Forms.Button

@@ -25,7 +25,7 @@ Partial Class UCEachProvinceAndDistrict
         Dim GridDiagnosisbyDistrict_DesignTimeLayout As Janus.Windows.GridEX.GridEXLayout = New Janus.Windows.GridEX.GridEXLayout
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.GridConsultationEachProvince = New Janus.Windows.GridEX.GridEX
-        Me.DSProvinceAndDistrict = New TakeoHospitalInventory.DSProvinceAndDistrict
+        Me.DSProvinceAndDistrict = New KTGSYS.DSProvinceAndDistrict
         Me.StatusStripPateint = New System.Windows.Forms.StatusStrip
         Me.ProgrestData = New System.Windows.Forms.ToolStripProgressBar
         Me.lblTimeShowData = New System.Windows.Forms.ToolStripStatusLabel
@@ -55,12 +55,12 @@ Partial Class UCEachProvinceAndDistrict
         Me.BgReportConsultation = New System.ComponentModel.BackgroundWorker
         Me.BgReportProviceDiagnosis = New System.ComponentModel.BackgroundWorker
         Me.TimerSearchPatien = New System.Windows.Forms.Timer(Me.components)
-        Me.DSProvinceReport = New TakeoHospitalInventory.DSProvinceReport
-        Me.DTblProvinceReportTableAdapter = New TakeoHospitalInventory.DSProvinceReportTableAdapters.DTblProvinceReportTableAdapter
-        Me.TblConsultationEachTableAdapter = New TakeoHospitalInventory.DSProvinceReportTableAdapters.TblConsultationEachTableAdapter
-        Me.TblProvincesTableAdapter = New TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.tblProvincesTableAdapter
-        Me.V_CosultationEachProvinceTableAdapter = New TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.V_CosultationEachProvinceTableAdapter
-        Me.V_DiagnosisByDistrictTableAdapter = New TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.V_DiagnosisByDistrictTableAdapter
+        Me.DSProvinceReport = New KTGSYS.DSProvinceReport
+        Me.DTblProvinceReportTableAdapter = New KTGSYS.DSProvinceReportTableAdapters.DTblProvinceReportTableAdapter
+        Me.TblConsultationEachTableAdapter = New KTGSYS.DSProvinceReportTableAdapters.TblConsultationEachTableAdapter
+        Me.TblProvincesTableAdapter = New KTGSYS.DSProvinceAndDistrictTableAdapters.tblProvincesTableAdapter
+        Me.V_CosultationEachProvinceTableAdapter = New KTGSYS.DSProvinceAndDistrictTableAdapters.V_CosultationEachProvinceTableAdapter
+        Me.V_DiagnosisByDistrictTableAdapter = New KTGSYS.DSProvinceAndDistrictTableAdapters.V_DiagnosisByDistrictTableAdapter
         Me.GroupBox1.SuspendLayout()
         CType(Me.GridConsultationEachProvince, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DSProvinceAndDistrict, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -478,9 +478,9 @@ Partial Class UCEachProvinceAndDistrict
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents SplitContainer1 As System.Windows.Forms.SplitContainer
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents DSProvinceAndDistrict As TakeoHospitalInventory.DSProvinceAndDistrict
-    Friend WithEvents TblProvincesTableAdapter As TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.tblProvincesTableAdapter
-    Friend WithEvents V_CosultationEachProvinceTableAdapter As TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.V_CosultationEachProvinceTableAdapter
+    Friend WithEvents DSProvinceAndDistrict As KTGSYS.DSProvinceAndDistrict
+    Friend WithEvents TblProvincesTableAdapter As KTGSYS.DSProvinceAndDistrictTableAdapters.tblProvincesTableAdapter
+    Friend WithEvents V_CosultationEachProvinceTableAdapter As KTGSYS.DSProvinceAndDistrictTableAdapters.V_CosultationEachProvinceTableAdapter
     Friend WithEvents GridConsultationEachProvince As Janus.Windows.GridEX.GridEX
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents CboMonth As System.Windows.Forms.ComboBox
@@ -492,7 +492,7 @@ Partial Class UCEachProvinceAndDistrict
     Friend WithEvents StatusStripPateint As System.Windows.Forms.StatusStrip
     Friend WithEvents ProgrestData As System.Windows.Forms.ToolStripProgressBar
     Friend WithEvents lblTimeShowData As System.Windows.Forms.ToolStripStatusLabel
-    Friend WithEvents V_DiagnosisByDistrictTableAdapter As TakeoHospitalInventory.DSProvinceAndDistrictTableAdapters.V_DiagnosisByDistrictTableAdapter
+    Friend WithEvents V_DiagnosisByDistrictTableAdapter As KTGSYS.DSProvinceAndDistrictTableAdapters.V_DiagnosisByDistrictTableAdapter
     Friend WithEvents SplitContainerReport As System.Windows.Forms.SplitContainer
     Friend WithEvents GridDiagnosisbyDistrict As Janus.Windows.GridEX.GridEX
     Friend WithEvents CRVConsultation As CrystalDecisions.Windows.Forms.CrystalReportViewer
@@ -509,9 +509,9 @@ Partial Class UCEachProvinceAndDistrict
     Friend WithEvents BtnPrintPreview1 As System.Windows.Forms.Button
     Friend WithEvents BgReportProviceDiagnosis As System.ComponentModel.BackgroundWorker
     Friend WithEvents TimerSearchPatien As System.Windows.Forms.Timer
-    Friend WithEvents DSProvinceReport As TakeoHospitalInventory.DSProvinceReport
-    Friend WithEvents DTblProvinceReportTableAdapter As TakeoHospitalInventory.DSProvinceReportTableAdapters.DTblProvinceReportTableAdapter
-    Friend WithEvents TblConsultationEachTableAdapter As TakeoHospitalInventory.DSProvinceReportTableAdapters.TblConsultationEachTableAdapter
+    Friend WithEvents DSProvinceReport As KTGSYS.DSProvinceReport
+    Friend WithEvents DTblProvinceReportTableAdapter As KTGSYS.DSProvinceReportTableAdapters.DTblProvinceReportTableAdapter
+    Friend WithEvents TblConsultationEachTableAdapter As KTGSYS.DSProvinceReportTableAdapters.TblConsultationEachTableAdapter
 
    
 

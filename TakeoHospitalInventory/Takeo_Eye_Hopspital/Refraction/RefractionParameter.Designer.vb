@@ -157,7 +157,7 @@ Partial Class RefractionParameter
         '
         'BtnNewDiagnosis
         '
-        Me.BtnNewDiagnosis.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewDiagnosis.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewDiagnosis.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewDiagnosis.Name = "BtnNewDiagnosis"
         Me.BtnNewDiagnosis.Size = New System.Drawing.Size(134, 25)
@@ -170,7 +170,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshDiagnosis
         '
-        Me.BtnRefreshDiagnosis.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshDiagnosis.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshDiagnosis.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshDiagnosis.Name = "BtnRefreshDiagnosis"
         Me.BtnRefreshDiagnosis.Size = New System.Drawing.Size(117, 25)
@@ -178,7 +178,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteDiagnosis
         '
-        Me.BtnDeleteDiagnosis.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteDiagnosis.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteDiagnosis.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteDiagnosis.Name = "BtnDeleteDiagnosis"
         Me.BtnDeleteDiagnosis.Size = New System.Drawing.Size(78, 25)
@@ -228,7 +228,7 @@ Partial Class RefractionParameter
         '
         'BtnNewGlasses
         '
-        Me.BtnNewGlasses.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewGlasses.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewGlasses.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewGlasses.Name = "BtnNewGlasses"
         Me.BtnNewGlasses.Size = New System.Drawing.Size(118, 25)
@@ -241,7 +241,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshGlasses
         '
-        Me.BtnRefreshGlasses.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshGlasses.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshGlasses.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshGlasses.Name = "BtnRefreshGlasses"
         Me.BtnRefreshGlasses.Size = New System.Drawing.Size(83, 25)
@@ -254,7 +254,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteGlasses
         '
-        Me.BtnDeleteGlasses.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteGlasses.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteGlasses.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteGlasses.Name = "BtnDeleteGlasses"
         Me.BtnDeleteGlasses.Size = New System.Drawing.Size(130, 25)
@@ -303,7 +303,7 @@ Partial Class RefractionParameter
         '
         'BtnNewVA
         '
-        Me.BtnNewVA.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewVA.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewVA.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewVA.Name = "BtnNewVA"
         Me.BtnNewVA.Size = New System.Drawing.Size(85, 25)
@@ -316,7 +316,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshVA
         '
-        Me.BtnRefreshVA.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshVA.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshVA.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshVA.Name = "BtnRefreshVA"
         Me.BtnRefreshVA.Size = New System.Drawing.Size(123, 25)
@@ -329,7 +329,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteVA
         '
-        Me.BtnDeleteVA.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteVA.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteVA.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteVA.Name = "BtnDeleteVA"
         Me.BtnDeleteVA.Size = New System.Drawing.Size(97, 25)
@@ -378,7 +378,7 @@ Partial Class RefractionParameter
         '
         'BtnNewAxis
         '
-        Me.BtnNewAxis.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewAxis.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewAxis.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewAxis.Name = "BtnNewAxis"
         Me.BtnNewAxis.Size = New System.Drawing.Size(94, 25)
@@ -391,7 +391,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshAxix
         '
-        Me.BtnRefreshAxix.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshAxix.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshAxix.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshAxix.Name = "BtnRefreshAxix"
         Me.BtnRefreshAxix.Size = New System.Drawing.Size(83, 25)
@@ -404,7 +404,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteAxix
         '
-        Me.BtnDeleteAxix.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteAxix.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteAxix.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteAxix.Name = "BtnDeleteAxix"
         Me.BtnDeleteAxix.Size = New System.Drawing.Size(74, 25)
@@ -448,7 +448,7 @@ Partial Class RefractionParameter
         '
         'BtnNewVAReading
         '
-        Me.BtnNewVAReading.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewVAReading.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewVAReading.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewVAReading.Name = "BtnNewVAReading"
         Me.BtnNewVAReading.Size = New System.Drawing.Size(146, 25)
@@ -461,7 +461,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshVAreading
         '
-        Me.BtnRefreshVAreading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshVAreading.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshVAreading.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshVAreading.Name = "BtnRefreshVAreading"
         Me.BtnRefreshVAreading.Size = New System.Drawing.Size(83, 25)
@@ -474,7 +474,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteReading
         '
-        Me.BtnDeleteReading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteReading.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteReading.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteReading.Name = "BtnDeleteReading"
         Me.BtnDeleteReading.Size = New System.Drawing.Size(74, 25)
@@ -518,7 +518,7 @@ Partial Class RefractionParameter
         '
         'BtnNewADD
         '
-        Me.BtnNewADD.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNewADD.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNewADD.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewADD.Name = "BtnNewADD"
         Me.BtnNewADD.Size = New System.Drawing.Size(98, 25)
@@ -531,7 +531,7 @@ Partial Class RefractionParameter
         '
         'BtnRefreshAdd
         '
-        Me.BtnRefreshAdd.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefreshAdd.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefreshAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshAdd.Name = "BtnRefreshAdd"
         Me.BtnRefreshAdd.Size = New System.Drawing.Size(83, 25)
@@ -544,7 +544,7 @@ Partial Class RefractionParameter
         '
         'BtnDeleteAdd
         '
-        Me.BtnDeleteAdd.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleteAdd.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleteAdd.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleteAdd.Name = "BtnDeleteAdd"
         Me.BtnDeleteAdd.Size = New System.Drawing.Size(74, 25)

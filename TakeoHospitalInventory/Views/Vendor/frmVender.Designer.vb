@@ -134,7 +134,7 @@ Partial Class frmVender
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(413, 320)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(85, 41)
@@ -145,7 +145,7 @@ Partial Class frmVender
         '
         'btnCancel
         '
-        Me.btnCancel.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.BackgroundImage = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText

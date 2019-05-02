@@ -1566,7 +1566,7 @@ Partial Class UCashCollection
         Me.ToolStripSplitButton1.DropDownButtonWidth = 25
         Me.ToolStripSplitButton1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AccNameToolStripMenuItem, Me.ToolStripMenuItem1, Me.NewAccReceivableToolStripMenuItem})
         Me.ToolStripSplitButton1.ForeColor = System.Drawing.Color.Blue
-        Me.ToolStripSplitButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Receipt_oop
+        Me.ToolStripSplitButton1.Image = Global.KTGSYS.My.Resources.Resources.Receipt_oop
         Me.ToolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripSplitButton1.Name = "ToolStripSplitButton1"
         Me.ToolStripSplitButton1.Size = New System.Drawing.Size(246, 32)
@@ -1597,7 +1597,7 @@ Partial Class UCashCollection
         'BtnCheckCashInDepart
         '
         Me.BtnCheckCashInDepart.ForeColor = System.Drawing.Color.Blue
-        Me.BtnCheckCashInDepart.Image = Global.TakeoHospitalInventory.My.Resources.Resources.check
+        Me.BtnCheckCashInDepart.Image = Global.KTGSYS.My.Resources.Resources.check
         Me.BtnCheckCashInDepart.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCheckCashInDepart.Name = "BtnCheckCashInDepart"
         Me.BtnCheckCashInDepart.Size = New System.Drawing.Size(270, 32)
@@ -1611,7 +1611,7 @@ Partial Class UCashCollection
         'BtnSaveNote
         '
         Me.BtnSaveNote.ForeColor = System.Drawing.Color.Blue
-        Me.BtnSaveNote.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Warning
+        Me.BtnSaveNote.Image = Global.KTGSYS.My.Resources.Resources.Warning
         Me.BtnSaveNote.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSaveNote.Name = "BtnSaveNote"
         Me.BtnSaveNote.Size = New System.Drawing.Size(219, 32)

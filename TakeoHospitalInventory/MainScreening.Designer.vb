@@ -238,7 +238,7 @@ Partial Class MainScreening
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox3.Location = New System.Drawing.Point(1120, -1)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(180, 30)

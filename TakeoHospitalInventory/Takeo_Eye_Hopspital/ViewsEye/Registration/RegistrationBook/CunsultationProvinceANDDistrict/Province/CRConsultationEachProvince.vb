@@ -45,7 +45,7 @@ Public Class CRConsultationEachProvince
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRConsultationEachProvince.rpt"
+            Return "KTGSYS.CRConsultationEachProvince.rpt"
         End Get
         Set
             'Do nothing

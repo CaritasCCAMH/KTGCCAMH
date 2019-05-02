@@ -698,7 +698,7 @@ Partial Class frmItem
         '
         'btnDeleteChemical
         '
-        Me.btnDeleteChemical.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.btnDeleteChemical.BackgroundImage = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.btnDeleteChemical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnDeleteChemical.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnDeleteChemical.Location = New System.Drawing.Point(699, 55)
@@ -709,7 +709,7 @@ Partial Class frmItem
         '
         'btnAddChemical
         '
-        Me.btnAddChemical.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.btnAddChemical.BackgroundImage = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.btnAddChemical.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnAddChemical.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnAddChemical.Location = New System.Drawing.Point(700, 16)
@@ -871,7 +871,7 @@ Partial Class frmItem
         '
         'GroupBox2
         '
-        Me.GroupBox2.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.GroupBox2.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.GroupBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
@@ -1005,7 +1005,7 @@ Partial Class frmItem
         'btnDeleteExDate
         '
         Me.btnDeleteExDate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.btnDeleteExDate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.btnDeleteExDate.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.btnDeleteExDate.Location = New System.Drawing.Point(729, 242)
         Me.btnDeleteExDate.Name = "btnDeleteExDate"
         Me.btnDeleteExDate.Size = New System.Drawing.Size(100, 48)
@@ -1017,7 +1017,7 @@ Partial Class frmItem
         'btnAddExpireDate
         '
         Me.btnAddExpireDate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.btnAddExpireDate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.btnAddExpireDate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.btnAddExpireDate.Location = New System.Drawing.Point(729, 47)
         Me.btnAddExpireDate.Name = "btnAddExpireDate"
         Me.btnAddExpireDate.Size = New System.Drawing.Size(100, 48)
@@ -1121,7 +1121,7 @@ Partial Class frmItem
         '
         Me.menuSave.CheckOnClick = True
         Me.menuSave.Font = New System.Drawing.Font("Tahoma", 9.0!)
-        Me.menuSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.menuSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.menuSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.menuSave.Name = "menuSave"
         Me.menuSave.Size = New System.Drawing.Size(61, 28)
@@ -1135,7 +1135,7 @@ Partial Class frmItem
         'menuCancel
         '
         Me.menuCancel.Font = New System.Drawing.Font("Tahoma", 9.0!)
-        Me.menuCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.menuCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.menuCancel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.menuCancel.Name = "menuCancel"
         Me.menuCancel.Size = New System.Drawing.Size(70, 28)

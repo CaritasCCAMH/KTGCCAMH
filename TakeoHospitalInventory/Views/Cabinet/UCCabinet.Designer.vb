@@ -140,7 +140,7 @@ Partial Class UCCabinet
         'btnStoreItem
         '
         Me.btnStoreItem.AutoSize = False
-        Me.btnStoreItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.btnStoreItem.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.btnStoreItem.ImageAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.btnStoreItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnStoreItem.Name = "btnStoreItem"
@@ -155,7 +155,7 @@ Partial Class UCCabinet
         'btnUnStoreItem
         '
         Me.btnUnStoreItem.AutoSize = False
-        Me.btnUnStoreItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.btnUnStoreItem.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.btnUnStoreItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUnStoreItem.Name = "btnUnStoreItem"
         Me.btnUnStoreItem.Size = New System.Drawing.Size(120, 27)
@@ -274,7 +274,7 @@ Partial Class UCCabinet
         '
         'btnSearch
         '
-        Me.btnSearch.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.btnSearch.BackgroundImage = Global.KTGSYS.My.Resources.Resources.search
         Me.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSearch.Location = New System.Drawing.Point(513, 13)
         Me.btnSearch.Name = "btnSearch"
@@ -323,7 +323,7 @@ Partial Class UCCabinet
         Me.ToolStripMenuItem1.AutoSize = False
         Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuAddCabinet, Me.subMenuAddLocation})
         Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Tahoma", 8.25!)
-        Me.ToolStripMenuItem1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.ToolStripMenuItem1.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 30)
         Me.ToolStripMenuItem1.Text = "New"
@@ -344,7 +344,7 @@ Partial Class UCCabinet
         '
         Me.EditToolStripMenuItem.AutoSize = False
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuEditCabinet, Me.subMenuEditLocation})
-        Me.EditToolStripMenuItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.EditToolStripMenuItem.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(80, 30)
         Me.EditToolStripMenuItem.Text = "Edit"
@@ -365,7 +365,7 @@ Partial Class UCCabinet
         '
         Me.DeleteToolStripMenuItem.AutoSize = False
         Me.DeleteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuDeleteLocation})
-        Me.DeleteToolStripMenuItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.DeleteToolStripMenuItem.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
         Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(80, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
@@ -379,7 +379,7 @@ Partial Class UCCabinet
         'menuRefreshData
         '
         Me.menuRefreshData.AutoSize = False
-        Me.menuRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.menuRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.menuRefreshData.Name = "menuRefreshData"
         Me.menuRefreshData.Size = New System.Drawing.Size(120, 30)
         Me.menuRefreshData.Text = "Refresh Data"

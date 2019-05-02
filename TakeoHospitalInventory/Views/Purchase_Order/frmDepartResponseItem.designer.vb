@@ -105,7 +105,7 @@ Partial Class frmDepartResponseItem
         '
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.Location = New System.Drawing.Point(559, 341)
         Me.btnCancel.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnCancel.Name = "btnCancel"
@@ -120,7 +120,7 @@ Partial Class frmDepartResponseItem
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(427, 341)
         Me.btnSave.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnSave.Name = "btnSave"

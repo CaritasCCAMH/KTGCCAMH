@@ -373,7 +373,7 @@ Partial Class MainTakeoInventory
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar1
+        Me.PictureBox2.Image = Global.KTGSYS.My.Resources.Resources.loading_bar1
         Me.PictureBox2.Location = New System.Drawing.Point(863, 3)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(180, 26)
@@ -1321,7 +1321,7 @@ Partial Class MainTakeoInventory
         'PictureBox3
         '
         Me.PictureBox3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.RegisBG
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.RegisBG
         Me.PictureBox3.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(858, 530)
@@ -1332,7 +1332,7 @@ Partial Class MainTakeoInventory
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading2222
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.loading2222
         Me.PictureBox1.Location = New System.Drawing.Point(943, 1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 32)

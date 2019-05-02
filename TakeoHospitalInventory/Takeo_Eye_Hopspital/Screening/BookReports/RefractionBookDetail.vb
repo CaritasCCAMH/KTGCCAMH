@@ -45,7 +45,7 @@ Public Class RefractionBookDetail
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RefractionBookDetail.rpt"
+            Return "KTGSYS.RefractionBookDetail.rpt"
         End Get
         Set
             'Do nothing

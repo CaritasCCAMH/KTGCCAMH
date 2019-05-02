@@ -280,7 +280,7 @@ Partial Class UCDepartReceivedRequest
         '
         'menuInStock
         '
-        Me.menuInStock.Image = Global.TakeoHospitalInventory.My.Resources.Resources.instock
+        Me.menuInStock.Image = Global.KTGSYS.My.Resources.Resources.instock
         Me.menuInStock.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.menuInStock.Name = "menuInStock"
         Me.menuInStock.Size = New System.Drawing.Size(133, 28)
@@ -295,7 +295,7 @@ Partial Class UCDepartReceivedRequest
         '
         'menuEditQtyApprovedItem
         '
-        Me.menuEditQtyApprovedItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.app_48
+        Me.menuEditQtyApprovedItem.Image = Global.KTGSYS.My.Resources.Resources.app_48
         Me.menuEditQtyApprovedItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.menuEditQtyApprovedItem.Name = "menuEditQtyApprovedItem"
         Me.menuEditQtyApprovedItem.Size = New System.Drawing.Size(122, 28)
@@ -308,7 +308,7 @@ Partial Class UCDepartReceivedRequest
         '
         'menuAddApprovedItem
         '
-        Me.menuAddApprovedItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.add_to_list
+        Me.menuAddApprovedItem.Image = Global.KTGSYS.My.Resources.Resources.add_to_list
         Me.menuAddApprovedItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.menuAddApprovedItem.Name = "menuAddApprovedItem"
         Me.menuAddApprovedItem.Size = New System.Drawing.Size(132, 28)
@@ -321,7 +321,7 @@ Partial Class UCDepartReceivedRequest
         '
         'BtnRemoveItem
         '
-        Me.BtnRemoveItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.BtnRemoveItem.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.BtnRemoveItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRemoveItem.Name = "BtnRemoveItem"
         Me.BtnRemoveItem.Size = New System.Drawing.Size(149, 28)
@@ -363,7 +363,7 @@ Partial Class UCDepartReceivedRequest
         'btnGridDisplay
         '
         Me.btnGridDisplay.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnGridDisplay.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.btnGridDisplay.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.btnGridDisplay.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnGridDisplay.Location = New System.Drawing.Point(451, 10)
         Me.btnGridDisplay.Name = "btnGridDisplay"
@@ -397,7 +397,7 @@ Partial Class UCDepartReceivedRequest
         'btnPreview
         '
         Me.btnPreview.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnPreview.Image = Global.TakeoHospitalInventory.My.Resources.Resources.preview
+        Me.btnPreview.Image = Global.KTGSYS.My.Resources.Resources.preview
         Me.btnPreview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnPreview.Location = New System.Drawing.Point(550, 9)
         Me.btnPreview.Name = "btnPreview"
@@ -432,7 +432,7 @@ Partial Class UCDepartReceivedRequest
         '
         Me.BtnRefresh.AutoSize = False
         Me.BtnRefresh.CheckOnClick = True
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(120, 31)
@@ -442,7 +442,7 @@ Partial Class UCDepartReceivedRequest
         '
         Me.btnMarkOrderApproved.AutoSize = False
         Me.btnMarkOrderApproved.CheckOnClick = True
-        Me.btnMarkOrderApproved.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.btnMarkOrderApproved.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.btnMarkOrderApproved.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnMarkOrderApproved.Name = "btnMarkOrderApproved"
         Me.btnMarkOrderApproved.Size = New System.Drawing.Size(210, 31)

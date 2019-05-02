@@ -284,7 +284,7 @@ Partial Class AdjustStockMainStock
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCancel.Location = New System.Drawing.Point(94, 260)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2)
@@ -299,7 +299,7 @@ Partial Class AdjustStockMainStock
         '
         Me.BtnOK.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnOK.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnOK.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnOK.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnOK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnOK.Location = New System.Drawing.Point(5, 260)
         Me.BtnOK.Margin = New System.Windows.Forms.Padding(2)
@@ -468,7 +468,7 @@ Partial Class AdjustStockMainStock
         'BtnShowCurrent
         '
         Me.BtnShowCurrent.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnShowCurrent.Image = Global.TakeoHospitalInventory.My.Resources.Resources.arrow_down_green_48
+        Me.BtnShowCurrent.Image = Global.KTGSYS.My.Resources.Resources.arrow_down_green_48
         Me.BtnShowCurrent.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnShowCurrent.Location = New System.Drawing.Point(780, 14)
         Me.BtnShowCurrent.Name = "BtnShowCurrent"
@@ -480,7 +480,7 @@ Partial Class AdjustStockMainStock
         'BtnShowAll
         '
         Me.BtnShowAll.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnShowAll.Image = Global.TakeoHospitalInventory.My.Resources.Resources.arrow_down_green_48
+        Me.BtnShowAll.Image = Global.KTGSYS.My.Resources.Resources.arrow_down_green_48
         Me.BtnShowAll.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnShowAll.Location = New System.Drawing.Point(934, 13)
         Me.BtnShowAll.Name = "BtnShowAll"

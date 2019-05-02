@@ -120,7 +120,7 @@ Partial Class MainCustomer
         'BtnFind
         '
         Me.BtnFind.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFind.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.BtnFind.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.BtnFind.Location = New System.Drawing.Point(460, 15)
         Me.BtnFind.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnFind.Name = "BtnFind"
@@ -143,7 +143,7 @@ Partial Class MainCustomer
         '
         Me.BtnOk.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnOk.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnOk.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.BtnOk.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.BtnOk.Location = New System.Drawing.Point(440, 476)
         Me.BtnOk.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnOk.Name = "BtnOk"
@@ -157,7 +157,7 @@ Partial Class MainCustomer
         '
         Me.BtnCancel.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(518, 476)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnCancel.Name = "BtnCancel"
@@ -179,7 +179,7 @@ Partial Class MainCustomer
         '
         'BtnNewCustomer
         '
-        Me.BtnNewCustomer.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNewCustomer.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNewCustomer.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewCustomer.Name = "BtnNewCustomer"
         Me.BtnNewCustomer.Size = New System.Drawing.Size(114, 28)
@@ -193,7 +193,7 @@ Partial Class MainCustomer
         '
         'BtnUpdate
         '
-        Me.BtnUpdate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.BtnUpdate.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.BtnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnUpdate.Name = "BtnUpdate"
         Me.BtnUpdate.Size = New System.Drawing.Size(73, 28)
@@ -207,7 +207,7 @@ Partial Class MainCustomer
         '
         'BtnViewAllData
         '
-        Me.BtnViewAllData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnViewAllData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnViewAllData.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnViewAllData.Name = "BtnViewAllData"
         Me.BtnViewAllData.Size = New System.Drawing.Size(104, 28)

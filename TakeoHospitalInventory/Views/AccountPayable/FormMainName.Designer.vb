@@ -44,7 +44,7 @@ Partial Class FormMainName
         '
         'BtnNewName
         '
-        Me.BtnNewName.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1323157036_check
+        Me.BtnNewName.Image = Global.KTGSYS.My.Resources.Resources._1323157036_check
         Me.BtnNewName.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewName.Name = "BtnNewName"
         Me.BtnNewName.Size = New System.Drawing.Size(120, 22)
@@ -57,7 +57,7 @@ Partial Class FormMainName
         '
         'BtnRefresh
         '
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(65, 22)

@@ -206,7 +206,7 @@ Partial Class UCRequestOrder
         'BtnRefresh
         '
         Me.BtnRefresh.CheckOnClick = True
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(136, 28)
@@ -220,7 +220,7 @@ Partial Class UCRequestOrder
         'BtnNew
         '
         Me.BtnNew.CheckOnClick = True
-        Me.BtnNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNew.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Size = New System.Drawing.Size(76, 28)
@@ -234,7 +234,7 @@ Partial Class UCRequestOrder
         'btnEdit
         '
         Me.btnEdit.CheckOnClick = True
-        Me.btnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.btnEdit.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(67, 28)
@@ -248,7 +248,7 @@ Partial Class UCRequestOrder
         'btnDelete
         '
         Me.btnDelete.CheckOnClick = True
-        Me.btnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.btnDelete.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(87, 28)
@@ -262,7 +262,7 @@ Partial Class UCRequestOrder
         'btnMarkOrderChecked
         '
         Me.btnMarkOrderChecked.CheckOnClick = True
-        Me.btnMarkOrderChecked.Image = Global.TakeoHospitalInventory.My.Resources.Resources.check_red
+        Me.btnMarkOrderChecked.Image = Global.KTGSYS.My.Resources.Resources.check_red
         Me.btnMarkOrderChecked.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnMarkOrderChecked.Name = "btnMarkOrderChecked"
         Me.btnMarkOrderChecked.Size = New System.Drawing.Size(100, 28)
@@ -276,7 +276,7 @@ Partial Class UCRequestOrder
         'btnMarkOrderForward
         '
         Me.btnMarkOrderForward.CheckOnClick = True
-        Me.btnMarkOrderForward.Image = Global.TakeoHospitalInventory.My.Resources.Resources.RightLeft2Red
+        Me.btnMarkOrderForward.Image = Global.KTGSYS.My.Resources.Resources.RightLeft2Red
         Me.btnMarkOrderForward.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnMarkOrderForward.Name = "btnMarkOrderForward"
         Me.btnMarkOrderForward.Size = New System.Drawing.Size(99, 28)
@@ -290,7 +290,7 @@ Partial Class UCRequestOrder
         'btnMarkOrderApproved
         '
         Me.btnMarkOrderApproved.CheckOnClick = True
-        Me.btnMarkOrderApproved.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.btnMarkOrderApproved.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.btnMarkOrderApproved.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnMarkOrderApproved.Name = "btnMarkOrderApproved"
         Me.btnMarkOrderApproved.Size = New System.Drawing.Size(108, 28)

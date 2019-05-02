@@ -287,11 +287,11 @@
     Public Sub SetVisibleEnvisibleMenu()
         If MenuVertical.Width = 0 Then
             MenuVertical.Width = 242
-            Me.BtnNavigationBar.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Switch_On_40px1
+            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
             'BtnNavigationBar .Image =
         Else
             MenuVertical.Width = 0
-            Me.BtnNavigationBar.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Switch_Off_40px
+            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_Off_40px
         End If
     End Sub
 

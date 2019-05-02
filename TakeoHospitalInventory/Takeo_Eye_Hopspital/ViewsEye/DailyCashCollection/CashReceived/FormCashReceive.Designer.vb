@@ -72,7 +72,7 @@ Partial Class FormCashReceive
         '
         'BtnNewReceiptOther
         '
-        Me.BtnNewReceiptOther.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNewReceiptOther.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNewReceiptOther.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewReceiptOther.Name = "BtnNewReceiptOther"
         Me.BtnNewReceiptOther.Size = New System.Drawing.Size(190, 34)
@@ -85,7 +85,7 @@ Partial Class FormCashReceive
         '
         'BtnClientList
         '
-        Me.BtnClientList.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.BtnClientList.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.BtnClientList.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnClientList.Name = "BtnClientList"
         Me.BtnClientList.Size = New System.Drawing.Size(99, 34)
@@ -98,7 +98,7 @@ Partial Class FormCashReceive
         '
         'BtnPrintReceipt
         '
-        Me.BtnPrintReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.BtnPrintReceipt.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.BtnPrintReceipt.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPrintReceipt.Name = "BtnPrintReceipt"
         Me.BtnPrintReceipt.Size = New System.Drawing.Size(119, 34)
@@ -111,7 +111,7 @@ Partial Class FormCashReceive
         '
         'TBtnViewDiale
         '
-        Me.TBtnViewDiale.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316761851_ark2
+        Me.TBtnViewDiale.Image = Global.KTGSYS.My.Resources.Resources._1316761851_ark2
         Me.TBtnViewDiale.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TBtnViewDiale.Name = "TBtnViewDiale"
         Me.TBtnViewDiale.Size = New System.Drawing.Size(142, 34)
@@ -124,7 +124,7 @@ Partial Class FormCashReceive
         '
         'BtnPrintReportOther
         '
-        Me.BtnPrintReportOther.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1323157036_check
+        Me.BtnPrintReportOther.Image = Global.KTGSYS.My.Resources.Resources._1323157036_check
         Me.BtnPrintReportOther.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPrintReportOther.Name = "BtnPrintReportOther"
         Me.BtnPrintReportOther.Size = New System.Drawing.Size(227, 34)

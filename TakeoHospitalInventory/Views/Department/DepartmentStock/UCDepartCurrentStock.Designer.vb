@@ -326,7 +326,7 @@ Partial Class UCDepartCurrentStock
         '
         'BtnNewInhouseUsed
         '
-        Me.BtnNewInhouseUsed.Image = Global.TakeoHospitalInventory.My.Resources.Resources.download
+        Me.BtnNewInhouseUsed.Image = Global.KTGSYS.My.Resources.Resources.download
         Me.BtnNewInhouseUsed.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewInhouseUsed.Name = "BtnNewInhouseUsed"
         Me.BtnNewInhouseUsed.Size = New System.Drawing.Size(133, 28)
@@ -339,7 +339,7 @@ Partial Class UCDepartCurrentStock
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.ToolStripButton1.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(103, 28)
@@ -352,7 +352,7 @@ Partial Class UCDepartCurrentStock
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.ToolStripButton2.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(60, 28)

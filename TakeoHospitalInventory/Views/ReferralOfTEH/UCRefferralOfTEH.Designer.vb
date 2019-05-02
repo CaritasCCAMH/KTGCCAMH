@@ -78,7 +78,7 @@ Partial Class UCRefferralOfTEH
         '
         'BtnRefresh
         '
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(75, 30)
@@ -86,7 +86,7 @@ Partial Class UCRefferralOfTEH
         '
         'BtnNew
         '
-        Me.BtnNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnNew.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Size = New System.Drawing.Size(100, 30)
@@ -94,7 +94,7 @@ Partial Class UCRefferralOfTEH
         '
         'BtnUpdate
         '
-        Me.BtnUpdate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit1
+        Me.BtnUpdate.Image = Global.KTGSYS.My.Resources.Resources.edit1
         Me.BtnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnUpdate.Name = "BtnUpdate"
         Me.BtnUpdate.Size = New System.Drawing.Size(114, 30)
@@ -102,7 +102,7 @@ Partial Class UCRefferralOfTEH
         '
         'BtnDelete
         '
-        Me.BtnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDelete.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDelete.Name = "BtnDelete"
         Me.BtnDelete.Size = New System.Drawing.Size(104, 30)

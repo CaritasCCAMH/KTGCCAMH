@@ -84,7 +84,7 @@ Partial Class UCPrescriptionList
         '
         'BtnNewPrescrip
         '
-        Me.BtnNewPrescrip.Image = Global.TakeoHospitalInventory.My.Resources.Resources.prescription
+        Me.BtnNewPrescrip.Image = Global.KTGSYS.My.Resources.Resources.prescription
         Me.BtnNewPrescrip.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewPrescrip.Name = "BtnNewPrescrip"
         Me.BtnNewPrescrip.Size = New System.Drawing.Size(141, 34)
@@ -97,7 +97,7 @@ Partial Class UCPrescriptionList
         '
         'BtnEditPrescription
         '
-        Me.BtnEditPrescription.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.BtnEditPrescription.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.BtnEditPrescription.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnEditPrescription.Name = "BtnEditPrescription"
         Me.BtnEditPrescription.Size = New System.Drawing.Size(127, 34)
@@ -110,7 +110,7 @@ Partial Class UCPrescriptionList
         '
         'BtnRefreshPrescrip
         '
-        Me.BtnRefreshPrescrip.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshPrescrip.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshPrescrip.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshPrescrip.Name = "BtnRefreshPrescrip"
         Me.BtnRefreshPrescrip.Size = New System.Drawing.Size(110, 34)
@@ -123,7 +123,7 @@ Partial Class UCPrescriptionList
         '
         'BtnGiveMedicine
         '
-        Me.BtnGiveMedicine.Image = Global.TakeoHospitalInventory.My.Resources.Resources._64aba8208423082b80b19790b24c2c085d955202_m
+        Me.BtnGiveMedicine.Image = Global.KTGSYS.My.Resources.Resources._64aba8208423082b80b19790b24c2c085d955202_m
         Me.BtnGiveMedicine.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnGiveMedicine.Name = "BtnGiveMedicine"
         Me.BtnGiveMedicine.Size = New System.Drawing.Size(116, 34)
@@ -136,7 +136,7 @@ Partial Class UCPrescriptionList
         '
         'BtnCheck
         '
-        Me.BtnCheck.Image = Global.TakeoHospitalInventory.My.Resources.Resources.check
+        Me.BtnCheck.Image = Global.KTGSYS.My.Resources.Resources.check
         Me.BtnCheck.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCheck.Name = "BtnCheck"
         Me.BtnCheck.Size = New System.Drawing.Size(91, 34)

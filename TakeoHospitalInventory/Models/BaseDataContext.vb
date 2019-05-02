@@ -1,15 +1,15 @@
 ﻿Public Class BaseDataContext
-    Private THIDataContext As TakeoHospitalInventoryDataContext
+    Private THIDataContext As KTGSYSDataContext
     Private THIDataContextUser As DataClassesUserManagmentDataContext
     Private THIDataContextOpticalShop As LinqOpticalShopClassesDataContext
 
     Public Sub New()
-        THIDataContext = New TakeoHospitalInventoryDataContext
+        THIDataContext = New KTGSYSDataContext
         THIDataContextUser = New DataClassesUserManagmentDataContext
         THIDataContextOpticalShop = New LinqOpticalShopClassesDataContext
     End Sub
 
-    ReadOnly Property getTHIDataContext() As TakeoHospitalInventoryDataContext
+    ReadOnly Property getTHIDataContext() As KTGSYSDataContext
         Get
             Return THIDataContext
         End Get

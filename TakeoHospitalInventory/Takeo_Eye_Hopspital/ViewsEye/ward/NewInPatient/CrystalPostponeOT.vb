@@ -45,7 +45,7 @@ Public Class CrystalPostponeOT
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrystalPostponeOT.rpt"
+            Return "KTGSYS.CrystalPostponeOT.rpt"
         End Get
         Set
             'Do nothing

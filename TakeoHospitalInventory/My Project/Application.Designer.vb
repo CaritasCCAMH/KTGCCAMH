@@ -32,12 +32,12 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.TakeoHospitalInventory.frmLoginInventory
+            Me.MainForm = Global.KTGSYS.frmLoginInventory
         End Sub
-        
-        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()> _
         Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.TakeoHospitalInventory.frmWelcome
+            Me.SplashScreen = Global.KTGSYS.frmWelcome
         End Sub
     End Class
 End Namespace

@@ -286,7 +286,7 @@ Partial Class UWeeklyCashCollection
         '
         'PicLoad
         '
-        Me.PicLoad.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoad.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoad.Location = New System.Drawing.Point(475, 232)
         Me.PicLoad.Name = "PicLoad"
         Me.PicLoad.Size = New System.Drawing.Size(195, 24)

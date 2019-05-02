@@ -65,7 +65,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnPayment
         '
-        Me.BtnPayment.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316415362_cashbox
+        Me.BtnPayment.Image = Global.KTGSYS.My.Resources.Resources._1316415362_cashbox
         Me.BtnPayment.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPayment.Name = "BtnPayment"
         Me.BtnPayment.Size = New System.Drawing.Size(129, 34)
@@ -78,7 +78,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnWaitingReceipt
         '
-        Me.BtnWaitingReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316401141_Schedule_File
+        Me.BtnWaitingReceipt.Image = Global.KTGSYS.My.Resources.Resources._1316401141_Schedule_File
         Me.BtnWaitingReceipt.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnWaitingReceipt.Name = "BtnWaitingReceipt"
         Me.BtnWaitingReceipt.Size = New System.Drawing.Size(152, 34)
@@ -91,7 +91,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnCancelReceipt
         '
-        Me.BtnCancelReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Remove
+        Me.BtnCancelReceipt.Image = Global.KTGSYS.My.Resources.Resources.Remove
         Me.BtnCancelReceipt.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCancelReceipt.Name = "BtnCancelReceipt"
         Me.BtnCancelReceipt.Size = New System.Drawing.Size(118, 34)
@@ -105,7 +105,7 @@ Partial Class UCDashboardWaitingPayment
         'BtnViewReceipt
         '
         Me.BtnViewReceipt.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BtnUndoReceipt})
-        Me.BtnViewReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources.RightLeft2Red
+        Me.BtnViewReceipt.Image = Global.KTGSYS.My.Resources.Resources.RightLeft2Red
         Me.BtnViewReceipt.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnViewReceipt.Name = "BtnViewReceipt"
         Me.BtnViewReceipt.Size = New System.Drawing.Size(168, 34)
@@ -124,7 +124,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnFindReceiptForUpdate
         '
-        Me.BtnFindReceiptForUpdate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.prescription
+        Me.BtnFindReceiptForUpdate.Image = Global.KTGSYS.My.Resources.Resources.prescription
         Me.BtnFindReceiptForUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnFindReceiptForUpdate.Name = "BtnFindReceiptForUpdate"
         Me.BtnFindReceiptForUpdate.Size = New System.Drawing.Size(105, 34)
@@ -132,7 +132,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnWaitingNilInvoice
         '
-        Me.BtnWaitingNilInvoice.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316401141_Schedule_File
+        Me.BtnWaitingNilInvoice.Image = Global.KTGSYS.My.Resources.Resources._1316401141_Schedule_File
         Me.BtnWaitingNilInvoice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnWaitingNilInvoice.Name = "BtnWaitingNilInvoice"
         Me.BtnWaitingNilInvoice.Size = New System.Drawing.Size(170, 34)
@@ -141,7 +141,7 @@ Partial Class UCDashboardWaitingPayment
         '
         'BtnApproveNilInvoice
         '
-        Me.BtnApproveNilInvoice.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Checked
+        Me.BtnApproveNilInvoice.Image = Global.KTGSYS.My.Resources.Resources.Checked
         Me.BtnApproveNilInvoice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnApproveNilInvoice.Name = "BtnApproveNilInvoice"
         Me.BtnApproveNilInvoice.Size = New System.Drawing.Size(145, 34)

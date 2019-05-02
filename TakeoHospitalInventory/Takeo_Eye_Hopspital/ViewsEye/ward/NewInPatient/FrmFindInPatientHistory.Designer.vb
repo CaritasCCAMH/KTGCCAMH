@@ -46,10 +46,10 @@ Partial Class FrmFindInPatientHistory
         Me.Label3 = New System.Windows.Forms.Label
         Me.Label2 = New System.Windows.Forms.Label
         Me.GridNewInPatient = New Janus.Windows.GridEX.GridEX
-        Me.DSWardWithOT = New TakeoHospitalInventory.DSWardWithOT
-        Me.V_NewInpatientDetialLeaveTableAdapter = New TakeoHospitalInventory.DSWardWithOTTableAdapters.V_NewInpatientDetialLeaveTableAdapter
-        Me.View_OTRegistrationTableAdapter = New TakeoHospitalInventory.DSWardWithOTTableAdapters.View_OTRegistrationTableAdapter
-        Me.V_IOLRegistrationTableAdapter = New TakeoHospitalInventory.DSWardWithOTTableAdapters.V_IOLRegistrationTableAdapter
+        Me.DSWardWithOT = New KTGSYS.DSWardWithOT
+        Me.V_NewInpatientDetialLeaveTableAdapter = New KTGSYS.DSWardWithOTTableAdapters.V_NewInpatientDetialLeaveTableAdapter
+        Me.View_OTRegistrationTableAdapter = New KTGSYS.DSWardWithOTTableAdapters.View_OTRegistrationTableAdapter
+        Me.V_IOLRegistrationTableAdapter = New KTGSYS.DSWardWithOTTableAdapters.V_IOLRegistrationTableAdapter
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
@@ -400,8 +400,8 @@ Partial Class FrmFindInPatientHistory
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
     Friend WithEvents DateFollowUp As System.Windows.Forms.DateTimePicker
     Friend WithEvents BtnDisplay As System.Windows.Forms.Button
-    Friend WithEvents DSWardWithOT As TakeoHospitalInventory.DSWardWithOT
-    Friend WithEvents V_NewInpatientDetialLeaveTableAdapter As TakeoHospitalInventory.DSWardWithOTTableAdapters.V_NewInpatientDetialLeaveTableAdapter
-    Friend WithEvents View_OTRegistrationTableAdapter As TakeoHospitalInventory.DSWardWithOTTableAdapters.View_OTRegistrationTableAdapter
-    Friend WithEvents V_IOLRegistrationTableAdapter As TakeoHospitalInventory.DSWardWithOTTableAdapters.V_IOLRegistrationTableAdapter
+    Friend WithEvents DSWardWithOT As KTGSYS.DSWardWithOT
+    Friend WithEvents V_NewInpatientDetialLeaveTableAdapter As KTGSYS.DSWardWithOTTableAdapters.V_NewInpatientDetialLeaveTableAdapter
+    Friend WithEvents View_OTRegistrationTableAdapter As KTGSYS.DSWardWithOTTableAdapters.View_OTRegistrationTableAdapter
+    Friend WithEvents V_IOLRegistrationTableAdapter As KTGSYS.DSWardWithOTTableAdapters.V_IOLRegistrationTableAdapter
 End Class

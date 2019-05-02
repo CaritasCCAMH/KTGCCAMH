@@ -180,7 +180,7 @@ Partial Class FRMSurgeryType
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(501, 231)
         Me.Controls.Add(Me.GroupBox1)

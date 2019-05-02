@@ -45,7 +45,7 @@ Public Class ReportDeletePayment
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportDeletePayment.rpt"
+            Return "KTGSYS.ReportDeletePayment.rpt"
         End Get
         Set
             'Do nothing

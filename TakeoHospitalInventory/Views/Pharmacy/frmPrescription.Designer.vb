@@ -702,7 +702,7 @@ Partial Class frmPrescription
         '
         Me.BtnRemveMedicine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnRemveMedicine.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnRemveMedicine.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.BtnRemveMedicine.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.BtnRemveMedicine.Location = New System.Drawing.Point(672, 465)
         Me.BtnRemveMedicine.Name = "BtnRemveMedicine"
         Me.BtnRemveMedicine.Size = New System.Drawing.Size(33, 31)
@@ -725,7 +725,7 @@ Partial Class frmPrescription
         '
         Me.BtnAddMedicine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnAddMedicine.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnAddMedicine.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.BtnAddMedicine.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.BtnAddMedicine.Location = New System.Drawing.Point(672, 422)
         Me.BtnAddMedicine.Name = "BtnAddMedicine"
         Me.BtnAddMedicine.Size = New System.Drawing.Size(33, 31)
@@ -1022,7 +1022,7 @@ Partial Class frmPrescription
         Me.BtnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSave.Location = New System.Drawing.Point(997, 788)
         Me.BtnSave.Name = "BtnSave"
         Me.BtnSave.Size = New System.Drawing.Size(85, 37)
@@ -1037,7 +1037,7 @@ Partial Class frmPrescription
         Me.BtnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(1090, 788)
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(85, 37)
@@ -1066,7 +1066,7 @@ Partial Class frmPrescription
         '
         Me.PictLoading.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar1
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar1
         Me.PictLoading.Location = New System.Drawing.Point(59, 798)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(130, 24)

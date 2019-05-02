@@ -120,7 +120,7 @@ Partial Class frmCashReceipt
         '
         Me.cmdAddRate.Enabled = False
         Me.cmdAddRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdAddRate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.cmdAddRate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.cmdAddRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.cmdAddRate.Location = New System.Drawing.Point(169, 37)
         Me.cmdAddRate.Name = "cmdAddRate"
@@ -597,7 +597,7 @@ Partial Class frmCashReceipt
         Me.cmdSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Floppy_s2
+        Me.cmdSave.Image = Global.KTGSYS.My.Resources.Resources.Floppy_s2
         Me.cmdSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdSave.Location = New System.Drawing.Point(2, 506)
         Me.cmdSave.Name = "cmdSave"
@@ -612,7 +612,7 @@ Partial Class frmCashReceipt
         Me.cmdPrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdPrint.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdPrint.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdPrint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.cmdPrint.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.cmdPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdPrint.Location = New System.Drawing.Point(163, 506)
         Me.cmdPrint.Name = "cmdPrint"
@@ -624,7 +624,7 @@ Partial Class frmCashReceipt
         'cmdSearch
         '
         Me.cmdSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdSearch.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.cmdSearch.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.cmdSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdSearch.Location = New System.Drawing.Point(847, 17)
         Me.cmdSearch.Name = "cmdSearch"
@@ -639,7 +639,7 @@ Partial Class frmCashReceipt
         Me.cmdClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdClose.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdClose.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.cmdClose.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.cmdClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdClose.Location = New System.Drawing.Point(324, 508)
         Me.cmdClose.Name = "cmdClose"
@@ -652,7 +652,7 @@ Partial Class frmCashReceipt
         '
         Me.cmdNew.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.report
+        Me.cmdNew.Image = Global.KTGSYS.My.Resources.Resources.report
         Me.cmdNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdNew.Location = New System.Drawing.Point(48, 480)
         Me.cmdNew.Name = "cmdNew"
@@ -666,7 +666,7 @@ Partial Class frmCashReceipt
         '
         Me.cmdCashierSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdCashierSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!)
-        Me.cmdCashierSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.welcome_bg
+        Me.cmdCashierSave.Image = Global.KTGSYS.My.Resources.Resources.welcome_bg
         Me.cmdCashierSave.Location = New System.Drawing.Point(936, 96)
         Me.cmdCashierSave.Name = "cmdCashierSave"
         Me.cmdCashierSave.Size = New System.Drawing.Size(223, 69)
@@ -784,7 +784,7 @@ Partial Class frmCashReceipt
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1281, 563)
         Me.ControlBox = False

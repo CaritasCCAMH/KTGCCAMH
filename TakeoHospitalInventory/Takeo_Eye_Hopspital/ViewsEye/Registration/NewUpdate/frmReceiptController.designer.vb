@@ -100,7 +100,7 @@ Partial Class frmReportReceiptController
         '
         Me.cmdPrint.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdPrint.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdPrint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.cmdPrint.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.cmdPrint.Location = New System.Drawing.Point(650, 42)
         Me.cmdPrint.Name = "cmdPrint"
         Me.cmdPrint.Size = New System.Drawing.Size(169, 61)

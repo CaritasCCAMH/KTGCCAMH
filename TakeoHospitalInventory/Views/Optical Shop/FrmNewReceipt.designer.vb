@@ -310,7 +310,7 @@ Partial Class FrmNewReceipt
         'BtnAddItem
         '
         Me.BtnAddItem.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnAddItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.BtnAddItem.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.BtnAddItem.Location = New System.Drawing.Point(670, 60)
         Me.BtnAddItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnAddItem.Name = "BtnAddItem"
@@ -322,7 +322,7 @@ Partial Class FrmNewReceipt
         'BtnRemoveItem
         '
         Me.BtnRemoveItem.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnRemoveItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.BtnRemoveItem.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.BtnRemoveItem.Location = New System.Drawing.Point(723, 61)
         Me.BtnRemoveItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnRemoveItem.Name = "BtnRemoveItem"
@@ -1242,7 +1242,7 @@ Partial Class FrmNewReceipt
         '
         Me.cmdAddRate.Enabled = False
         Me.cmdAddRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdAddRate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.cmdAddRate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.cmdAddRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.cmdAddRate.Location = New System.Drawing.Point(169, 29)
         Me.cmdAddRate.Name = "cmdAddRate"
@@ -1283,7 +1283,7 @@ Partial Class FrmNewReceipt
         '
         'BtnSaveReceipt
         '
-        Me.BtnSaveReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSaveReceipt.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSaveReceipt.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSaveReceipt.Name = "BtnSaveReceipt"
         Me.BtnSaveReceipt.Size = New System.Drawing.Size(96, 24)
@@ -1296,7 +1296,7 @@ Partial Class FrmNewReceipt
         '
         'BtnCancel
         '
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(60, 24)

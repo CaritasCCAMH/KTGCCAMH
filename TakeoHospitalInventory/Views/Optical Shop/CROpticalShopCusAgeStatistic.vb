@@ -45,7 +45,7 @@ Public Class CROpticalShopCusAgeStatistic
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CROpticalShopCusAgeStatistic.rpt"
+            Return "KTGSYS.CROpticalShopCusAgeStatistic.rpt"
         End Get
         Set
             'Do nothing

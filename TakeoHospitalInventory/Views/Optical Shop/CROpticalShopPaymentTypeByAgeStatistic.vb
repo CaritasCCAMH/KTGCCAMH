@@ -45,7 +45,7 @@ Public Class CROpticalShopPaymentTypeByAgeStatistic
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CROpticalShopPaymentTypeByAgeStatistic.rpt"
+            Return "KTGSYS.CROpticalShopPaymentTypeByAgeStatistic.rpt"
         End Get
         Set
             'Do nothing

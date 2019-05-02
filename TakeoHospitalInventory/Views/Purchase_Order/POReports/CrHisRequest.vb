@@ -45,7 +45,7 @@ Public Class CrHisRequest
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrHisRequest.rpt"
+            Return "KTGSYS.CrHisRequest.rpt"
         End Get
         Set
             'Do nothing

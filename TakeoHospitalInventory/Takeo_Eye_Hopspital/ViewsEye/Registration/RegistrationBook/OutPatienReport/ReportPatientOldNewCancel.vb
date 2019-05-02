@@ -45,7 +45,7 @@ Public Class ReportPatientOldNewCancel
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportPatientOldNewCancel.rpt"
+            Return "KTGSYS.ReportPatientOldNewCancel.rpt"
         End Get
         Set
             'Do nothing

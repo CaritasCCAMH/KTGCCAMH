@@ -45,7 +45,7 @@ Public Class ReferBookDetail
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReferBookDetail.rpt"
+            Return "KTGSYS.ReferBookDetail.rpt"
         End Get
         Set
             'Do nothing

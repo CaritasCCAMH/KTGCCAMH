@@ -75,7 +75,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnRefreshPrescrip
         '
-        Me.BtnRefreshPrescrip.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshPrescrip.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshPrescrip.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshPrescrip.Name = "BtnRefreshPrescrip"
         Me.BtnRefreshPrescrip.Size = New System.Drawing.Size(105, 34)
@@ -88,7 +88,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnItemOutsideHos
         '
-        Me.BtnItemOutsideHos.Image = Global.TakeoHospitalInventory.My.Resources.Resources.medicine
+        Me.BtnItemOutsideHos.Image = Global.KTGSYS.My.Resources.Resources.medicine
         Me.BtnItemOutsideHos.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnItemOutsideHos.Name = "BtnItemOutsideHos"
         Me.BtnItemOutsideHos.Size = New System.Drawing.Size(167, 34)
@@ -102,7 +102,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnEdit
         '
-        Me.BtnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.BtnEdit.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.BtnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnEdit.Name = "BtnEdit"
         Me.BtnEdit.Size = New System.Drawing.Size(59, 34)
@@ -117,7 +117,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnMedicineOutsideHospital
         '
-        Me.BtnMedicineOutsideHospital.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnMedicineOutsideHospital.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnMedicineOutsideHospital.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnMedicineOutsideHospital.Name = "BtnMedicineOutsideHospital"
         Me.BtnMedicineOutsideHospital.Size = New System.Drawing.Size(188, 34)
@@ -131,7 +131,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnViewItemOutsideTrans
         '
-        Me.BtnViewItemOutsideTrans.Image = Global.TakeoHospitalInventory.My.Resources.Resources.arrow_down_green_48
+        Me.BtnViewItemOutsideTrans.Image = Global.KTGSYS.My.Resources.Resources.arrow_down_green_48
         Me.BtnViewItemOutsideTrans.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnViewItemOutsideTrans.Name = "BtnViewItemOutsideTrans"
         Me.BtnViewItemOutsideTrans.Size = New System.Drawing.Size(147, 34)
@@ -276,7 +276,7 @@ Partial Class UCMedicineOutsideHospital
         '
         'BtnPrint
         '
-        Me.BtnPrint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnPrint.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnPrint.Location = New System.Drawing.Point(462, 15)
         Me.BtnPrint.Name = "BtnPrint"

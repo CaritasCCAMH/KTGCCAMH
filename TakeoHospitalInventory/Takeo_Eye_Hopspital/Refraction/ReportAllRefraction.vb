@@ -45,7 +45,7 @@ Public Class ReportAllRefraction
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportAllRefraction.rpt"
+            Return "KTGSYS.ReportAllRefraction.rpt"
         End Get
         Set
             'Do nothing

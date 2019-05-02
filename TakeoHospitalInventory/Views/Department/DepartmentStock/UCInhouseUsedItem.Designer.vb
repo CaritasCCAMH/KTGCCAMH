@@ -99,7 +99,7 @@ Partial Class UCInhouseUsedItem
         'BtnPrint
         '
         Me.BtnPrint.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnPrint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnPrint.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnPrint.Location = New System.Drawing.Point(392, 12)
         Me.BtnPrint.Name = "BtnPrint"
@@ -186,7 +186,7 @@ Partial Class UCInhouseUsedItem
         '
         'BtnNewInhouseUsed
         '
-        Me.BtnNewInhouseUsed.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Mac
+        Me.BtnNewInhouseUsed.Image = Global.KTGSYS.My.Resources.Resources.Mac
         Me.BtnNewInhouseUsed.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewInhouseUsed.Name = "BtnNewInhouseUsed"
         Me.BtnNewInhouseUsed.Size = New System.Drawing.Size(138, 28)
@@ -199,7 +199,7 @@ Partial Class UCInhouseUsedItem
         '
         'BtnRefreshData
         '
-        Me.BtnRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshData.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshData.Name = "BtnRefreshData"
         Me.BtnRefreshData.Size = New System.Drawing.Size(101, 28)

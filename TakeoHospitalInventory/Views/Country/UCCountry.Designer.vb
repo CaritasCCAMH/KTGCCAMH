@@ -50,7 +50,7 @@ Partial Class UCCountry
         'BtnNew
         '
         Me.BtnNew.AutoSize = False
-        Me.BtnNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNew.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNew.Name = "BtnNew"
         Me.BtnNew.Size = New System.Drawing.Size(70, 31)
@@ -64,7 +64,7 @@ Partial Class UCCountry
         'btnEdit
         '
         Me.btnEdit.AutoSize = False
-        Me.btnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.btnEdit.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(70, 31)
@@ -78,7 +78,7 @@ Partial Class UCCountry
         'BtnRefresh
         '
         Me.BtnRefresh.AutoSize = False
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(120, 31)

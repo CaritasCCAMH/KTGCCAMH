@@ -65,7 +65,7 @@ Partial Class frmBrowsePatient
         Me.BtnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(606, 348)
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(85, 36)
@@ -79,7 +79,7 @@ Partial Class frmBrowsePatient
         Me.BtnOK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnOK.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnOK.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnOK.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.BtnOK.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.BtnOK.Location = New System.Drawing.Point(515, 348)
         Me.BtnOK.Name = "BtnOK"
         Me.BtnOK.Size = New System.Drawing.Size(85, 36)
@@ -120,7 +120,7 @@ Partial Class frmBrowsePatient
         'BtnFind
         '
         Me.BtnFind.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFind.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.BtnFind.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.BtnFind.Location = New System.Drawing.Point(360, 14)
         Me.BtnFind.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnFind.Name = "BtnFind"
@@ -177,7 +177,7 @@ Partial Class frmBrowsePatient
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox3.Location = New System.Drawing.Point(59, 2)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"

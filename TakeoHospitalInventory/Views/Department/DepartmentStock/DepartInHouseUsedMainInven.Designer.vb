@@ -306,7 +306,7 @@ Partial Class DepartInHouseUsedMainInven
         'BtnModifyItem
         '
         Me.BtnModifyItem.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnModifyItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Floppy_s2
+        Me.BtnModifyItem.Image = Global.KTGSYS.My.Resources.Resources.Floppy_s2
         Me.BtnModifyItem.Location = New System.Drawing.Point(93, 217)
         Me.BtnModifyItem.Margin = New System.Windows.Forms.Padding(2)
         Me.BtnModifyItem.Name = "BtnModifyItem"
@@ -413,7 +413,7 @@ Partial Class DepartInHouseUsedMainInven
         '
         'BtnSaveNewUsed
         '
-        Me.BtnSaveNewUsed.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSaveNewUsed.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSaveNewUsed.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSaveNewUsed.Name = "BtnSaveNewUsed"
         Me.BtnSaveNewUsed.Size = New System.Drawing.Size(136, 28)
@@ -426,7 +426,7 @@ Partial Class DepartInHouseUsedMainInven
         '
         'BtnCancel
         '
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.BtnCancel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(71, 28)

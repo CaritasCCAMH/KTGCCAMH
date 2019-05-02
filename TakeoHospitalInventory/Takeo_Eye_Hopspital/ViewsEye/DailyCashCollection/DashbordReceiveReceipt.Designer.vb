@@ -64,7 +64,7 @@ Partial Class DashbordReceiveReceipt
         'BtnRefresh
         '
         Me.BtnRefresh.ForeColor = System.Drawing.Color.Blue
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(268, 29)
@@ -78,7 +78,7 @@ Partial Class DashbordReceiveReceipt
         'BtnNewCashCount
         '
         Me.BtnNewCashCount.ForeColor = System.Drawing.Color.Blue
-        Me.BtnNewCashCount.Image = Global.TakeoHospitalInventory.My.Resources.Resources.CashReceipt
+        Me.BtnNewCashCount.Image = Global.KTGSYS.My.Resources.Resources.CashReceipt
         Me.BtnNewCashCount.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewCashCount.Name = "BtnNewCashCount"
         Me.BtnNewCashCount.Size = New System.Drawing.Size(270, 29)
@@ -92,7 +92,7 @@ Partial Class DashbordReceiveReceipt
         'BtnAccountReceiveable
         '
         Me.BtnAccountReceiveable.ForeColor = System.Drawing.Color.Blue
-        Me.BtnAccountReceiveable.Image = Global.TakeoHospitalInventory.My.Resources.Resources.add_to_list
+        Me.BtnAccountReceiveable.Image = Global.KTGSYS.My.Resources.Resources.add_to_list
         Me.BtnAccountReceiveable.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnAccountReceiveable.Name = "BtnAccountReceiveable"
         Me.BtnAccountReceiveable.Size = New System.Drawing.Size(180, 29)
@@ -106,7 +106,7 @@ Partial Class DashbordReceiveReceipt
         'BtnAccPayable
         '
         Me.BtnAccPayable.ForeColor = System.Drawing.Color.Blue
-        Me.BtnAccPayable.Image = Global.TakeoHospitalInventory.My.Resources.Resources.followup_icon
+        Me.BtnAccPayable.Image = Global.KTGSYS.My.Resources.Resources.followup_icon
         Me.BtnAccPayable.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnAccPayable.Name = "BtnAccPayable"
         Me.BtnAccPayable.Size = New System.Drawing.Size(158, 29)
@@ -209,7 +209,7 @@ Partial Class DashbordReceiveReceipt
         'BtnDonate
         '
         Me.BtnDonate.ForeColor = System.Drawing.Color.Blue
-        Me.BtnDonate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.spreadsheet_template
+        Me.BtnDonate.Image = Global.KTGSYS.My.Resources.Resources.spreadsheet_template
         Me.BtnDonate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDonate.Name = "BtnDonate"
         Me.BtnDonate.Size = New System.Drawing.Size(135, 29)

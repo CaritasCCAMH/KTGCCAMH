@@ -159,7 +159,7 @@ Partial Class FrmOTStatistic
         '
         'PicLoading
         '
-        Me.PicLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoading.Location = New System.Drawing.Point(218, 88)
         Me.PicLoading.Name = "PicLoading"
         Me.PicLoading.Size = New System.Drawing.Size(287, 26)

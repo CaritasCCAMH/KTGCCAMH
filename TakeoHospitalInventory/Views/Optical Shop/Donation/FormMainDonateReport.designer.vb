@@ -288,7 +288,7 @@ Partial Class FormMainDonateReport
         'PicLoading
         '
         Me.PicLoading.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PicLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadgraphic
+        Me.PicLoading.Image = Global.KTGSYS.My.Resources.Resources.loadgraphic
         Me.PicLoading.Location = New System.Drawing.Point(2, 477)
         Me.PicLoading.Name = "PicLoading"
         Me.PicLoading.Size = New System.Drawing.Size(243, 21)

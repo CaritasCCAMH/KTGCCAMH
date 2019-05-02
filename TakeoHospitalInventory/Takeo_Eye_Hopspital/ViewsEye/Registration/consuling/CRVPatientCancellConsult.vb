@@ -45,7 +45,7 @@ Public Class CRVPatientCancellConsult
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRVPatientCancellConsult.rpt"
+            Return "KTGSYS.CRVPatientCancellConsult.rpt"
         End Get
         Set
             'Do nothing

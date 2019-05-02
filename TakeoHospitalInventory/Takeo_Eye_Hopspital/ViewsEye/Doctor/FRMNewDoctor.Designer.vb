@@ -185,7 +185,7 @@ Partial Class FRMNewDoctor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(373, 261)
         Me.Controls.Add(Me.BtnCancel)

@@ -45,7 +45,7 @@ Public Class ReportQuestToCaristas
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportQuestToCaristas.rpt"
+            Return "KTGSYS.ReportQuestToCaristas.rpt"
         End Get
         Set
             'Do nothing

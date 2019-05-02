@@ -84,7 +84,7 @@ Partial Class FormIncomeCategory
         '
         'BtnSave
         '
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSave.Location = New System.Drawing.Point(258, 148)
         Me.BtnSave.Name = "BtnSave"
         Me.BtnSave.Size = New System.Drawing.Size(75, 30)
@@ -95,7 +95,7 @@ Partial Class FormIncomeCategory
         '
         'BtnCancel
         '
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(339, 148)
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(75, 30)

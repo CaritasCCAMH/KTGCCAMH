@@ -75,7 +75,7 @@ Partial Class frmReportViewer
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar11
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.loading_bar11
         Me.PictureBox1.Location = New System.Drawing.Point(88, -2)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"

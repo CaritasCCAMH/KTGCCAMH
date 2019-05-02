@@ -300,7 +300,7 @@ Partial Class frmLoginInventory
         'PictLoading
         '
         Me.PictLoading.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar11
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar11
         Me.PictLoading.Location = New System.Drawing.Point(1100, 5)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(165, 25)

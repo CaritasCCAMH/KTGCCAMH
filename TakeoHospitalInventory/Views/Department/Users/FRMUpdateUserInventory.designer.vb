@@ -213,7 +213,7 @@ Partial Class FRMUpdateUserInventory
         '
         'BtnRemove
         '
-        Me.BtnRemove.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.BtnRemove.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.BtnRemove.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnRemove.Location = New System.Drawing.Point(630, 29)
         Me.BtnRemove.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
@@ -225,7 +225,7 @@ Partial Class FRMUpdateUserInventory
         '
         'BtnAdd
         '
-        Me.BtnAdd.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.BtnAdd.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.BtnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnAdd.Location = New System.Drawing.Point(508, 29)
         Me.BtnAdd.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)

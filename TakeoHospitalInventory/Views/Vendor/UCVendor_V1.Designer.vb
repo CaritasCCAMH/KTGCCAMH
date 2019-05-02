@@ -197,7 +197,7 @@ Partial Class UCVendor_V1
         '
         'btnUnStoreItem
         '
-        Me.btnUnStoreItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.btnUnStoreItem.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.btnUnStoreItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUnStoreItem.Name = "btnUnStoreItem"
         Me.btnUnStoreItem.Size = New System.Drawing.Size(153, 27)
@@ -219,7 +219,7 @@ Partial Class UCVendor_V1
         'BtnNewVendor
         '
         Me.BtnNewVendor.AutoSize = False
-        Me.BtnNewVendor.Image = Global.TakeoHospitalInventory.My.Resources.Resources.new_vendor
+        Me.BtnNewVendor.Image = Global.KTGSYS.My.Resources.Resources.new_vendor
         Me.BtnNewVendor.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewVendor.Name = "BtnNewVendor"
         Me.BtnNewVendor.Size = New System.Drawing.Size(120, 31)
@@ -233,7 +233,7 @@ Partial Class UCVendor_V1
         'btnNewDonator
         '
         Me.btnNewDonator.AutoSize = False
-        Me.btnNewDonator.Image = Global.TakeoHospitalInventory.My.Resources.Resources.new_vendor
+        Me.btnNewDonator.Image = Global.KTGSYS.My.Resources.Resources.new_vendor
         Me.btnNewDonator.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnNewDonator.Name = "btnNewDonator"
         Me.btnNewDonator.Size = New System.Drawing.Size(120, 31)
@@ -247,7 +247,7 @@ Partial Class UCVendor_V1
         'btnEdit
         '
         Me.btnEdit.AutoSize = False
-        Me.btnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.btnEdit.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(100, 31)
@@ -262,7 +262,7 @@ Partial Class UCVendor_V1
         'btnDelete
         '
         Me.btnDelete.AutoSize = False
-        Me.btnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.btnDelete.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(70, 31)
@@ -276,7 +276,7 @@ Partial Class UCVendor_V1
         '
         'BtnEditDonator
         '
-        Me.BtnEditDonator.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.BtnEditDonator.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.BtnEditDonator.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnEditDonator.Name = "BtnEditDonator"
         Me.BtnEditDonator.Size = New System.Drawing.Size(103, 31)
@@ -290,7 +290,7 @@ Partial Class UCVendor_V1
         'BtnRefresh
         '
         Me.BtnRefresh.AutoSize = False
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(120, 31)
@@ -305,7 +305,7 @@ Partial Class UCVendor_V1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Transparent
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Controls.Add(Me.SplitContainer1)
         Me.Name = "UCVendor_V1"

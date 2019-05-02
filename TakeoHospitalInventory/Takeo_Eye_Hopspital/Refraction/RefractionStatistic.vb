@@ -45,7 +45,7 @@ Public Class RefractionStatistic
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RefractionStatistic.rpt"
+            Return "KTGSYS.RefractionStatistic.rpt"
         End Get
         Set
             'Do nothing

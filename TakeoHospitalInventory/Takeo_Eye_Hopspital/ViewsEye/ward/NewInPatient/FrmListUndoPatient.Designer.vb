@@ -80,7 +80,7 @@ Partial Class FrmListUndoPatient
         'BtnFind
         '
         Me.BtnFind.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnFind.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.BtnFind.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.BtnFind.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnFind.Location = New System.Drawing.Point(550, 57)
         Me.BtnFind.Margin = New System.Windows.Forms.Padding(4)

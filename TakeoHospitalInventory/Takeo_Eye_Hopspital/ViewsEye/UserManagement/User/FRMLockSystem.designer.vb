@@ -61,7 +61,7 @@ Partial Class FRMLockSystem
         '
         'cmdCancel
         '
-        Me.cmdCancel.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.cmdCancel.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.cmdCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdCancel.Enabled = False
@@ -73,7 +73,7 @@ Partial Class FRMLockSystem
         '
         'cmdOK
         '
-        Me.cmdOK.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.cmdOK.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.cmdOK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdOK.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdOK.Enabled = False
@@ -182,7 +182,7 @@ Partial Class FRMLockSystem
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Warning
+        Me.PictureBox2.Image = Global.KTGSYS.My.Resources.Resources.Warning
         Me.PictureBox2.Location = New System.Drawing.Point(69, 73)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(24, 24)
@@ -224,7 +224,7 @@ Partial Class FRMLockSystem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(513, 276)
         Me.ControlBox = False

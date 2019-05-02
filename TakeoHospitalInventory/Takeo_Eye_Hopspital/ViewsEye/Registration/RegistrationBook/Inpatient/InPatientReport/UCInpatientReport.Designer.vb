@@ -35,8 +35,8 @@ Partial Class UCInpatientReport
         Me.Label1 = New System.Windows.Forms.Label
         Me.GroupBox2 = New System.Windows.Forms.GroupBox
         Me.CRVInPatient = New CrystalDecisions.Windows.Forms.CrystalReportViewer
-        Me.DSInpatientReport = New TakeoHospitalInventory.DSInpatientReport
-        Me.TblInpatientReportTableAdapter = New TakeoHospitalInventory.DSInpatientReportTableAdapters.TblInpatientReportTableAdapter
+        Me.DSInpatientReport = New KTGSYS.DSInpatientReport
+        Me.TblInpatientReportTableAdapter = New KTGSYS.DSInpatientReportTableAdapters.TblInpatientReportTableAdapter
         Me.BGLoadReport = New System.ComponentModel.BackgroundWorker
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -257,8 +257,8 @@ Partial Class UCInpatientReport
     Friend WithEvents DateFrom As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents DSInpatientReport As TakeoHospitalInventory.DSInpatientReport
-    Friend WithEvents TblInpatientReportTableAdapter As TakeoHospitalInventory.DSInpatientReportTableAdapters.TblInpatientReportTableAdapter
+    Friend WithEvents DSInpatientReport As KTGSYS.DSInpatientReport
+    Friend WithEvents TblInpatientReportTableAdapter As KTGSYS.DSInpatientReportTableAdapters.TblInpatientReportTableAdapter
     Friend WithEvents BtnPrintPreview As System.Windows.Forms.Button
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents BGLoadReport As System.ComponentModel.BackgroundWorker

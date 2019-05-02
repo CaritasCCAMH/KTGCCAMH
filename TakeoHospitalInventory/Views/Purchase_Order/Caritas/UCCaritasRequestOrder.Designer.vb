@@ -80,7 +80,7 @@ Partial Class UCCaritasRequestOrder
         Me.ToolStripMenuItem1.AutoSize = False
         Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuRequestExitingItem, Me.ToolStripSeparator1, Me.subMenuRequestNewItem})
         Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripMenuItem1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.ToolStripMenuItem1.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 30)
         Me.ToolStripMenuItem1.Text = "New"
@@ -106,7 +106,7 @@ Partial Class UCCaritasRequestOrder
         'menuEdit
         '
         Me.menuEdit.AutoSize = False
-        Me.menuEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.menuEdit.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.menuEdit.Name = "menuEdit"
         Me.menuEdit.Size = New System.Drawing.Size(94, 30)
         Me.menuEdit.Text = "Edit"
@@ -114,14 +114,14 @@ Partial Class UCCaritasRequestOrder
         'menuDelete
         '
         Me.menuDelete.AutoSize = False
-        Me.menuDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.menuDelete.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.menuDelete.Name = "menuDelete"
         Me.menuDelete.Size = New System.Drawing.Size(94, 30)
         Me.menuDelete.Text = "Delete"
         '
         'menuRecRequestItem
         '
-        Me.menuRecRequestItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.input_keyboard
+        Me.menuRecRequestItem.Image = Global.KTGSYS.My.Resources.Resources.input_keyboard
         Me.menuRecRequestItem.Name = "menuRecRequestItem"
         Me.menuRecRequestItem.Size = New System.Drawing.Size(123, 30)
         Me.menuRecRequestItem.Text = "Receive Item"
@@ -133,7 +133,7 @@ Partial Class UCCaritasRequestOrder
         '
         'menuApprovedRecRequest
         '
-        Me.menuApprovedRecRequest.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Approved
+        Me.menuApprovedRecRequest.Image = Global.KTGSYS.My.Resources.Resources.Approved
         Me.menuApprovedRecRequest.Name = "menuApprovedRecRequest"
         Me.menuApprovedRecRequest.Size = New System.Drawing.Size(154, 30)
         Me.menuApprovedRecRequest.Text = "Approve  Received"
@@ -141,14 +141,14 @@ Partial Class UCCaritasRequestOrder
         'menuPrint
         '
         Me.menuPrint.AutoSize = False
-        Me.menuPrint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.menuPrint.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.menuPrint.Name = "menuPrint"
         Me.menuPrint.Size = New System.Drawing.Size(94, 30)
         Me.menuPrint.Text = "Print"
         '
         'menuRefreshData
         '
-        Me.menuRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.menuRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.menuRefreshData.Name = "menuRefreshData"
         Me.menuRefreshData.Size = New System.Drawing.Size(121, 30)
         Me.menuRefreshData.Text = "Refresh Data"
@@ -289,7 +289,7 @@ Partial Class UCCaritasRequestOrder
         '
         Me.BtnPrintSupGinven.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnPrintSupGinven.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnPrintSupGinven.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnPrintSupGinven.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnPrintSupGinven.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnPrintSupGinven.Location = New System.Drawing.Point(1019, 13)
         Me.BtnPrintSupGinven.Name = "BtnPrintSupGinven"

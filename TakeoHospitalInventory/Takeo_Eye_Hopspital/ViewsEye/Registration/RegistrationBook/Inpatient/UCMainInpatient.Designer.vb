@@ -1018,7 +1018,7 @@ Partial Class UCMainInpatient
         '
         'PictLoading
         '
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PictLoading.Location = New System.Drawing.Point(500, 190)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(190, 25)
@@ -1101,7 +1101,7 @@ Partial Class UCMainInpatient
         '
         'PicLoadReport
         '
-        Me.PicLoadReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoadReport.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoadReport.Location = New System.Drawing.Point(500, 190)
         Me.PicLoadReport.Name = "PicLoadReport"
         Me.PicLoadReport.Size = New System.Drawing.Size(190, 25)

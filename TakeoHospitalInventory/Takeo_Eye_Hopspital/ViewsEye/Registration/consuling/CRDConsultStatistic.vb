@@ -45,7 +45,7 @@ Public Class CRDConsultStatistic
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRDConsultStatistic.rpt"
+            Return "KTGSYS.CRDConsultStatistic.rpt"
         End Get
         Set
             'Do nothing

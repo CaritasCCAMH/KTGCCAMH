@@ -45,7 +45,7 @@ Public Class CRPatientReferralDialy
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRPatientReferralDialy.rpt"
+            Return "KTGSYS.CRPatientReferralDialy.rpt"
         End Get
         Set
             'Do nothing

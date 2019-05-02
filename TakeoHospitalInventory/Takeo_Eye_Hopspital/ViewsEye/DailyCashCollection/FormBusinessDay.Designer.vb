@@ -47,7 +47,7 @@ Partial Class FormBusinessDay
         '
         'BtnNewBusinessDay
         '
-        Me.BtnNewBusinessDay.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316401141_Schedule_File
+        Me.BtnNewBusinessDay.Image = Global.KTGSYS.My.Resources.Resources._1316401141_Schedule_File
         Me.BtnNewBusinessDay.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewBusinessDay.Name = "BtnNewBusinessDay"
         Me.BtnNewBusinessDay.Size = New System.Drawing.Size(150, 29)
@@ -60,7 +60,7 @@ Partial Class FormBusinessDay
         '
         'BtnRefresh
         '
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(75, 29)
@@ -73,7 +73,7 @@ Partial Class FormBusinessDay
         '
         'BtnClose
         '
-        Me.BtnClose.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.BtnClose.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.BtnClose.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnClose.Name = "BtnClose"
         Me.BtnClose.Size = New System.Drawing.Size(65, 29)
