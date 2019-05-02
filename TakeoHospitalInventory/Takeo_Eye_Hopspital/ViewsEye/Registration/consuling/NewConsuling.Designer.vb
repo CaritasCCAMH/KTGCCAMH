@@ -1520,7 +1520,7 @@ Partial Class NewConsuling
         '
         Me.BtnSave.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.BtnSave.ForeColor = System.Drawing.Color.Blue
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Mac
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.Mac
         Me.BtnSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSave.Name = "BtnSave"
         Me.BtnSave.Size = New System.Drawing.Size(87, 51)
@@ -1536,7 +1536,7 @@ Partial Class NewConsuling
         '
         Me.ToolStripButton2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.ToolStripButton2.ForeColor = System.Drawing.Color.Blue
-        Me.ToolStripButton2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Remove
+        Me.ToolStripButton2.Image = Global.KTGSYS.My.Resources.Resources.Remove
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(84, 51)
@@ -1753,7 +1753,7 @@ Partial Class NewConsuling
         '
         Me.cmdAddRate.Enabled = False
         Me.cmdAddRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdAddRate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.cmdAddRate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.cmdAddRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.cmdAddRate.Location = New System.Drawing.Point(162, 35)
         Me.cmdAddRate.Name = "cmdAddRate"

@@ -45,7 +45,7 @@ Public Class CRItemBalanceInHos
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRItemBalanceInHos.rpt"
+            Return "KTGSYS.CRItemBalanceInHos.rpt"
         End Get
         Set
             'Do nothing

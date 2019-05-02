@@ -44,7 +44,7 @@ Partial Class FamilyStatus
         '
         'ToolStripButton1
         '
-        Me.ToolStripButton1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.ToolStripButton1.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(82, 22)
@@ -57,7 +57,7 @@ Partial Class FamilyStatus
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.ToolStripButton2.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(58, 22)

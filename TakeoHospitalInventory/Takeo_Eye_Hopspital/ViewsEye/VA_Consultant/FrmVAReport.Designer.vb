@@ -59,16 +59,16 @@ Partial Class FrmVAReport
         Me.RadAllVA = New System.Windows.Forms.RadioButton
         Me.RadVANew = New System.Windows.Forms.RadioButton
         Me.RadVOld = New System.Windows.Forms.RadioButton
-        Me.DSVA = New TakeoHospitalInventory.DSVA
-        Me.TblVAPlainTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAPlainTableAdapter
-        Me.TblVAPHTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAPHTableAdapter
-        Me.TblVAGlassesTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAGlassesTableAdapter
-        Me.TblVAPlainRightTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAPlainRightTableAdapter
-        Me.TblVAPHRightTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAPHRightTableAdapter
-        Me.TblVAGlassesRightTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblVAGlassesRightTableAdapter
-        Me.TblMainPlainTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblMainPlainTableAdapter
-        Me.TblMainPhTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblMainPhTableAdapter
-        Me.TblMainGlassesTableAdapter = New TakeoHospitalInventory.DSVATableAdapters.TblMainGlassesTableAdapter
+        Me.DSVA = New KTGSYS.DSVA
+        Me.TblVAPlainTableAdapter = New KTGSYS.DSVATableAdapters.TblVAPlainTableAdapter
+        Me.TblVAPHTableAdapter = New KTGSYS.DSVATableAdapters.TblVAPHTableAdapter
+        Me.TblVAGlassesTableAdapter = New KTGSYS.DSVATableAdapters.TblVAGlassesTableAdapter
+        Me.TblVAPlainRightTableAdapter = New KTGSYS.DSVATableAdapters.TblVAPlainRightTableAdapter
+        Me.TblVAPHRightTableAdapter = New KTGSYS.DSVATableAdapters.TblVAPHRightTableAdapter
+        Me.TblVAGlassesRightTableAdapter = New KTGSYS.DSVATableAdapters.TblVAGlassesRightTableAdapter
+        Me.TblMainPlainTableAdapter = New KTGSYS.DSVATableAdapters.TblMainPlainTableAdapter
+        Me.TblMainPhTableAdapter = New KTGSYS.DSVATableAdapters.TblMainPhTableAdapter
+        Me.TblMainGlassesTableAdapter = New KTGSYS.DSVATableAdapters.TblMainGlassesTableAdapter
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
@@ -409,7 +409,7 @@ Partial Class FrmVAReport
         '
         'PicLoadReport
         '
-        Me.PicLoadReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoadReport.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoadReport.Location = New System.Drawing.Point(558, 420)
         Me.PicLoadReport.Name = "PicLoadReport"
         Me.PicLoadReport.Size = New System.Drawing.Size(168, 22)
@@ -561,20 +561,20 @@ Partial Class FrmVAReport
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents DateFrom As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateTo As System.Windows.Forms.DateTimePicker
-    Friend WithEvents DSVA As TakeoHospitalInventory.DSVA
-    Friend WithEvents TblVAPlainTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAPlainTableAdapter
-    Friend WithEvents TblVAPHTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAPHTableAdapter
-    Friend WithEvents TblVAGlassesTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAGlassesTableAdapter
+    Friend WithEvents DSVA As KTGSYS.DSVA
+    Friend WithEvents TblVAPlainTableAdapter As KTGSYS.DSVATableAdapters.TblVAPlainTableAdapter
+    Friend WithEvents TblVAPHTableAdapter As KTGSYS.DSVATableAdapters.TblVAPHTableAdapter
+    Friend WithEvents TblVAGlassesTableAdapter As KTGSYS.DSVATableAdapters.TblVAGlassesTableAdapter
     Friend WithEvents PicLoadReport As System.Windows.Forms.PictureBox
     Friend WithEvents BgLoadVAByMonth As System.ComponentModel.BackgroundWorker
     Friend WithEvents BgLoadVAByDate As System.ComponentModel.BackgroundWorker
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
     Friend WithEvents rdLeftEye As System.Windows.Forms.RadioButton
     Friend WithEvents rdRightEye As System.Windows.Forms.RadioButton
-    Friend WithEvents TblVAPlainRightTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAPlainRightTableAdapter
-    Friend WithEvents TblVAPHRightTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAPHRightTableAdapter
-    Friend WithEvents TblVAGlassesRightTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblVAGlassesRightTableAdapter
-    Friend WithEvents TblMainPlainTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblMainPlainTableAdapter
+    Friend WithEvents TblVAPlainRightTableAdapter As KTGSYS.DSVATableAdapters.TblVAPlainRightTableAdapter
+    Friend WithEvents TblVAPHRightTableAdapter As KTGSYS.DSVATableAdapters.TblVAPHRightTableAdapter
+    Friend WithEvents TblVAGlassesRightTableAdapter As KTGSYS.DSVATableAdapters.TblVAGlassesRightTableAdapter
+    Friend WithEvents TblMainPlainTableAdapter As KTGSYS.DSVATableAdapters.TblMainPlainTableAdapter
     Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
     Friend WithEvents DateMainTo As System.Windows.Forms.DateTimePicker
@@ -589,8 +589,8 @@ Partial Class FrmVAReport
     Friend WithEvents CboMainYear As System.Windows.Forms.ComboBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents BgMainByMonth As System.ComponentModel.BackgroundWorker
-    Friend WithEvents TblMainPhTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblMainPhTableAdapter
-    Friend WithEvents TblMainGlassesTableAdapter As TakeoHospitalInventory.DSVATableAdapters.TblMainGlassesTableAdapter
+    Friend WithEvents TblMainPhTableAdapter As KTGSYS.DSVATableAdapters.TblMainPhTableAdapter
+    Friend WithEvents TblMainGlassesTableAdapter As KTGSYS.DSVATableAdapters.TblMainGlassesTableAdapter
     Friend WithEvents BgMainByDate As System.ComponentModel.BackgroundWorker
     Friend WithEvents RadVOld As System.Windows.Forms.RadioButton
     Friend WithEvents RadVANew As System.Windows.Forms.RadioButton

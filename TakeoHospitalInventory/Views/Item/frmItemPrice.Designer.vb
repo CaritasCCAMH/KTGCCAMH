@@ -179,7 +179,7 @@ Partial Class frmItemPrice
         'BtnCancel
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCancel.Location = New System.Drawing.Point(265, 200)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2)
@@ -193,7 +193,7 @@ Partial Class frmItemPrice
         'BtnSave
         '
         Me.BtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnSave.Location = New System.Drawing.Point(176, 200)
         Me.BtnSave.Margin = New System.Windows.Forms.Padding(2)

@@ -190,7 +190,7 @@ Partial Class frmHospitalRecItem
         Me.BtnRegisterItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnRegisterItem.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnRegisterItem.FlatBorderColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BtnRegisterItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.BtnRegisterItem.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.BtnRegisterItem.Location = New System.Drawing.Point(869, 205)
         Me.BtnRegisterItem.Name = "BtnRegisterItem"
         Me.BtnRegisterItem.Size = New System.Drawing.Size(34, 34)
@@ -221,7 +221,7 @@ Partial Class frmHospitalRecItem
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.btnCancel.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.btnCancel.Location = New System.Drawing.Point(778, 629)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(85, 41)
@@ -236,7 +236,7 @@ Partial Class frmHospitalRecItem
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(591, 630)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(179, 41)

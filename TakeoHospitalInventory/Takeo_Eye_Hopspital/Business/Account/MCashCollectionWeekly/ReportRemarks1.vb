@@ -45,7 +45,7 @@ Public Class ReportRemarks
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportRemarks.rpt"
+            Return "KTGSYS.ReportRemarks.rpt"
         End Get
         Set
             'Do nothing

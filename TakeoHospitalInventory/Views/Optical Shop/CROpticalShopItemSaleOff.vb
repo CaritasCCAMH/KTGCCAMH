@@ -45,7 +45,7 @@ Public Class CROpticalShopItemSaleOff
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CROpticalShopItemSaleOff.rpt"
+            Return "KTGSYS.CROpticalShopItemSaleOff.rpt"
         End Get
         Set
             'Do nothing

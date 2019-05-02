@@ -176,7 +176,7 @@ Public Class UCReportItemTransaction
                 Dim trans As DbTransaction = THIDataContext.getTHIDataContext.Connection.BeginTransaction
                 THIDataContext.getTHIDataContext.Transaction = trans
                 Try
-                    Dim objDataTable As New TakeoHospitalInventory.DSEndofDayRun.tblEndofMonthRunDataTable
+                    Dim objDataTable As New KTGSYS.DSEndofDayRun.tblEndofMonthRunDataTable
                     For Each rRow As DataRow In myRunEndofMonthResult.Rows
                         'If rRow("DepartID") = MAIN_STOCK_DEPART_ID Then
 
@@ -343,7 +343,7 @@ Public Class UCReportItemTransaction
 
 
                 Try
-                    Dim objDataTable As TakeoHospitalInventory.DSEndofDayRun.tblEndofMonthRunDataTable
+                    Dim objDataTable As KTGSYS.DSEndofDayRun.tblEndofMonthRunDataTable
                     For Each rRow As DataRow In myRunEndofMonthResult.Rows
 
                         Dim beginBalanceOfMonth As Integer
@@ -497,7 +497,7 @@ Public Class UCReportItemTransaction
                             CRVItemTransaction.ReportSource = Cr1
                             CRVItemTransaction.Refresh()
                         End If
-                        
+
                     Else
                         departTranDataByDepartID = VRunEndofDayResultDataAdapter.GetDepartTranDataByDepartID(Val(cbDepart.SelectedValue), DFrom, DTo)
                         Cr1.SetDataSource(departTranDataByDepartID)
@@ -510,9 +510,9 @@ Public Class UCReportItemTransaction
                     End If
 
 
-                   
-                  
-                    
+
+
+
                 Else
                     departTranDataByDepartID = VRunEndofDayResultDataAdapter.GetDepartTranDataByDepartID(Val(DEPART_ID), DFrom, DTo)
 
@@ -525,7 +525,7 @@ Public Class UCReportItemTransaction
 
                     CRVItemTransaction.Refresh()
                 End If
-                
+
             End If
             If rbDaily.Checked = True Then
                 '--- Update 09/12/2011 (Use dataset instead of sql command)
@@ -561,7 +561,7 @@ Public Class UCReportItemTransaction
 
 
                 'Try
-                Dim objDataTable As New TakeoHospitalInventory.DSEndofDayRun.tblEndofMonthRunDataTable
+                Dim objDataTable As New KTGSYS.DSEndofDayRun.tblEndofMonthRunDataTable
                 For Each rRow As DataRow In myRunEndofMonthResult.Rows
 
                     'If rRow("DepartID") = MAIN_STOCK_DEPART_ID Then

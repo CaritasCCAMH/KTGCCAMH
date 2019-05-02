@@ -1433,7 +1433,7 @@ Partial Class CashReceivedByDepartment
         'BtnView
         '
         Me.BtnView.ForeColor = System.Drawing.Color.Blue
-        Me.BtnView.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnView.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnView.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnView.Name = "BtnView"
         Me.BtnView.Size = New System.Drawing.Size(111, 29)
@@ -1447,7 +1447,7 @@ Partial Class CashReceivedByDepartment
         'BtnSaveCashCount
         '
         Me.BtnSaveCashCount.ForeColor = System.Drawing.Color.Blue
-        Me.BtnSaveCashCount.Image = Global.TakeoHospitalInventory.My.Resources.Resources.spreadsheet_template
+        Me.BtnSaveCashCount.Image = Global.KTGSYS.My.Resources.Resources.spreadsheet_template
         Me.BtnSaveCashCount.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSaveCashCount.Name = "BtnSaveCashCount"
         Me.BtnSaveCashCount.Size = New System.Drawing.Size(156, 29)
@@ -1461,7 +1461,7 @@ Partial Class CashReceivedByDepartment
         'BtnSaveNote
         '
         Me.BtnSaveNote.ForeColor = System.Drawing.Color.Blue
-        Me.BtnSaveNote.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Open
+        Me.BtnSaveNote.Image = Global.KTGSYS.My.Resources.Resources.Open
         Me.BtnSaveNote.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnSaveNote.Name = "BtnSaveNote"
         Me.BtnSaveNote.Size = New System.Drawing.Size(110, 29)
@@ -1475,7 +1475,7 @@ Partial Class CashReceivedByDepartment
         'BtnPrintReport
         '
         Me.BtnPrintReport.ForeColor = System.Drawing.Color.Blue
-        Me.BtnPrintReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.BtnPrintReport.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.BtnPrintReport.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPrintReport.Name = "BtnPrintReport"
         Me.BtnPrintReport.Size = New System.Drawing.Size(153, 29)
@@ -1489,7 +1489,7 @@ Partial Class CashReceivedByDepartment
         'btnClose
         '
         Me.btnClose.ForeColor = System.Drawing.Color.Blue
-        Me.btnClose.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.btnClose.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.btnClose.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(77, 29)

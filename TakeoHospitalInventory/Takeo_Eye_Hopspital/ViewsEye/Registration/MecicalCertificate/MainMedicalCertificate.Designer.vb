@@ -59,7 +59,7 @@ Partial Class MainMedicalCertificate
         '
         'BtnNewMedicalCertificate
         '
-        Me.BtnNewMedicalCertificate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Certificate1
+        Me.BtnNewMedicalCertificate.Image = Global.KTGSYS.My.Resources.Resources.Certificate1
         Me.BtnNewMedicalCertificate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewMedicalCertificate.Name = "BtnNewMedicalCertificate"
         Me.BtnNewMedicalCertificate.Size = New System.Drawing.Size(161, 28)
@@ -72,7 +72,7 @@ Partial Class MainMedicalCertificate
         '
         'BtnDr
         '
-        Me.BtnDr.Image = Global.TakeoHospitalInventory.My.Resources.Resources.dokter
+        Me.BtnDr.Image = Global.KTGSYS.My.Resources.Resources.dokter
         Me.BtnDr.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDr.Name = "BtnDr"
         Me.BtnDr.Size = New System.Drawing.Size(113, 28)
@@ -85,7 +85,7 @@ Partial Class MainMedicalCertificate
         '
         'BtnMedicalCertificate
         '
-        Me.BtnMedicalCertificate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.MedicalCertificate
+        Me.BtnMedicalCertificate.Image = Global.KTGSYS.My.Resources.Resources.MedicalCertificate
         Me.BtnMedicalCertificate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnMedicalCertificate.Name = "BtnMedicalCertificate"
         Me.BtnMedicalCertificate.Size = New System.Drawing.Size(160, 28)
@@ -98,7 +98,7 @@ Partial Class MainMedicalCertificate
         '
         'BtnRefesh
         '
-        Me.BtnRefesh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefesh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefesh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefesh.Name = "BtnRefesh"
         Me.BtnRefesh.Size = New System.Drawing.Size(74, 28)
@@ -200,7 +200,7 @@ Partial Class MainMedicalCertificate
         '
         'BtnDeleted
         '
-        Me.BtnDeleted.Image = Global.TakeoHospitalInventory.My.Resources.Resources.delete_appointment
+        Me.BtnDeleted.Image = Global.KTGSYS.My.Resources.Resources.delete_appointment
         Me.BtnDeleted.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDeleted.Name = "BtnDeleted"
         Me.BtnDeleted.Size = New System.Drawing.Size(93, 28)

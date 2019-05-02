@@ -67,9 +67,9 @@ Partial Class MainScreening
         '
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel1.Location = New System.Drawing.Point(982, 0)
+        Me.Panel1.Location = New System.Drawing.Point(1159, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(318, 109)
+        Me.Panel1.Size = New System.Drawing.Size(141, 109)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox2
@@ -77,9 +77,9 @@ Partial Class MainScreening
         Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(3, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(311, 105)
+        Me.PictureBox2.Size = New System.Drawing.Size(137, 105)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
@@ -128,7 +128,7 @@ Partial Class MainScreening
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(861, 34)
         Me.Label2.TabIndex = 17
-        Me.Label2.Text = "Screening System"
+        Me.Label2.Text = "CENTER FOR CHILD AND MENTAL HEALTH"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
@@ -238,7 +238,7 @@ Partial Class MainScreening
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox3.Location = New System.Drawing.Point(1120, -1)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(180, 30)

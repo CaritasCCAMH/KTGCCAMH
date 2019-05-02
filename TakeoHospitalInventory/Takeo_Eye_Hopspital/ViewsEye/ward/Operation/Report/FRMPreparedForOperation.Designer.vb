@@ -21,8 +21,8 @@ Partial Class FRMPreparedForOperation
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FRMPreparedForOperation))
         Me.CRVPreparedForOperation = New CrystalDecisions.Windows.Forms.CrystalReportViewer
-        Me.DSOT = New TakeoHospitalInventory.DSOT
-        Me.ViewPreparForOperationTableAdapter = New TakeoHospitalInventory.DSOTTableAdapters.ViewPreparForOperationTableAdapter
+        Me.DSOT = New KTGSYS.DSOT
+        Me.ViewPreparForOperationTableAdapter = New KTGSYS.DSOTTableAdapters.ViewPreparForOperationTableAdapter
         CType(Me.DSOT, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -63,7 +63,7 @@ Partial Class FRMPreparedForOperation
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DSOT As TakeoHospitalInventory.DSOT
-    Friend WithEvents ViewPreparForOperationTableAdapter As TakeoHospitalInventory.DSOTTableAdapters.ViewPreparForOperationTableAdapter
+    Friend WithEvents DSOT As KTGSYS.DSOT
+    Friend WithEvents ViewPreparForOperationTableAdapter As KTGSYS.DSOTTableAdapters.ViewPreparForOperationTableAdapter
     Friend WithEvents CRVPreparedForOperation As CrystalDecisions.Windows.Forms.CrystalReportViewer
 End Class

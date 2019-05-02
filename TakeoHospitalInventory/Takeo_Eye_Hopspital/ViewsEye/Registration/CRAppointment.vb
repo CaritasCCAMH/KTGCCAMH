@@ -45,7 +45,7 @@ Public Class CRAppointment
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRAppointment.rpt"
+            Return "KTGSYS.CRAppointment.rpt"
         End Get
         Set
             'Do nothing

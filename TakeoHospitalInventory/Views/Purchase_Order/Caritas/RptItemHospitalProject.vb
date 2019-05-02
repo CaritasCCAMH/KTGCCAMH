@@ -45,7 +45,7 @@ Public Class RptItemHospitalProject
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RptItemHospitalProject.rpt"
+            Return "KTGSYS.RptItemHospitalProject.rpt"
         End Get
         Set
             'Do nothing

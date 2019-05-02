@@ -45,7 +45,7 @@ Public Class CrItemInDepartmentStock
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrItemInDepartmentStock.rpt"
+            Return "KTGSYS.CrItemInDepartmentStock.rpt"
         End Get
         Set
             'Do nothing

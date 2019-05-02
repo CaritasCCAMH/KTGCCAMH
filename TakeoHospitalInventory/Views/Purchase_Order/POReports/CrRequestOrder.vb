@@ -45,7 +45,7 @@ Public Class CrRequestOrder
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrRequestOrder.rpt"
+            Return "KTGSYS.CrRequestOrder.rpt"
         End Get
         Set
             'Do nothing

@@ -45,7 +45,7 @@ Public Class MoneyRefund
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.MoneyRefund.rpt"
+            Return "KTGSYS.MoneyRefund.rpt"
         End Get
         Set
             'Do nothing

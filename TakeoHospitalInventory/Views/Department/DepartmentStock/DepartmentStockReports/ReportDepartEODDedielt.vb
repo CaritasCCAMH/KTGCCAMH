@@ -45,7 +45,7 @@ Public Class ReportDepartEODDedielt
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportDepartEODDedielt.rpt"
+            Return "KTGSYS.ReportDepartEODDedielt.rpt"
         End Get
         Set
             'Do nothing

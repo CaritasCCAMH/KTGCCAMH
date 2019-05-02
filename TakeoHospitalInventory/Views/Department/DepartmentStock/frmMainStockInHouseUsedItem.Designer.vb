@@ -126,7 +126,7 @@ Partial Class frmMainStockInHouseUsedItem
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.Location = New System.Drawing.Point(613, 520)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(85, 36)
@@ -140,7 +140,7 @@ Partial Class frmMainStockInHouseUsedItem
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(520, 521)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(85, 36)
@@ -189,7 +189,7 @@ Partial Class frmMainStockInHouseUsedItem
         'BtnAdd
         '
         Me.BtnAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnAdd.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.BtnAdd.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.BtnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnAdd.Location = New System.Drawing.Point(460, 86)
         Me.BtnAdd.Name = "BtnAdd"
@@ -201,7 +201,7 @@ Partial Class frmMainStockInHouseUsedItem
         'BtnDelete
         '
         Me.BtnDelete.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cross_circle
+        Me.BtnDelete.Image = Global.KTGSYS.My.Resources.Resources.cross_circle
         Me.BtnDelete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnDelete.Location = New System.Drawing.Point(541, 86)
         Me.BtnDelete.Name = "BtnDelete"

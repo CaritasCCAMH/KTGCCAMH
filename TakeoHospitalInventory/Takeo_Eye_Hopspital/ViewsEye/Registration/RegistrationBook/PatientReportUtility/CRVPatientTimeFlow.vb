@@ -45,7 +45,7 @@ Public Class CRVPatientTimeFlow
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRVPatientTimeFlow.rpt"
+            Return "KTGSYS.CRVPatientTimeFlow.rpt"
         End Get
         Set
             'Do nothing

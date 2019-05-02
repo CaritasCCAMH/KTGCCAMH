@@ -45,7 +45,7 @@ Public Class CRPatientOccupation
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRPatientOccupation.rpt"
+            Return "KTGSYS.CRPatientOccupation.rpt"
         End Get
         Set
             'Do nothing

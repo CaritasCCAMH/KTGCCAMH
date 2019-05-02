@@ -93,7 +93,7 @@ Partial Class FormNewMenuInventory
         'BtnSave
         '
         Me.BtnSave.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnSave.Location = New System.Drawing.Point(180, 112)
         Me.BtnSave.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.BtnSave.Name = "BtnSave"
@@ -106,7 +106,7 @@ Partial Class FormNewMenuInventory
         'BtnCancel
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(254, 112)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.BtnCancel.Name = "BtnCancel"

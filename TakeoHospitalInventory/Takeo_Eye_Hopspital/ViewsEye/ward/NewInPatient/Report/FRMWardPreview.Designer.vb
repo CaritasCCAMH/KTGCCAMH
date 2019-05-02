@@ -30,10 +30,10 @@ Partial Class FRMWardPreview
         Me.BtnPrintLeavVeiw = New System.Windows.Forms.Button
         Me.DateDisTo = New System.Windows.Forms.DateTimePicker
         Me.DateDisFrom = New System.Windows.Forms.DateTimePicker
-        Me.DSWard = New TakeoHospitalInventory.DSWard
-        Me.TblPatientLeavTableAdapter = New TakeoHospitalInventory.DSWardTableAdapters.TblPatientLeavTableAdapter
-        Me.TblNewInpatientTableAdapter = New TakeoHospitalInventory.DSWardTableAdapters.TblNewInpatientTableAdapter
-        Me.TblWardDiseaseTableAdapter = New TakeoHospitalInventory.DSWardTableAdapters.TblWardDiseaseTableAdapter
+        Me.DSWard = New KTGSYS.DSWard
+        Me.TblPatientLeavTableAdapter = New KTGSYS.DSWardTableAdapters.TblPatientLeavTableAdapter
+        Me.TblNewInpatientTableAdapter = New KTGSYS.DSWardTableAdapters.TblNewInpatientTableAdapter
+        Me.TblWardDiseaseTableAdapter = New KTGSYS.DSWardTableAdapters.TblWardDiseaseTableAdapter
         CType(Me.PicLoading, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox10.SuspendLayout()
         CType(Me.DSWard, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -60,7 +60,7 @@ Partial Class FRMWardPreview
         '
         'PicLoading
         '
-        Me.PicLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoading.Location = New System.Drawing.Point(312, 337)
         Me.PicLoading.Name = "PicLoading"
         Me.PicLoading.Size = New System.Drawing.Size(235, 24)
@@ -170,9 +170,9 @@ Partial Class FRMWardPreview
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DSWard As TakeoHospitalInventory.DSWard
-    Friend WithEvents TblPatientLeavTableAdapter As TakeoHospitalInventory.DSWardTableAdapters.TblPatientLeavTableAdapter
-    Friend WithEvents TblNewInpatientTableAdapter As TakeoHospitalInventory.DSWardTableAdapters.TblNewInpatientTableAdapter
+    Friend WithEvents DSWard As KTGSYS.DSWard
+    Friend WithEvents TblPatientLeavTableAdapter As KTGSYS.DSWardTableAdapters.TblPatientLeavTableAdapter
+    Friend WithEvents TblNewInpatientTableAdapter As KTGSYS.DSWardTableAdapters.TblNewInpatientTableAdapter
     Friend WithEvents CRVWard As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents BgLoadPatientNew As System.ComponentModel.BackgroundWorker
     Friend WithEvents BgLoadLeav As System.ComponentModel.BackgroundWorker
@@ -183,5 +183,5 @@ Partial Class FRMWardPreview
     Friend WithEvents BtnPrintLeavVeiw As System.Windows.Forms.Button
     Friend WithEvents DateDisTo As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateDisFrom As System.Windows.Forms.DateTimePicker
-    Friend WithEvents TblWardDiseaseTableAdapter As TakeoHospitalInventory.DSWardTableAdapters.TblWardDiseaseTableAdapter
+    Friend WithEvents TblWardDiseaseTableAdapter As KTGSYS.DSWardTableAdapters.TblWardDiseaseTableAdapter
 End Class

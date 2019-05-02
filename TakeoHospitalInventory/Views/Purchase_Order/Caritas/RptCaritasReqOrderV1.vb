@@ -45,7 +45,7 @@ Public Class RptCaritasReqOrderV1
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RptCaritasReqOrderV1.rpt"
+            Return "KTGSYS.RptCaritasReqOrderV1.rpt"
         End Get
         Set
             'Do nothing

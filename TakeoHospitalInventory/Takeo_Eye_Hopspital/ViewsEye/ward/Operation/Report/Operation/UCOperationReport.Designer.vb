@@ -38,9 +38,9 @@ Partial Class UCOperationReport
         Me.CRVOperation = New CrystalDecisions.Windows.Forms.CrystalReportViewer
         Me.BGLoadDiagnosisWithSurgery = New System.ComponentModel.BackgroundWorker
         Me.BgLoadDgWithIOL = New System.ComponentModel.BackgroundWorker
-        Me.DSOperationReport = New TakeoHospitalInventory.DSOperationReport
-        Me.DTblOperationTableAdapter = New TakeoHospitalInventory.DSOperationReportTableAdapters.DTblOperationTableAdapter
-        Me.TblOperationIOLTableAdapter = New TakeoHospitalInventory.DSOperationReportTableAdapters.TblOperationIOLTableAdapter
+        Me.DSOperationReport = New KTGSYS.DSOperationReport
+        Me.DTblOperationTableAdapter = New KTGSYS.DSOperationReportTableAdapters.DTblOperationTableAdapter
+        Me.TblOperationIOLTableAdapter = New KTGSYS.DSOperationReportTableAdapters.TblOperationIOLTableAdapter
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -281,8 +281,8 @@ Partial Class UCOperationReport
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents BtnPrintPreview As System.Windows.Forms.Button
     Friend WithEvents CRVOperation As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents DSOperationReport As TakeoHospitalInventory.DSOperationReport
-    Friend WithEvents DTblOperationTableAdapter As TakeoHospitalInventory.DSOperationReportTableAdapters.DTblOperationTableAdapter
+    Friend WithEvents DSOperationReport As KTGSYS.DSOperationReport
+    Friend WithEvents DTblOperationTableAdapter As KTGSYS.DSOperationReportTableAdapters.DTblOperationTableAdapter
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents BGLoadDiagnosisWithSurgery As System.ComponentModel.BackgroundWorker
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
@@ -291,7 +291,7 @@ Partial Class UCOperationReport
     Friend WithEvents DateIOLFrom As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateIOLTo As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents TblOperationIOLTableAdapter As TakeoHospitalInventory.DSOperationReportTableAdapters.TblOperationIOLTableAdapter
+    Friend WithEvents TblOperationIOLTableAdapter As KTGSYS.DSOperationReportTableAdapters.TblOperationIOLTableAdapter
     Friend WithEvents BgLoadDgWithIOL As System.ComponentModel.BackgroundWorker
 
 End Class

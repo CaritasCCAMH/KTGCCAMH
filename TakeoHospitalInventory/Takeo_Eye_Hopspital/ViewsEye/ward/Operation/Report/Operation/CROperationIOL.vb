@@ -45,7 +45,7 @@ Public Class CROperationIOL
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CROperationIOL.rpt"
+            Return "KTGSYS.CROperationIOL.rpt"
         End Get
         Set
             'Do nothing

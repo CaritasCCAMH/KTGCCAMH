@@ -106,7 +106,7 @@ Partial Class frmResponseRequestOrder
         '
         'btnCancel
         '
-        Me.btnCancel.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.BackgroundImage = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
         Me.btnCancel.Location = New System.Drawing.Point(1086, 613)
@@ -118,7 +118,7 @@ Partial Class frmResponseRequestOrder
         '
         'btnSave
         '
-        Me.btnSave.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.BackgroundImage = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
         Me.btnSave.Location = New System.Drawing.Point(987, 613)
@@ -625,7 +625,7 @@ Partial Class frmResponseRequestOrder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1203, 663)
         Me.Controls.Add(Me.Label2)

@@ -474,7 +474,7 @@ Partial Class UCCategories
         '
         'TBNewPrice
         '
-        Me.TBNewPrice.Image = Global.TakeoHospitalInventory.My.Resources.Resources.price
+        Me.TBNewPrice.Image = Global.KTGSYS.My.Resources.Resources.price
         Me.TBNewPrice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TBNewPrice.Name = "TBNewPrice"
         Me.TBNewPrice.Size = New System.Drawing.Size(87, 22)
@@ -487,7 +487,7 @@ Partial Class UCCategories
         '
         'BtnEditPrice
         '
-        Me.BtnEditPrice.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.BtnEditPrice.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.BtnEditPrice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnEditPrice.Name = "BtnEditPrice"
         Me.BtnEditPrice.Size = New System.Drawing.Size(84, 22)
@@ -500,7 +500,7 @@ Partial Class UCCategories
         '
         'TBSetCurPrice
         '
-        Me.TBSetCurPrice.Image = Global.TakeoHospitalInventory.My.Resources.Resources.check
+        Me.TBSetCurPrice.Image = Global.KTGSYS.My.Resources.Resources.check
         Me.TBSetCurPrice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TBSetCurPrice.Name = "TBSetCurPrice"
         Me.TBSetCurPrice.Size = New System.Drawing.Size(150, 22)
@@ -513,7 +513,7 @@ Partial Class UCCategories
         '
         'TBCurrentPrice
         '
-        Me.TBCurrentPrice.Image = Global.TakeoHospitalInventory.My.Resources.Resources.preview
+        Me.TBCurrentPrice.Image = Global.KTGSYS.My.Resources.Resources.preview
         Me.TBCurrentPrice.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.TBCurrentPrice.Name = "TBCurrentPrice"
         Me.TBCurrentPrice.Size = New System.Drawing.Size(108, 22)
@@ -527,7 +527,7 @@ Partial Class UCCategories
         '
         'BtnRefreshData
         '
-        Me.BtnRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshData.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshData.Name = "BtnRefreshData"
         Me.BtnRefreshData.Size = New System.Drawing.Size(107, 22)
@@ -597,7 +597,7 @@ Partial Class UCCategories
         Me.ToolStripMenuItem1.AutoSize = False
         Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuAddCate, Me.ToolStripSeparator4, Me.subMenuAddItem, Me.ToolStripSeparator7, Me.subMenuAddItemProvider})
         Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ToolStripMenuItem1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.ToolStripMenuItem1.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 30)
         Me.ToolStripMenuItem1.Text = "New"
@@ -634,7 +634,7 @@ Partial Class UCCategories
         '
         Me.EditToolStripMenuItem.AutoSize = False
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuEditCate, Me.ToolStripSeparator1, Me.subMenuEditItem})
-        Me.EditToolStripMenuItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.EditToolStripMenuItem.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
         Me.EditToolStripMenuItem.Size = New System.Drawing.Size(72, 30)
         Me.EditToolStripMenuItem.Text = "Edit"
@@ -660,7 +660,7 @@ Partial Class UCCategories
         '
         Me.DeleteToolStripMenuItem.AutoSize = False
         Me.DeleteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.subMenuDeleteCate})
-        Me.DeleteToolStripMenuItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.DeleteToolStripMenuItem.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
         Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(94, 30)
         Me.DeleteToolStripMenuItem.Text = "Delete"
@@ -674,7 +674,7 @@ Partial Class UCCategories
         'menuRefreshData
         '
         Me.menuRefreshData.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RefreshListItemsDataToolStripMenuItem, Me.RefreshListItemsInformationToolStripMenuItem})
-        Me.menuRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.menuRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.menuRefreshData.Name = "menuRefreshData"
         Me.menuRefreshData.Size = New System.Drawing.Size(121, 30)
         Me.menuRefreshData.Text = "Refresh Data"
@@ -693,7 +693,7 @@ Partial Class UCCategories
         '
         'menuAdjustStock
         '
-        Me.menuAdjustStock.Image = Global.TakeoHospitalInventory.My.Resources.Resources.app_48
+        Me.menuAdjustStock.Image = Global.KTGSYS.My.Resources.Resources.app_48
         Me.menuAdjustStock.Name = "menuAdjustStock"
         Me.menuAdjustStock.Size = New System.Drawing.Size(121, 30)
         Me.menuAdjustStock.Text = "Adjust Stock"
@@ -702,7 +702,7 @@ Partial Class UCCategories
         '
         Me.ToolStripMenuItem2.AutoSize = False
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.menuPrintAllItems, Me.ToolStripMenuItem4, Me.PrintItemsInCategory, Me.ToolStripMenuItem5, Me.PrintItemAlertQty, Me.ToolStripMenuItem6, Me.PrintItemAlertExpired})
-        Me.ToolStripMenuItem2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.ToolStripMenuItem2.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
         Me.ToolStripMenuItem2.Size = New System.Drawing.Size(70, 30)
         Me.ToolStripMenuItem2.Text = "Print"
@@ -748,7 +748,7 @@ Partial Class UCCategories
         '
         'BtnViewItemDetial
         '
-        Me.BtnViewItemDetial.Image = Global.TakeoHospitalInventory.My.Resources.Resources.arrow_down_green_48
+        Me.BtnViewItemDetial.Image = Global.KTGSYS.My.Resources.Resources.arrow_down_green_48
         Me.BtnViewItemDetial.Name = "BtnViewItemDetial"
         Me.BtnViewItemDetial.Size = New System.Drawing.Size(142, 30)
         Me.BtnViewItemDetial.Text = "View Item Detail"

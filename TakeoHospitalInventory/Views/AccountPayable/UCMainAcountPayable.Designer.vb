@@ -144,7 +144,7 @@ Partial Class UCMainAcountPayable
         '
         'BtnNewPayAble
         '
-        Me.BtnNewPayAble.Image = Global.TakeoHospitalInventory.My.Resources.Resources.CashReceipt
+        Me.BtnNewPayAble.Image = Global.KTGSYS.My.Resources.Resources.CashReceipt
         Me.BtnNewPayAble.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewPayAble.Name = "BtnNewPayAble"
         Me.BtnNewPayAble.Size = New System.Drawing.Size(93, 24)
@@ -157,7 +157,7 @@ Partial Class UCMainAcountPayable
         '
         'BtnMainAccountPayable
         '
-        Me.BtnMainAccountPayable.Image = Global.TakeoHospitalInventory.My.Resources.Resources.configuration_edit
+        Me.BtnMainAccountPayable.Image = Global.KTGSYS.My.Resources.Resources.configuration_edit
         Me.BtnMainAccountPayable.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnMainAccountPayable.Name = "BtnMainAccountPayable"
         Me.BtnMainAccountPayable.Size = New System.Drawing.Size(141, 24)

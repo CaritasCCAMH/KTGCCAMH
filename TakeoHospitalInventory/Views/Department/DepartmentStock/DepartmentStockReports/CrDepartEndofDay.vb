@@ -45,7 +45,7 @@ Public Class CrDepartEndofDay
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrDepartEndofDay.rpt"
+            Return "KTGSYS.CrDepartEndofDay.rpt"
         End Get
         Set
             'Do nothing

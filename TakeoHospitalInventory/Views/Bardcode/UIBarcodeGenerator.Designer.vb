@@ -51,7 +51,7 @@ Partial Class UIBarcodeGenerator
         'BtnNewBarcode
         '
         Me.BtnNewBarcode.AutoSize = False
-        Me.BtnNewBarcode.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Barcode
+        Me.BtnNewBarcode.Image = Global.KTGSYS.My.Resources.Resources.Barcode
         Me.BtnNewBarcode.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewBarcode.Name = "BtnNewBarcode"
         Me.BtnNewBarcode.Size = New System.Drawing.Size(120, 40)
@@ -64,7 +64,7 @@ Partial Class UIBarcodeGenerator
         '
         'BtnPrintPreviewBarcode
         '
-        Me.BtnPrintPreviewBarcode.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnPrintPreviewBarcode.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnPrintPreviewBarcode.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnPrintPreviewBarcode.Name = "BtnPrintPreviewBarcode"
         Me.BtnPrintPreviewBarcode.Size = New System.Drawing.Size(148, 31)
@@ -77,7 +77,7 @@ Partial Class UIBarcodeGenerator
         '
         'BtnRefreshData
         '
-        Me.BtnRefreshData.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefreshData.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefreshData.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefreshData.Name = "BtnRefreshData"
         Me.BtnRefreshData.Size = New System.Drawing.Size(107, 31)

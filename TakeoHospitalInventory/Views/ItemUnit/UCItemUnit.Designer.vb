@@ -47,7 +47,7 @@ Partial Class UCItemUnit
         'BtnNew
         '
         resources.ApplyResources(Me.BtnNew, "BtnNew")
-        Me.BtnNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNew.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNew.Name = "BtnNew"
         '
         'ToolStripSeparator1
@@ -58,7 +58,7 @@ Partial Class UCItemUnit
         'btnEdit
         '
         resources.ApplyResources(Me.btnEdit, "btnEdit")
-        Me.btnEdit.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit
+        Me.btnEdit.Image = Global.KTGSYS.My.Resources.Resources.edit
         Me.btnEdit.Name = "btnEdit"
         '
         'ToolStripSeparator2
@@ -69,7 +69,7 @@ Partial Class UCItemUnit
         'btnDelete
         '
         resources.ApplyResources(Me.btnDelete, "btnDelete")
-        Me.btnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit_trash
+        Me.btnDelete.Image = Global.KTGSYS.My.Resources.Resources.edit_trash
         Me.btnDelete.Name = "btnDelete"
         '
         'ToolStripSeparator3
@@ -80,7 +80,7 @@ Partial Class UCItemUnit
         'BtnRefresh
         '
         resources.ApplyResources(Me.BtnRefresh, "BtnRefresh")
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.BtnRefresh.Name = "BtnRefresh"
         '
         'gridItemUnit

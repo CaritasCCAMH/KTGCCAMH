@@ -305,7 +305,7 @@ Partial Class frmAddCaritasRequestOrder
         '
         'btnAddItemReDetail
         '
-        Me.btnAddItemReDetail.Image = Global.TakeoHospitalInventory.My.Resources.Resources._new
+        Me.btnAddItemReDetail.Image = Global.KTGSYS.My.Resources.Resources._new
         Me.btnAddItemReDetail.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnAddItemReDetail.Name = "btnAddItemReDetail"
         Me.btnAddItemReDetail.Size = New System.Drawing.Size(149, 22)
@@ -318,7 +318,7 @@ Partial Class frmAddCaritasRequestOrder
         '
         'btnRemoveItem
         '
-        Me.btnRemoveItem.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.btnRemoveItem.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.btnRemoveItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnRemoveItem.Name = "btnRemoveItem"
         Me.btnRemoveItem.Size = New System.Drawing.Size(208, 22)
@@ -330,7 +330,7 @@ Partial Class frmAddCaritasRequestOrder
         Me.btnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.btnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.btnCancel.Location = New System.Drawing.Point(941, 682)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(85, 33)
@@ -345,7 +345,7 @@ Partial Class frmAddCaritasRequestOrder
         Me.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnSave.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.btnSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.btnSave.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.btnSave.Location = New System.Drawing.Point(850, 682)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(85, 33)

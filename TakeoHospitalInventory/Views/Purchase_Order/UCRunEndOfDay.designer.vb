@@ -354,7 +354,7 @@ Partial Class UCRunEndOfDay
         '
         'BtnProcessEndOfDay
         '
-        Me.BtnProcessEndOfDay.Image = Global.TakeoHospitalInventory.My.Resources.Resources.process
+        Me.BtnProcessEndOfDay.Image = Global.KTGSYS.My.Resources.Resources.process
         Me.BtnProcessEndOfDay.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnProcessEndOfDay.Name = "BtnProcessEndOfDay"
         Me.BtnProcessEndOfDay.Size = New System.Drawing.Size(145, 36)

@@ -45,7 +45,7 @@ Public Class CryMonlyUsedItem
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CryMonlyUsedItem.rpt"
+            Return "KTGSYS.CryMonlyUsedItem.rpt"
         End Get
         Set
             'Do nothing

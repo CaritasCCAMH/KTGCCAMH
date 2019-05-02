@@ -70,7 +70,7 @@ Partial Class UIShowAllItemBalanceInDeppartment
         '
         'BtnViewItemBalance
         '
-        Me.BtnViewItemBalance.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnViewItemBalance.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnViewItemBalance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnViewItemBalance.Location = New System.Drawing.Point(221, 16)
         Me.BtnViewItemBalance.Name = "BtnViewItemBalance"
@@ -82,7 +82,7 @@ Partial Class UIShowAllItemBalanceInDeppartment
         'btnDepartCurrentStock
         '
         Me.btnDepartCurrentStock.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnDepartCurrentStock.Image = Global.TakeoHospitalInventory.My.Resources.Resources.view_refresh
+        Me.btnDepartCurrentStock.Image = Global.KTGSYS.My.Resources.Resources.view_refresh
         Me.btnDepartCurrentStock.ImageSize = New System.Drawing.Size(35, 35)
         Me.btnDepartCurrentStock.Location = New System.Drawing.Point(4, 16)
         Me.btnDepartCurrentStock.Margin = New System.Windows.Forms.Padding(2)

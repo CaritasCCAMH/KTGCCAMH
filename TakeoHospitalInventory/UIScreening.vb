@@ -287,11 +287,11 @@
     Public Sub SetVisibleEnvisibleMenu()
         If MenuVertical.Width = 0 Then
             MenuVertical.Width = 242
-            Me.BtnNavigationBar.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Switch_On_40px1
+            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
             'BtnNavigationBar .Image =
         Else
             MenuVertical.Width = 0
-            Me.BtnNavigationBar.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Switch_Off_40px
+            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_Off_40px
         End If
     End Sub
 
@@ -439,11 +439,11 @@
     End Sub
 
 
-    Private Sub BtnPatientRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPatientRegistration.Click
+    Private Sub BtnPatientRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, PatientPayment, "", True)
     End Sub
 
-    Private Sub BtnNewPatientBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnNewPatientBook.Click
+    Private Sub BtnNewPatientBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, NewOldPatientBook, "", True)
     End Sub
 
@@ -510,5 +510,9 @@
     Private Sub BtnAdjustock_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnAdjustock.Click
         'GeneralAddControl(uiPanelMainContainer, UDashboardAdjustStock, "Department items adjust stock.")
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UDashboardAdjustStock, "", True)
+    End Sub
+
+    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
+
     End Sub
 End Class

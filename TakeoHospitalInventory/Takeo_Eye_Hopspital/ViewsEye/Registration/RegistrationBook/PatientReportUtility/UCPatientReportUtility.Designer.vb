@@ -65,40 +65,40 @@ Partial Class UCPatientReportUtility
         Me.BgDisability = New System.ComponentModel.BackgroundWorker
         Me.BgOccupation = New System.ComponentModel.BackgroundWorker
         Me.BgReferto = New System.ComponentModel.BackgroundWorker
-        Me.DSDashboardPatient = New TakeoHospitalInventory.DSDashboardPatient
-        Me.TblFollowUpWithReferalTableAdapter = New TakeoHospitalInventory.DSDashboardPatientTableAdapters.TblFollowUpWithReferalTableAdapter
+        Me.DSDashboardPatient = New KTGSYS.DSDashboardPatient
+        Me.TblFollowUpWithReferalTableAdapter = New KTGSYS.DSDashboardPatientTableAdapters.TblFollowUpWithReferalTableAdapter
         Me.CRVPatientUtility = New CrystalDecisions.Windows.Forms.CrystalReportViewer
         Me.PicLoadReport = New System.Windows.Forms.PictureBox
         Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.DataReportUtility = New TakeoHospitalInventory.DataReportUtility
-        Me.DataTableDisabilityTableAdapter = New TakeoHospitalInventory.DataReportUtilityTableAdapters.DataTableDisabilityTableAdapter
-        Me.TblPatientsOccupationTableAdapter = New TakeoHospitalInventory.DataReportUtilityTableAdapters.TblPatientsOccupationTableAdapter
-        Me.V_PatientReferTableAdapter = New TakeoHospitalInventory.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
+        Me.DataReportUtility = New KTGSYS.DataReportUtility
+        Me.DataTableDisabilityTableAdapter = New KTGSYS.DataReportUtilityTableAdapters.DataTableDisabilityTableAdapter
+        Me.TblPatientsOccupationTableAdapter = New KTGSYS.DataReportUtilityTableAdapters.TblPatientsOccupationTableAdapter
+        Me.V_PatientReferTableAdapter = New KTGSYS.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
         Me.BgDisDetial = New System.ComponentModel.BackgroundWorker
-        Me.DsReferal = New TakeoHospitalInventory.DsReferal
-        Me.ReferalByKVTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByKVTableAdapter
-        Me.ReferalByTakeoTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByTakeoTableAdapter
-        Me.ReferalBySelfTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalBySelfTableAdapter
-        Me.ReferalByPatientTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPatientTableAdapter
-        Me.ReferalByFriendTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByFriendTableAdapter
-        Me.ReferalByCDMDTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByCDMDTableAdapter
-        Me.ReferalByChurchTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByChurchTableAdapter
-        Me.ReferalByNGOTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByNGOTableAdapter
-        Me.ReferalByWorkerTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReeferalByWorkerTableAdapter
-        Me.ReferalByOtherTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByOtherTableAdapter
-        Me.ReferalCDMDTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalCDMDTableAdapter
-        Me.DisabilityHearingTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.DisabilityHearingTableAdapter
-        Me.DisabilityUnderstandTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.DisabilityUnderstandTableAdapter
-        Me.DisabilitySeeingTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.DisabilitySeeingTableAdapter
-        Me.DisabilityPhysicalTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.DisabilityPhysicalTableAdapter
-        Me.ReferalByPreyKabasVCTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPreyKabasVCTableAdapter
-        Me.ReferalByPreyKabascreeningTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPreyKabascreeningTableAdapter
-        Me.ReferalBySchoolTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalBySchoolTableAdapter
-        Me.ReferalByMoPoChoTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.ReferalByMoPoChoTableAdapter
+        Me.DsReferal = New KTGSYS.DsReferal
+        Me.ReferalByKVTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByKVTableAdapter
+        Me.ReferalByTakeoTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByTakeoTableAdapter
+        Me.ReferalBySelfTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalBySelfTableAdapter
+        Me.ReferalByPatientTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByPatientTableAdapter
+        Me.ReferalByFriendTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByFriendTableAdapter
+        Me.ReferalByCDMDTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByCDMDTableAdapter
+        Me.ReferalByChurchTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByChurchTableAdapter
+        Me.ReferalByNGOTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByNGOTableAdapter
+        Me.ReferalByWorkerTableAdapter = New KTGSYS.DsReferalTableAdapters.ReeferalByWorkerTableAdapter
+        Me.ReferalByOtherTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByOtherTableAdapter
+        Me.ReferalCDMDTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalCDMDTableAdapter
+        Me.DisabilityHearingTableAdapter = New KTGSYS.DsReferalTableAdapters.DisabilityHearingTableAdapter
+        Me.DisabilityUnderstandTableAdapter = New KTGSYS.DsReferalTableAdapters.DisabilityUnderstandTableAdapter
+        Me.DisabilitySeeingTableAdapter = New KTGSYS.DsReferalTableAdapters.DisabilitySeeingTableAdapter
+        Me.DisabilityPhysicalTableAdapter = New KTGSYS.DsReferalTableAdapters.DisabilityPhysicalTableAdapter
+        Me.ReferalByPreyKabasVCTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByPreyKabasVCTableAdapter
+        Me.ReferalByPreyKabascreeningTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByPreyKabascreeningTableAdapter
+        Me.ReferalBySchoolTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalBySchoolTableAdapter
+        Me.ReferalByMoPoChoTableAdapter = New KTGSYS.DsReferalTableAdapters.ReferalByMoPoChoTableAdapter
         Me.TblCombindRefferalBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.TblCombindRefferalTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.TblCombindRefferalTableAdapter
+        Me.TblCombindRefferalTableAdapter = New KTGSYS.DsReferalTableAdapters.TblCombindRefferalTableAdapter
         Me.V_ReferalBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.V_ReferalTableAdapter = New TakeoHospitalInventory.DsReferalTableAdapters.V_ReferalTableAdapter
+        Me.V_ReferalTableAdapter = New KTGSYS.DsReferalTableAdapters.V_ReferalTableAdapter
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
@@ -599,7 +599,7 @@ Partial Class UCPatientReportUtility
         '
         'PicLoadReport
         '
-        Me.PicLoadReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PicLoadReport.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PicLoadReport.Location = New System.Drawing.Point(454, 319)
         Me.PicLoadReport.Name = "PicLoadReport"
         Me.PicLoadReport.Size = New System.Drawing.Size(200, 22)
@@ -778,8 +778,8 @@ Partial Class UCPatientReportUtility
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents BtnPreview As System.Windows.Forms.Button
     Friend WithEvents BgLoadReportReferal As System.ComponentModel.BackgroundWorker
-    Friend WithEvents DSDashboardPatient As TakeoHospitalInventory.DSDashboardPatient
-    Friend WithEvents TblFollowUpWithReferalTableAdapter As TakeoHospitalInventory.DSDashboardPatientTableAdapters.TblFollowUpWithReferalTableAdapter
+    Friend WithEvents DSDashboardPatient As KTGSYS.DSDashboardPatient
+    Friend WithEvents TblFollowUpWithReferalTableAdapter As KTGSYS.DSDashboardPatientTableAdapters.TblFollowUpWithReferalTableAdapter
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox5 As System.Windows.Forms.GroupBox
@@ -795,48 +795,48 @@ Partial Class UCPatientReportUtility
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents BgDisability As System.ComponentModel.BackgroundWorker
     Friend WithEvents BgOccupation As System.ComponentModel.BackgroundWorker
-    Friend WithEvents DataReportUtility As TakeoHospitalInventory.DataReportUtility
-    Friend WithEvents DataTableDisabilityTableAdapter As TakeoHospitalInventory.DataReportUtilityTableAdapters.DataTableDisabilityTableAdapter
-    Friend WithEvents TblPatientsOccupationTableAdapter As TakeoHospitalInventory.DataReportUtilityTableAdapters.TblPatientsOccupationTableAdapter
+    Friend WithEvents DataReportUtility As KTGSYS.DataReportUtility
+    Friend WithEvents DataTableDisabilityTableAdapter As KTGSYS.DataReportUtilityTableAdapters.DataTableDisabilityTableAdapter
+    Friend WithEvents TblPatientsOccupationTableAdapter As KTGSYS.DataReportUtilityTableAdapters.TblPatientsOccupationTableAdapter
     Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
     Friend WithEvents BtnPrintRefer As System.Windows.Forms.Button
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents DateReferTo As System.Windows.Forms.DateTimePicker
     Friend WithEvents DateReferFrom As System.Windows.Forms.DateTimePicker
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents V_PatientReferTableAdapter As TakeoHospitalInventory.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
+    Friend WithEvents V_PatientReferTableAdapter As KTGSYS.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
     Friend WithEvents BgReferto As System.ComponentModel.BackgroundWorker
     Friend WithEvents RadReferalByAge As System.Windows.Forms.RadioButton
     Friend WithEvents RadReferalDaily As System.Windows.Forms.RadioButton
     Friend WithEvents rdDisByAge As System.Windows.Forms.RadioButton
     Friend WithEvents rdDisByDaily As System.Windows.Forms.RadioButton
-    Friend WithEvents DsReferal As TakeoHospitalInventory.DsReferal
-    Friend WithEvents ReferalByKVTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByKVTableAdapter
-    Friend WithEvents ReferalByTakeoTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByTakeoTableAdapter
-    Friend WithEvents ReferalBySelfTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalBySelfTableAdapter
-    Friend WithEvents ReferalByPatientTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPatientTableAdapter
-    Friend WithEvents ReferalByFriendTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByFriendTableAdapter
-    Friend WithEvents ReferalByCDMDTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByCDMDTableAdapter
-    Friend WithEvents ReferalByChurchTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByChurchTableAdapter
-    Friend WithEvents ReferalByNGOTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByNGOTableAdapter
-    Friend WithEvents ReferalByWorkerTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReeferalByWorkerTableAdapter
-    Friend WithEvents ReferalByOtherTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByOtherTableAdapter
-    Friend WithEvents ReferalCDMDTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalCDMDTableAdapter
-    Friend WithEvents DisabilityHearingTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.DisabilityHearingTableAdapter
-    Friend WithEvents DisabilityUnderstandTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.DisabilityUnderstandTableAdapter
-    Friend WithEvents DisabilitySeeingTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.DisabilitySeeingTableAdapter
-    Friend WithEvents DisabilityPhysicalTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.DisabilityPhysicalTableAdapter
-    Friend WithEvents ReferalByPreyKabasVCTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPreyKabasVCTableAdapter
+    Friend WithEvents DsReferal As KTGSYS.DsReferal
+    Friend WithEvents ReferalByKVTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByKVTableAdapter
+    Friend WithEvents ReferalByTakeoTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByTakeoTableAdapter
+    Friend WithEvents ReferalBySelfTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalBySelfTableAdapter
+    Friend WithEvents ReferalByPatientTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByPatientTableAdapter
+    Friend WithEvents ReferalByFriendTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByFriendTableAdapter
+    Friend WithEvents ReferalByCDMDTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByCDMDTableAdapter
+    Friend WithEvents ReferalByChurchTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByChurchTableAdapter
+    Friend WithEvents ReferalByNGOTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByNGOTableAdapter
+    Friend WithEvents ReferalByWorkerTableAdapter As KTGSYS.DsReferalTableAdapters.ReeferalByWorkerTableAdapter
+    Friend WithEvents ReferalByOtherTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByOtherTableAdapter
+    Friend WithEvents ReferalCDMDTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalCDMDTableAdapter
+    Friend WithEvents DisabilityHearingTableAdapter As KTGSYS.DsReferalTableAdapters.DisabilityHearingTableAdapter
+    Friend WithEvents DisabilityUnderstandTableAdapter As KTGSYS.DsReferalTableAdapters.DisabilityUnderstandTableAdapter
+    Friend WithEvents DisabilitySeeingTableAdapter As KTGSYS.DsReferalTableAdapters.DisabilitySeeingTableAdapter
+    Friend WithEvents DisabilityPhysicalTableAdapter As KTGSYS.DsReferalTableAdapters.DisabilityPhysicalTableAdapter
+    Friend WithEvents ReferalByPreyKabasVCTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByPreyKabasVCTableAdapter
     Friend WithEvents CRVPatientUtility As CrystalDecisions.Windows.Forms.CrystalReportViewer
     Friend WithEvents PicLoadReport As System.Windows.Forms.PictureBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents ReferalByPreyKabascreeningTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByPreyKabascreeningTableAdapter
-    Friend WithEvents ReferalBySchoolTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalBySchoolTableAdapter
-    Friend WithEvents ReferalByMoPoChoTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.ReferalByMoPoChoTableAdapter
+    Friend WithEvents ReferalByPreyKabascreeningTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByPreyKabascreeningTableAdapter
+    Friend WithEvents ReferalBySchoolTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalBySchoolTableAdapter
+    Friend WithEvents ReferalByMoPoChoTableAdapter As KTGSYS.DsReferalTableAdapters.ReferalByMoPoChoTableAdapter
     Friend WithEvents TblCombindRefferalBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents TblCombindRefferalTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.TblCombindRefferalTableAdapter
+    Friend WithEvents TblCombindRefferalTableAdapter As KTGSYS.DsReferalTableAdapters.TblCombindRefferalTableAdapter
     Friend WithEvents V_ReferalBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents V_ReferalTableAdapter As TakeoHospitalInventory.DsReferalTableAdapters.V_ReferalTableAdapter
+    Friend WithEvents V_ReferalTableAdapter As KTGSYS.DsReferalTableAdapters.V_ReferalTableAdapter
     Friend WithEvents RadByDate As System.Windows.Forms.RadioButton
     Friend WithEvents GroupBox7 As System.Windows.Forms.GroupBox
     Friend WithEvents BtnPrintDisDetail As System.Windows.Forms.Button

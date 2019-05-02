@@ -45,7 +45,7 @@ Public Class CryFixAsset
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CryFixAsset.rpt"
+            Return "KTGSYS.CryFixAsset.rpt"
         End Get
         Set
             'Do nothing

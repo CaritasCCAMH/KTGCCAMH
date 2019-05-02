@@ -21,8 +21,8 @@ Partial Class ReportForm
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ReportForm))
         Me.ReportviewerForm = New CrystalDecisions.Windows.Forms.CrystalReportViewer
-        Me.DSPatientForm = New TakeoHospitalInventory.DSPatientForm
-        Me.TblPatientReferalTableAdapter = New TakeoHospitalInventory.DSPatientFormTableAdapters.TblPatientReferalTableAdapter
+        Me.DSPatientForm = New KTGSYS.DSPatientForm
+        Me.TblPatientReferalTableAdapter = New KTGSYS.DSPatientFormTableAdapters.TblPatientReferalTableAdapter
         CType(Me.DSPatientForm, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -64,6 +64,6 @@ Partial Class ReportForm
 
     End Sub
     Friend WithEvents ReportviewerForm As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents DSPatientForm As TakeoHospitalInventory.DSPatientForm
-    Friend WithEvents TblPatientReferalTableAdapter As TakeoHospitalInventory.DSPatientFormTableAdapters.TblPatientReferalTableAdapter
+    Friend WithEvents DSPatientForm As KTGSYS.DSPatientForm
+    Friend WithEvents TblPatientReferalTableAdapter As KTGSYS.DSPatientFormTableAdapters.TblPatientReferalTableAdapter
 End Class

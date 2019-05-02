@@ -73,7 +73,7 @@ Partial Class frmHosItemBalance
         '
         'BtnViewReport
         '
-        Me.BtnViewReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.document_print
+        Me.BtnViewReport.Image = Global.KTGSYS.My.Resources.Resources.document_print
         Me.BtnViewReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnViewReport.Location = New System.Drawing.Point(421, 86)
         Me.BtnViewReport.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
@@ -185,7 +185,7 @@ Partial Class frmHosItemBalance
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar1
+        Me.PictureBox3.Image = Global.KTGSYS.My.Resources.Resources.loading_bar1
         Me.PictureBox3.Location = New System.Drawing.Point(50, 2)
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"

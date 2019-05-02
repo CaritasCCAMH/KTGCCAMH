@@ -164,7 +164,7 @@ Partial Class MainConsuling
         '
         Me.BtnNewConsulting.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.BtnNewConsulting.ForeColor = System.Drawing.Color.Blue
-        Me.BtnNewConsulting.Image = Global.TakeoHospitalInventory.My.Resources.Resources.blue_new
+        Me.BtnNewConsulting.Image = Global.KTGSYS.My.Resources.Resources.blue_new
         Me.BtnNewConsulting.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewConsulting.Name = "BtnNewConsulting"
         Me.BtnNewConsulting.Size = New System.Drawing.Size(156, 29)
@@ -179,7 +179,7 @@ Partial Class MainConsuling
         '
         Me.BtnConsultReport.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.BtnConsultReport.ForeColor = System.Drawing.Color.Blue
-        Me.BtnConsultReport.Image = Global.TakeoHospitalInventory.My.Resources.Resources.sales_report
+        Me.BtnConsultReport.Image = Global.KTGSYS.My.Resources.Resources.sales_report
         Me.BtnConsultReport.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnConsultReport.Name = "BtnConsultReport"
         Me.BtnConsultReport.Size = New System.Drawing.Size(172, 29)
@@ -194,7 +194,7 @@ Partial Class MainConsuling
         '
         Me.BtnConsultForm.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.BtnConsultForm.ForeColor = System.Drawing.Color.Blue
-        Me.BtnConsultForm.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Open
+        Me.BtnConsultForm.Image = Global.KTGSYS.My.Resources.Resources.Open
         Me.BtnConsultForm.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnConsultForm.Name = "BtnConsultForm"
         Me.BtnConsultForm.Size = New System.Drawing.Size(162, 29)
@@ -209,7 +209,7 @@ Partial Class MainConsuling
         '
         Me.BtnStatistic.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.BtnStatistic.ForeColor = System.Drawing.Color.Blue
-        Me.BtnStatistic.Image = Global.TakeoHospitalInventory.My.Resources.Resources.instock
+        Me.BtnStatistic.Image = Global.KTGSYS.My.Resources.Resources.instock
         Me.BtnStatistic.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnStatistic.Name = "BtnStatistic"
         Me.BtnStatistic.Size = New System.Drawing.Size(178, 29)
@@ -667,7 +667,7 @@ Partial Class MainConsuling
         'BtnNewRefund
         '
         Me.BtnNewRefund.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.BtnNewRefund.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1410160314_PLayer_back
+        Me.BtnNewRefund.Image = Global.KTGSYS.My.Resources.Resources._1410160314_PLayer_back
         Me.BtnNewRefund.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewRefund.Name = "BtnNewRefund"
         Me.BtnNewRefund.Size = New System.Drawing.Size(100, 51)
@@ -682,7 +682,7 @@ Partial Class MainConsuling
         'btnReportRefund
         '
         Me.btnReportRefund.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.btnReportRefund.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.btnReportRefund.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.btnReportRefund.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnReportRefund.Name = "btnReportRefund"
         Me.btnReportRefund.Size = New System.Drawing.Size(115, 51)
@@ -960,7 +960,7 @@ Partial Class MainConsuling
         '
         'BtnNewAppoint
         '
-        Me.BtnNewAppoint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Open
+        Me.BtnNewAppoint.Image = Global.KTGSYS.My.Resources.Resources.Open
         Me.BtnNewAppoint.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewAppoint.Name = "BtnNewAppoint"
         Me.BtnNewAppoint.Size = New System.Drawing.Size(139, 34)
@@ -973,7 +973,7 @@ Partial Class MainConsuling
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit1
+        Me.ToolStripButton2.Image = Global.KTGSYS.My.Resources.Resources.edit1
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(123, 34)
@@ -986,7 +986,7 @@ Partial Class MainConsuling
         '
         'BtnReportApp
         '
-        Me.BtnReportApp.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.BtnReportApp.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.BtnReportApp.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnReportApp.Name = "BtnReportApp"
         Me.BtnReportApp.Size = New System.Drawing.Size(150, 34)

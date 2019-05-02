@@ -368,7 +368,7 @@ Partial Class UCReportItemTransaction
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox2.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox2.Location = New System.Drawing.Point(88, 0)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
@@ -379,7 +379,7 @@ Partial Class UCReportItemTransaction
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadingNew3
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.loadingNew3
         Me.PictureBox1.Location = New System.Drawing.Point(88, 0)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"

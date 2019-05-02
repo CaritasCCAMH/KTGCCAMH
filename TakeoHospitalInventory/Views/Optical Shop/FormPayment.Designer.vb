@@ -916,7 +916,7 @@ Partial Class FormPayment
         'BtnSavePayingReceip
         '
         Me.BtnSavePayingReceip.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnSavePayingReceip.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1323157036_check
+        Me.BtnSavePayingReceip.Image = Global.KTGSYS.My.Resources.Resources._1323157036_check
         Me.BtnSavePayingReceip.Location = New System.Drawing.Point(637, 600)
         Me.BtnSavePayingReceip.Name = "BtnSavePayingReceip"
         Me.BtnSavePayingReceip.Size = New System.Drawing.Size(151, 49)
@@ -928,7 +928,7 @@ Partial Class FormPayment
         'BtnCancel
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(794, 600)
         Me.BtnCancel.Name = "BtnCancel"
         Me.BtnCancel.Size = New System.Drawing.Size(122, 49)

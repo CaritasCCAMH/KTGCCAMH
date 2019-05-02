@@ -45,7 +45,7 @@ Public Class CryMoPoTsyo
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CryMoPoTsyo.rpt"
+            Return "KTGSYS.CryMoPoTsyo.rpt"
         End Get
         Set
             'Do nothing

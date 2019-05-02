@@ -45,7 +45,7 @@ Public Class CrySubReceipt
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrySubReceipt.rpt"
+            Return "KTGSYS.CrySubReceipt.rpt"
         End Get
         Set
             'Do nothing

@@ -45,7 +45,7 @@ Public Class CRMedicalForm
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRMedicalForm.rpt"
+            Return "KTGSYS.CRMedicalForm.rpt"
         End Get
         Set
             'Do nothing

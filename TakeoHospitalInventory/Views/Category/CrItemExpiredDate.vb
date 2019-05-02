@@ -45,7 +45,7 @@ Public Class CrItemExpiredDate
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrItemExpiredDate.rpt"
+            Return "KTGSYS.CrItemExpiredDate.rpt"
         End Get
         Set
             'Do nothing

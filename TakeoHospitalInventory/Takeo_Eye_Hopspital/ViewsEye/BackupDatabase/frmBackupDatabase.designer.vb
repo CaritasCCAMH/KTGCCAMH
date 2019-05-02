@@ -69,7 +69,7 @@ Partial Class frmBackupDatabase
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.database
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.database
         Me.PictureBox1.Location = New System.Drawing.Point(22, 16)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(37, 36)
@@ -190,7 +190,7 @@ Partial Class frmBackupDatabase
         '
         'cmdClear
         '
-        Me.cmdClear.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.cmdClear.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.cmdClear.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdClear.Location = New System.Drawing.Point(88, 13)
         Me.cmdClear.Name = "cmdClear"
@@ -202,7 +202,7 @@ Partial Class frmBackupDatabase
         '
         'cmdClose
         '
-        Me.cmdClose.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Close1
+        Me.cmdClose.Image = Global.KTGSYS.My.Resources.Resources.Close1
         Me.cmdClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdClose.Location = New System.Drawing.Point(317, 13)
         Me.cmdClose.Name = "cmdClose"
@@ -213,7 +213,7 @@ Partial Class frmBackupDatabase
         '
         'cmdSave
         '
-        Me.cmdSave.Image = Global.TakeoHospitalInventory.My.Resources.Resources.db_add
+        Me.cmdSave.Image = Global.KTGSYS.My.Resources.Resources.db_add
         Me.cmdSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdSave.Location = New System.Drawing.Point(182, 13)
         Me.cmdSave.Name = "cmdSave"

@@ -46,7 +46,7 @@ Partial Class DRMedical
         '
         'BtnDr
         '
-        Me.BtnDr.Image = Global.TakeoHospitalInventory.My.Resources.Resources.dokter
+        Me.BtnDr.Image = Global.KTGSYS.My.Resources.Resources.dokter
         Me.BtnDr.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDr.Name = "BtnDr"
         Me.BtnDr.Size = New System.Drawing.Size(83, 22)
@@ -59,7 +59,7 @@ Partial Class DRMedical
         '
         'BtnDelete
         '
-        Me.BtnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Remove
+        Me.BtnDelete.Image = Global.KTGSYS.My.Resources.Resources.Remove
         Me.BtnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDelete.Name = "BtnDelete"
         Me.BtnDelete.Size = New System.Drawing.Size(58, 22)
@@ -72,7 +72,7 @@ Partial Class DRMedical
         '
         'BtnRefresh
         '
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(65, 22)

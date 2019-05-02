@@ -138,7 +138,7 @@ Partial Class FormForInpatientReceiptFront
         '
         Me.cmdAddRate.Enabled = False
         Me.cmdAddRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdAddRate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.cmdAddRate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.cmdAddRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.cmdAddRate.Location = New System.Drawing.Point(162, 35)
         Me.cmdAddRate.Name = "cmdAddRate"
@@ -769,7 +769,7 @@ Partial Class FormForInpatientReceiptFront
         '
         'PicLoading
         '
-        Me.PicLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadgraphic
+        Me.PicLoading.Image = Global.KTGSYS.My.Resources.Resources.loadgraphic
         Me.PicLoading.Location = New System.Drawing.Point(5, 210)
         Me.PicLoading.Margin = New System.Windows.Forms.Padding(2)
         Me.PicLoading.Name = "PicLoading"

@@ -45,7 +45,7 @@ Public Class Received_Order
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.Received_Order.rpt"
+            Return "KTGSYS.Received_Order.rpt"
         End Get
         Set
             'Do nothing

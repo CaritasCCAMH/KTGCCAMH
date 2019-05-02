@@ -45,7 +45,7 @@ Public Class ReportCashCountDaily
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ReportCashCountDaily.rpt"
+            Return "KTGSYS.ReportCashCountDaily.rpt"
         End Get
         Set
             'Do nothing

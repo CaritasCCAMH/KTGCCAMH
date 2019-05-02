@@ -45,7 +45,7 @@ Public Class CrvDisabilityDetail
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrvDisabilityDetail.rpt"
+            Return "KTGSYS.CrvDisabilityDetail.rpt"
         End Get
         Set
             'Do nothing

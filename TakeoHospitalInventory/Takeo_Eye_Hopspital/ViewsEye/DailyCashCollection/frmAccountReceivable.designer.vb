@@ -215,7 +215,7 @@ Partial Class frmAccountReceivable
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Warning
+        Me.PictureBox1.Image = Global.KTGSYS.My.Resources.Resources.Warning
         Me.PictureBox1.Location = New System.Drawing.Point(132, 195)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(24, 24)

@@ -47,7 +47,7 @@ Partial Class ClientList
         '
         'BtnRefresh
         '
-        Me.BtnRefresh.Image = Global.TakeoHospitalInventory.My.Resources.Resources.refresh
+        Me.BtnRefresh.Image = Global.KTGSYS.My.Resources.Resources.refresh
         Me.BtnRefresh.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnRefresh.Name = "BtnRefresh"
         Me.BtnRefresh.Size = New System.Drawing.Size(74, 29)
@@ -60,7 +60,7 @@ Partial Class ClientList
         '
         'btnNewClient
         '
-        Me.btnNewClient.Image = Global.TakeoHospitalInventory.My.Resources.Resources.new_vendor
+        Me.btnNewClient.Image = Global.KTGSYS.My.Resources.Resources.new_vendor
         Me.btnNewClient.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnNewClient.Name = "btnNewClient"
         Me.btnNewClient.Size = New System.Drawing.Size(87, 29)
@@ -73,7 +73,7 @@ Partial Class ClientList
         '
         'BtnDelete
         '
-        Me.BtnDelete.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Remove
+        Me.BtnDelete.Image = Global.KTGSYS.My.Resources.Resources.Remove
         Me.BtnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnDelete.Name = "BtnDelete"
         Me.BtnDelete.Size = New System.Drawing.Size(70, 29)

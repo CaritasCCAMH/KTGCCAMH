@@ -45,7 +45,7 @@ Public Class CRDonatorSupport
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CRDonatorSupport.rpt"
+            Return "KTGSYS.CRDonatorSupport.rpt"
         End Get
         Set
             'Do nothing

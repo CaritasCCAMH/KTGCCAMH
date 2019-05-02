@@ -45,7 +45,7 @@ Public Class PrescriptionPharmacyByAll_Datev12
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.PrescriptionPharmacyByAll_Datev12.rpt"
+            Return "KTGSYS.PrescriptionPharmacyByAll_Datev12.rpt"
         End Get
         Set
             'Do nothing

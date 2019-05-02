@@ -45,7 +45,7 @@ Public Class CrCategoryItemMonthlyTransactionReportV1
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrCategoryItemMonthlyTransactionReportV1.rpt"
+            Return "KTGSYS.CrCategoryItemMonthlyTransactionReportV1.rpt"
         End Get
         Set
             'Do nothing

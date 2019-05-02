@@ -158,7 +158,7 @@ Partial Class frmOldOutPatientReceipt
         '
         Me.cmdAddRate.Enabled = False
         Me.cmdAddRate.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdAddRate.Image = Global.TakeoHospitalInventory.My.Resources.Resources.plus_circle
+        Me.cmdAddRate.Image = Global.KTGSYS.My.Resources.Resources.plus_circle
         Me.cmdAddRate.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.cmdAddRate.Location = New System.Drawing.Point(337, 141)
         Me.cmdAddRate.Name = "cmdAddRate"
@@ -559,7 +559,7 @@ Partial Class frmOldOutPatientReceipt
         '
         Me.cmdNew.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdNew.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdNew.Image = Global.TakeoHospitalInventory.My.Resources.Resources.report
+        Me.cmdNew.Image = Global.KTGSYS.My.Resources.Resources.report
         Me.cmdNew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdNew.Location = New System.Drawing.Point(113, 18)
         Me.cmdNew.Name = "cmdNew"
@@ -646,7 +646,7 @@ Partial Class frmOldOutPatientReceipt
         'cmdSearchReceipt
         '
         Me.cmdSearchReceipt.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdSearchReceipt.Image = Global.TakeoHospitalInventory.My.Resources.Resources.search
+        Me.cmdSearchReceipt.Image = Global.KTGSYS.My.Resources.Resources.search
         Me.cmdSearchReceipt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.cmdSearchReceipt.Location = New System.Drawing.Point(686, 51)
         Me.cmdSearchReceipt.Name = "cmdSearchReceipt"
@@ -697,7 +697,7 @@ Partial Class frmOldOutPatientReceipt
         '
         'cmdFindHN
         '
-        Me.cmdFindHN.Image = Global.TakeoHospitalInventory.My.Resources.Resources.preview
+        Me.cmdFindHN.Image = Global.KTGSYS.My.Resources.Resources.preview
         Me.cmdFindHN.Location = New System.Drawing.Point(684, 92)
         Me.cmdFindHN.Name = "cmdFindHN"
         Me.cmdFindHN.Size = New System.Drawing.Size(33, 31)
@@ -952,7 +952,7 @@ Partial Class frmOldOutPatientReceipt
         '
         'PictLoading
         '
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loadgraphic
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loadgraphic
         Me.PictLoading.Location = New System.Drawing.Point(765, 614)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(212, 25)

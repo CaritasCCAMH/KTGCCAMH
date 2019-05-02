@@ -200,14 +200,14 @@ Partial Class DashbardPostoneCancelOT
         '
         'BtnDeletePostone
         '
-        Me.BtnDeletePostone.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Delete_Icon
+        Me.BtnDeletePostone.Image = Global.KTGSYS.My.Resources.Resources.Delete_Icon
         Me.BtnDeletePostone.Name = "BtnDeletePostone"
         Me.BtnDeletePostone.Size = New System.Drawing.Size(160, 22)
         Me.BtnDeletePostone.Text = "Delete Postpone"
         '
         'UndoPostone
         '
-        Me.UndoPostone.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1_512
+        Me.UndoPostone.Image = Global.KTGSYS.My.Resources.Resources._1_512
         Me.UndoPostone.Name = "UndoPostone"
         Me.UndoPostone.Size = New System.Drawing.Size(160, 22)
         Me.UndoPostone.Text = "Undo Postpone"

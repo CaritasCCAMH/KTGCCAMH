@@ -88,7 +88,7 @@ Partial Class frmBrowseDoctor
         Me.BtnOK.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnOK.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnOK.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnOK.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Aproved
+        Me.BtnOK.Image = Global.KTGSYS.My.Resources.Resources.Aproved
         Me.BtnOK.Location = New System.Drawing.Point(531, 385)
         Me.BtnOK.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnOK.Name = "BtnOK"
@@ -103,7 +103,7 @@ Partial Class frmBrowseDoctor
         Me.BtnCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnCancel.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.Location = New System.Drawing.Point(652, 385)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnCancel.Name = "BtnCancel"

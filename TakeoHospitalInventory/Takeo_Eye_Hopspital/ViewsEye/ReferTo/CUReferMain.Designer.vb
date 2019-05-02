@@ -50,9 +50,9 @@ Partial Class CUReferMain
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.DeletePatientReferToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
         Me.BgLoadReport = New System.ComponentModel.BackgroundWorker
-        Me.DataReportUtility = New TakeoHospitalInventory.DataReportUtility
-        Me.V_PatientReferTableAdapter = New TakeoHospitalInventory.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
-        Me.TblReferToByDiagnosisTableAdapter = New TakeoHospitalInventory.DataReportUtilityTableAdapters.TblReferToByDiagnosisTableAdapter
+        Me.DataReportUtility = New KTGSYS.DataReportUtility
+        Me.V_PatientReferTableAdapter = New KTGSYS.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
+        Me.TblReferToByDiagnosisTableAdapter = New KTGSYS.DataReportUtilityTableAdapters.TblReferToByDiagnosisTableAdapter
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -329,7 +329,7 @@ Partial Class CUReferMain
         '
         'PictLoading
         '
-        Me.PictLoading.Image = Global.TakeoHospitalInventory.My.Resources.Resources.loading_bar
+        Me.PictLoading.Image = Global.KTGSYS.My.Resources.Resources.loading_bar
         Me.PictLoading.Location = New System.Drawing.Point(533, 213)
         Me.PictLoading.Name = "PictLoading"
         Me.PictLoading.Size = New System.Drawing.Size(214, 23)
@@ -428,10 +428,10 @@ Partial Class CUReferMain
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents SplitPatientReferTo As System.Windows.Forms.SplitContainer
     Friend WithEvents CReportViewer As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents DataReportUtility As TakeoHospitalInventory.DataReportUtility
-    Friend WithEvents V_PatientReferTableAdapter As TakeoHospitalInventory.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
+    Friend WithEvents DataReportUtility As KTGSYS.DataReportUtility
+    Friend WithEvents V_PatientReferTableAdapter As KTGSYS.DataReportUtilityTableAdapters.V_PatientReferTableAdapter
     Friend WithEvents BgLoadReport As System.ComponentModel.BackgroundWorker
-    Friend WithEvents TblReferToByDiagnosisTableAdapter As TakeoHospitalInventory.DataReportUtilityTableAdapters.TblReferToByDiagnosisTableAdapter
+    Friend WithEvents TblReferToByDiagnosisTableAdapter As KTGSYS.DataReportUtilityTableAdapters.TblReferToByDiagnosisTableAdapter
     Friend WithEvents PictLoading As System.Windows.Forms.PictureBox
     Friend WithEvents ChViewBy As System.Windows.Forms.CheckBox
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox

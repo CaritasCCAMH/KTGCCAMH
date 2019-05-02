@@ -159,7 +159,7 @@ Partial Class frmItemListForDepart
         'BtnOK
         '
         Me.BtnOK.Cursor = System.Windows.Forms.Cursors.Default
-        Me.BtnOK.Image = Global.TakeoHospitalInventory.My.Resources.Resources.save
+        Me.BtnOK.Image = Global.KTGSYS.My.Resources.Resources.save
         Me.BtnOK.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnOK.Location = New System.Drawing.Point(13, 522)
         Me.BtnOK.Margin = New System.Windows.Forms.Padding(2)
@@ -173,7 +173,7 @@ Partial Class frmItemListForDepart
         'BtnCancel
         '
         Me.BtnCancel.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCancel.Image = Global.TakeoHospitalInventory.My.Resources.Resources.cancel
+        Me.BtnCancel.Image = Global.KTGSYS.My.Resources.Resources.cancel
         Me.BtnCancel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BtnCancel.Location = New System.Drawing.Point(102, 522)
         Me.BtnCancel.Margin = New System.Windows.Forms.Padding(2)

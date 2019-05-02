@@ -23,7 +23,7 @@ Imports System.Reflection
 
 
 <System.Data.Linq.Mapping.DatabaseAttribute(Name:="TakeoDB")>  _
-Partial Public Class TakeoHospitalInventoryDataContext
+Partial Public Class KTGSYSDataContext
 	Inherits System.Data.Linq.DataContext
 	
 	Private Shared mappingSource As System.Data.Linq.Mapping.MappingSource = New AttributeMappingSource
@@ -340,7 +340,7 @@ Partial Public Class TakeoHospitalInventoryDataContext
   #End Region
 	
 	Public Sub New()
-		MyBase.New(Global.TakeoHospitalInventory.My.MySettings.Default.TakeoDBConnectionString, mappingSource)
+		MyBase.New(Global.KTGSYS.My.MySettings.Default.TakeoDBConnectionString, mappingSource)
 		OnCreated
 	End Sub
 	

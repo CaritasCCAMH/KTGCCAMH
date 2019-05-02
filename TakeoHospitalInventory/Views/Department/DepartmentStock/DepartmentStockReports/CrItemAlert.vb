@@ -45,7 +45,7 @@ Public Class CrItemAlert
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.CrItemAlert.rpt"
+            Return "KTGSYS.CrItemAlert.rpt"
         End Get
         Set
             'Do nothing

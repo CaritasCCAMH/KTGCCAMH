@@ -76,7 +76,7 @@ Partial Class UCAppointment
         '
         'BtnNewAppoint
         '
-        Me.BtnNewAppoint.Image = Global.TakeoHospitalInventory.My.Resources.Resources.Open
+        Me.BtnNewAppoint.Image = Global.KTGSYS.My.Resources.Resources.Open
         Me.BtnNewAppoint.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnNewAppoint.Name = "BtnNewAppoint"
         Me.BtnNewAppoint.Size = New System.Drawing.Size(139, 34)
@@ -89,7 +89,7 @@ Partial Class UCAppointment
         '
         'ToolStripButton2
         '
-        Me.ToolStripButton2.Image = Global.TakeoHospitalInventory.My.Resources.Resources.edit1
+        Me.ToolStripButton2.Image = Global.KTGSYS.My.Resources.Resources.edit1
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(123, 34)
@@ -102,7 +102,7 @@ Partial Class UCAppointment
         '
         'BtnReportApp
         '
-        Me.BtnReportApp.Image = Global.TakeoHospitalInventory.My.Resources.Resources.printer
+        Me.BtnReportApp.Image = Global.KTGSYS.My.Resources.Resources.printer
         Me.BtnReportApp.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnReportApp.Name = "BtnReportApp"
         Me.BtnReportApp.Size = New System.Drawing.Size(150, 34)
@@ -154,7 +154,7 @@ Partial Class UCAppointment
         'BtnCalled
         '
         Me.BtnCalled.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.BtnCalled.Image = Global.TakeoHospitalInventory.My.Resources.Resources._1316401141_Schedule_File
+        Me.BtnCalled.Image = Global.KTGSYS.My.Resources.Resources._1316401141_Schedule_File
         Me.BtnCalled.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.BtnCalled.Name = "BtnCalled"
         Me.BtnCalled.Size = New System.Drawing.Size(156, 34)

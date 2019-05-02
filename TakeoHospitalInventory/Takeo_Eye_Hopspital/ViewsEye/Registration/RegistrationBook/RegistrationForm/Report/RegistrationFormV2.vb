@@ -45,7 +45,7 @@ Public Class RegistrationFormV2
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RegistrationFormV2.rpt"
+            Return "KTGSYS.RegistrationFormV2.rpt"
         End Get
         Set
             'Do nothing

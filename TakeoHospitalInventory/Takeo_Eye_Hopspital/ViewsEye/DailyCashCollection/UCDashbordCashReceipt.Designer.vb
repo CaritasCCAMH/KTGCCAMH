@@ -150,7 +150,7 @@ Partial Class UCDashbordCashReceipt
         Me.cmdView.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.cmdView.Cursor = System.Windows.Forms.Cursors.Hand
         Me.cmdView.Font = New System.Drawing.Font("Georgia", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdView.Image = Global.TakeoHospitalInventory.My.Resources.Resources.waiting
+        Me.cmdView.Image = Global.KTGSYS.My.Resources.Resources.waiting
         Me.cmdView.Location = New System.Drawing.Point(58, 842)
         Me.cmdView.Name = "cmdView"
         Me.cmdView.Size = New System.Drawing.Size(97, 65)

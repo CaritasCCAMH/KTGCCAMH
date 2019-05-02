@@ -45,7 +45,7 @@ Public Class RptItemRequestSupplierGivenTrace
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.RptItemRequestSupplierGivenTrace.rpt"
+            Return "KTGSYS.RptItemRequestSupplierGivenTrace.rpt"
         End Get
         Set
             'Do nothing

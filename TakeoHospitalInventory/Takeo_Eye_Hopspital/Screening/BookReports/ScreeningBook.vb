@@ -45,7 +45,7 @@ Public Class ScreeningBook
     
     Public Overrides Property FullResourceName() As String
         Get
-            Return "TakeoHospitalInventory.ScreeningBook.rpt"
+            Return "KTGSYS.ScreeningBook.rpt"
         End Get
         Set
             'Do nothing

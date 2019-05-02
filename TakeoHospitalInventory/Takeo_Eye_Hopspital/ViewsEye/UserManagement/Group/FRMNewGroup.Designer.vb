@@ -58,7 +58,7 @@ Partial Class FRMNewGroup
         '
         'BtnSave
         '
-        Me.BtnSave.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BtnSave.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BtnSave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.BtnSave.Location = New System.Drawing.Point(271, 32)
         Me.BtnSave.Name = "BtnSave"
@@ -93,7 +93,7 @@ Partial Class FRMNewGroup
         Me.AcceptButton = Me.BtnSave
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.TakeoHospitalInventory.My.Resources.Resources.Bg1
+        Me.BackgroundImage = Global.KTGSYS.My.Resources.Resources.Bg1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(347, 100)
         Me.Controls.Add(Me.GroupBox1)
