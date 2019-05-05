@@ -515,4 +515,9 @@
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
 
     End Sub
+
+    Private Sub UiButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UiButton1.Click
+        Dim frmReg As New CLIENT_REGISTRATION_FORM
+        frmReg.ShowDialog()
+    End Sub
 End Class

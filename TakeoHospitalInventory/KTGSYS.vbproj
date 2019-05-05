@@ -143,6 +143,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CCAMH\Registration\CLIENT_REGISTRATION_FORM.Designer.vb">
+      <DependentUpon>CLIENT_REGISTRATION_FORM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Registration\CLIENT_REGISTRATION_FORM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Registration\DS_Registration.Designer.vb">
+      <DependentUpon>DS_Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Registration\DS_Registration.vb">
+      <DependentUpon>DS_Registration.xsd</DependentUpon>
+    </Compile>
     <Compile Include="common\globalModule.vb" />
     <Compile Include="common\LabelArray.vb" />
     <Compile Include="common\ModGlobleVariable.vb" />
@@ -3186,6 +3198,9 @@
     <None Include="Models\TakeoHospitalInventory.dbml.layout">
       <DependentUpon>TakeoHospitalInventory.dbml</DependentUpon>
     </None>
+    <EmbeddedResource Include="CCAMH\Registration\CLIENT_REGISTRATION_FORM.resx">
+      <DependentUpon>CLIENT_REGISTRATION_FORM.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -4825,6 +4840,18 @@
     <None Include="bin\Debug\TakeoHospitalInventory.vshost.exe.config" />
     <None Include="bin\Debug\TakeoHospitalInventory.vshost.exe.manifest" />
     <None Include="bin\Release\TakeoHospitalInventory.exe.config" />
+    <None Include="CCAMH\Registration\DS_Registration.xsc">
+      <DependentUpon>DS_Registration.xsd</DependentUpon>
+    </None>
+    <None Include="CCAMH\Registration\DS_Registration.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_Registration1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CCAMH\Registration\DS_Registration.xss">
+      <DependentUpon>DS_Registration.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Models\Cabinet\DSCabinet.xsc">
       <DependentUpon>DSCabinet.xsd</DependentUpon>
     </None>

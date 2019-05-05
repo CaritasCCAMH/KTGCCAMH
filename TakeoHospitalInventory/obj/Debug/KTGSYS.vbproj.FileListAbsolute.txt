@@ -946,3 +946,4 @@ C:\DB\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.exe.licenses
 C:\DB\CCAMH\TakeoHospitalInventory\obj\Debug\ca-ES\KTGSYS.resources.dll
 C:\DB\CCAMH\TakeoHospitalInventory\obj\Debug\ca\KTGSYS.resources.dll
 C:\DB\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.exe
+C:\DB\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.CLIENT_REGISTRATION_FORM.resources

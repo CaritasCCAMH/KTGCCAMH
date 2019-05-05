@@ -4,7 +4,7 @@
     Dim da_distict As New DS_RegistrationTableAdapters.tblDistrictsTableAdapter
 
 
-    Private Sub CLIENT_REGISTRATION_FORM_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Private Sub CLIENT_REGISTRATION_FORM_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load, MyBase.MaximumSizeChanged
         With PROVINCE
             .DataSource = da_province.GetData
             .ValueMember = "IDProvCode"
@@ -34,4 +34,18 @@
     End Sub
 
   
+    Private Sub lblTtile_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lblTtile.Click
+
+    End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClose.Click
+
+        If MessageBox.Show("Do you want to close the registration?", "Close", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) = Windows.Forms.DialogResult.Yes Then
+            Me.Close()
+
+        End If
+
+
+
+    End Sub
 End Class
