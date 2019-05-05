@@ -1,0 +1,4 @@
+H:\project\CCAMH\TakeoHospitalInventory\bin\Debug\TakeoHospitalInventory.exe.config
+H:\project\CCAMH\TakeoHospitalInventory\obj\Debug\Interop.AcroPDFLib.dll
+H:\project\CCAMH\TakeoHospitalInventory\obj\Debug\AxInterop.AcroPDFLib.dll
+H:\project\CCAMH\TakeoHospitalInventory\obj\Debug\TakeoHospitalInventory.vbproj.ResolveComReference.cache
