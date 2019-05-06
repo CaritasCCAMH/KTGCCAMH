@@ -26,9 +26,6 @@ Partial Class UIScreening
         Dim JanusColorScheme1 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Dim ButtonBar1_Group_0 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Dim ButtonBar1_Group_1 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
-        Dim ButtonBar1_Item_1_0 As Janus.Windows.ButtonBar.ButtonBarItem = New Janus.Windows.ButtonBar.ButtonBarItem
-        Dim ButtonBar1_Item_1_1 As Janus.Windows.ButtonBar.ButtonBarItem = New Janus.Windows.ButtonBar.ButtonBarItem
-        Dim ButtonBar1_Item_1_2 As Janus.Windows.ButtonBar.ButtonBarItem = New Janus.Windows.ButtonBar.ButtonBarItem
         Dim ButtonBar1_Group_2 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UIScreening))
         Me.ButtonBarContainerControl1 = New Janus.Windows.ButtonBar.ButtonBarContainerControl
@@ -44,6 +41,16 @@ Partial Class UIScreening
         Me.UiPanelCaptionContainer2 = New Janus.Windows.UI.Dock.UIPanelCaptionContainer
         Me.BtnClientReports = New System.Windows.Forms.Button
         Me.BtnClientsConference = New System.Windows.Forms.Button
+        Me.ButtonBarContainerControl2 = New Janus.Windows.ButtonBar.ButtonBarContainerControl
+        Me.Panel2 = New System.Windows.Forms.Panel
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.ButtonBarContainerControl3 = New Janus.Windows.ButtonBar.ButtonBarContainerControl
+        Me.Panel3 = New System.Windows.Forms.Panel
+        Me.Button4 = New System.Windows.Forms.Button
+        Me.Button5 = New System.Windows.Forms.Button
+        Me.Button6 = New System.Windows.Forms.Button
         Me.ButtonBarContainerControl1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.ButtonBar1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,6 +59,10 @@ Partial Class UIScreening
         CType(Me.MainPanelNavegation, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MainPanelNavegation.SuspendLayout()
         Me.MainPanelNavegationContainer.SuspendLayout()
+        Me.ButtonBarContainerControl2.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.ButtonBarContainerControl3.SuspendLayout()
+        Me.Panel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'ButtonBarContainerControl1
@@ -132,6 +143,8 @@ Partial Class UIScreening
         Me.ButtonBar1.BlendColor = System.Drawing.SystemColors.WindowFrame
         Me.ButtonBar1.BorderStyle = Janus.Windows.ButtonBar.BorderStyle.None
         Me.ButtonBar1.Controls.Add(Me.ButtonBarContainerControl1)
+        Me.ButtonBar1.Controls.Add(Me.ButtonBarContainerControl2)
+        Me.ButtonBar1.Controls.Add(Me.ButtonBarContainerControl3)
         Me.ButtonBar1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ButtonBar1.FlatBorderColor = System.Drawing.Color.FloralWhite
         ButtonBar1_Group_0.Container = True
@@ -141,22 +154,15 @@ Partial Class UIScreening
         ButtonBar1_Group_0.Key = "Registration"
         ButtonBar1_Group_0.Text = "Registration"
         ButtonBar1_Group_0.TextAlignment = Janus.Windows.ButtonBar.Alignment.Near
+        ButtonBar1_Group_1.Container = True
+        ButtonBar1_Group_1.ContainerControl = Me.ButtonBarContainerControl2
         ButtonBar1_Group_1.Cursor = System.Windows.Forms.Cursors.Hand
         ButtonBar1_Group_1.Image = CType(resources.GetObject("ButtonBar1_Group_1.Image"), System.Drawing.Image)
-        ButtonBar1_Item_1_0.Key = "Item1"
-        ButtonBar1_Item_1_0.StateStyles.FormatStyle.FontSize = 10.0!
-        ButtonBar1_Item_1_0.StateStyles.FormatStyle.ForeColorAlphaMode = Janus.Windows.ButtonBar.AlphaMode.Opaque
-        ButtonBar1_Item_1_0.StateStyles.HotFormatStyle.ForeColor = System.Drawing.Color.Gray
-        ButtonBar1_Item_1_0.Text = "New Item"
-        ButtonBar1_Item_1_0.TextAlignment = Janus.Windows.ButtonBar.Alignment.Center
-        ButtonBar1_Item_1_1.Key = "Item2"
-        ButtonBar1_Item_1_1.Text = "New Item"
-        ButtonBar1_Item_1_2.Key = "Item3"
-        ButtonBar1_Item_1_2.Text = "New Item"
-        ButtonBar1_Group_1.Items.AddRange(New Janus.Windows.ButtonBar.ButtonBarItem() {ButtonBar1_Item_1_0, ButtonBar1_Item_1_1, ButtonBar1_Item_1_2})
         ButtonBar1_Group_1.Key = "Cash-Flow"
         ButtonBar1_Group_1.Text = "Cash-Flow"
         ButtonBar1_Group_1.TextAlignment = Janus.Windows.ButtonBar.Alignment.Near
+        ButtonBar1_Group_2.Container = True
+        ButtonBar1_Group_2.ContainerControl = Me.ButtonBarContainerControl3
         ButtonBar1_Group_2.Cursor = System.Windows.Forms.Cursors.Hand
         ButtonBar1_Group_2.Image = CType(resources.GetObject("ButtonBar1_Group_2.Image"), System.Drawing.Image)
         ButtonBar1_Group_2.Key = "Thearapy"
@@ -272,6 +278,146 @@ Partial Class UIScreening
         Me.BtnClientsConference.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.BtnClientsConference.UseVisualStyleBackColor = True
         '
+        'ButtonBarContainerControl2
+        '
+        Me.ButtonBarContainerControl2.Controls.Add(Me.Panel2)
+        Me.ButtonBarContainerControl2.Location = New System.Drawing.Point(0, 72)
+        Me.ButtonBarContainerControl2.Name = "ButtonBarContainerControl2"
+        Me.ButtonBarContainerControl2.Size = New System.Drawing.Size(223, 764)
+        Me.ButtonBarContainerControl2.TabIndex = 3
+        '
+        'Panel2
+        '
+        Me.Panel2.AutoScroll = True
+        Me.Panel2.BackColor = System.Drawing.Color.LightGray
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Button1)
+        Me.Panel2.Controls.Add(Me.Button2)
+        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(223, 764)
+        Me.Panel2.TabIndex = 1
+        '
+        'Button1
+        '
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(19, 269)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(172, 114)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Client Conferent"
+        Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
+        Me.Button2.Location = New System.Drawing.Point(19, 13)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(172, 114)
+        Me.Button2.TabIndex = 7
+        Me.Button2.Text = "Dashboard Register Client"
+        Me.Button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
+        Me.Button3.Location = New System.Drawing.Point(19, 141)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(172, 114)
+        Me.Button3.TabIndex = 8
+        Me.Button3.Text = "Client Report"
+        Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'ButtonBarContainerControl3
+        '
+        Me.ButtonBarContainerControl3.Controls.Add(Me.Panel3)
+        Me.ButtonBarContainerControl3.Location = New System.Drawing.Point(0, 108)
+        Me.ButtonBarContainerControl3.Name = "ButtonBarContainerControl3"
+        Me.ButtonBarContainerControl3.Size = New System.Drawing.Size(223, 764)
+        Me.ButtonBarContainerControl3.TabIndex = 4
+        '
+        'Panel3
+        '
+        Me.Panel3.AutoScroll = True
+        Me.Panel3.BackColor = System.Drawing.Color.LightGray
+        Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Button4)
+        Me.Panel3.Controls.Add(Me.Button5)
+        Me.Panel3.Controls.Add(Me.Button6)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(223, 764)
+        Me.Panel3.TabIndex = 1
+        '
+        'Button4
+        '
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
+        Me.Button4.Location = New System.Drawing.Point(19, 269)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(172, 114)
+        Me.Button4.TabIndex = 9
+        Me.Button4.Text = "Client Conferent"
+        Me.Button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button5
+        '
+        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
+        Me.Button5.Location = New System.Drawing.Point(19, 13)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(172, 114)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "Dashboard Register Client"
+        Me.Button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button6.Image = CType(resources.GetObject("Button6.Image"), System.Drawing.Image)
+        Me.Button6.Location = New System.Drawing.Point(19, 141)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(172, 114)
+        Me.Button6.TabIndex = 8
+        Me.Button6.Text = "Client Report"
+        Me.Button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'UIScreening
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -289,6 +435,10 @@ Partial Class UIScreening
         CType(Me.MainPanelNavegation, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MainPanelNavegation.ResumeLayout(False)
         Me.MainPanelNavegationContainer.ResumeLayout(False)
+        Me.ButtonBarContainerControl2.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
+        Me.ButtonBarContainerControl3.ResumeLayout(False)
+        Me.Panel3.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -306,5 +456,15 @@ Partial Class UIScreening
     Friend WithEvents BtnDashboardRegistration As System.Windows.Forms.Button
     Friend WithEvents BtnClientsConference As System.Windows.Forms.Button
     Friend WithEvents BtnClientReports As System.Windows.Forms.Button
+    Friend WithEvents ButtonBarContainerControl2 As Janus.Windows.ButtonBar.ButtonBarContainerControl
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents ButtonBarContainerControl3 As Janus.Windows.ButtonBar.ButtonBarContainerControl
+    Friend WithEvents Panel3 As System.Windows.Forms.Panel
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Button6 As System.Windows.Forms.Button
 
 End Class
