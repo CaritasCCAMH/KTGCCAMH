@@ -23,15 +23,19 @@ Partial Class UIScreening
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
-        Dim JanusColorScheme3 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UIScreening))
+        Dim JanusColorScheme1 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Dim ButtonBar1_Group_0 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Dim ButtonBar1_Group_1 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Dim ButtonBar1_Group_2 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Dim ButtonBar1_Group_3 As Janus.Windows.ButtonBar.ButtonBarGroup = New Janus.Windows.ButtonBar.ButtonBarGroup
         Me.ContainerRegister = New Janus.Windows.ButtonBar.ButtonBarContainerControl
         Me.Panel1 = New System.Windows.Forms.Panel
+        Me.UiButton5 = New Janus.Windows.EditControls.UIButton
         Me.VSMInterface = New Janus.Windows.Common.VisualStyleManager(Me.components)
+        Me.UiButton4 = New Janus.Windows.EditControls.UIButton
+        Me.UiButton3 = New Janus.Windows.EditControls.UIButton
+        Me.UiButton2 = New Janus.Windows.EditControls.UIButton
         Me.UiButton1 = New Janus.Windows.EditControls.UIButton
         Me.Label1 = New System.Windows.Forms.Label
         Me.MenuVertical = New System.Windows.Forms.Panel
@@ -43,6 +47,7 @@ Partial Class UIScreening
         Me.Panel12 = New System.Windows.Forms.Panel
         Me.Label2 = New System.Windows.Forms.Label
         Me.Panel13 = New System.Windows.Forms.Panel
+        Me.BtnNavigationBar = New System.Windows.Forms.Button
         Me.Panel10 = New System.Windows.Forms.Panel
         Me.Panel11 = New System.Windows.Forms.Panel
         Me.Panel8 = New System.Windows.Forms.Panel
@@ -64,7 +69,6 @@ Partial Class UIScreening
         Me.BtnOpticalIncome = New System.Windows.Forms.Button
         Me.BtnOpticalShopReport = New System.Windows.Forms.Button
         Me.Button13 = New System.Windows.Forms.Button
-        Me.BtnNavigationBar = New System.Windows.Forms.Button
         Me.Button1 = New System.Windows.Forms.Button
         Me.BtnOpticalShop = New System.Windows.Forms.Button
         Me.BtnRefractionBook = New System.Windows.Forms.Button
@@ -72,10 +76,6 @@ Partial Class UIScreening
         Me.BtnScreeningSetting = New System.Windows.Forms.Button
         Me.BtnReports = New System.Windows.Forms.Button
         Me.BtnInventory = New System.Windows.Forms.Button
-        Me.UiButton2 = New Janus.Windows.EditControls.UIButton
-        Me.UiButton3 = New Janus.Windows.EditControls.UIButton
-        Me.UiButton4 = New Janus.Windows.EditControls.UIButton
-        Me.UiButton5 = New Janus.Windows.EditControls.UIButton
         Me.ContainerRegister.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.MenuVertical.SuspendLayout()
@@ -114,28 +114,116 @@ Partial Class UIScreening
         Me.Panel1.Size = New System.Drawing.Size(198, 756)
         Me.Panel1.TabIndex = 0
         '
+        'UiButton5
+        '
+        Me.UiButton5.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
+        Me.UiButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UiButton5.Image = CType(resources.GetObject("UiButton5.Image"), System.Drawing.Image)
+        Me.UiButton5.ImageSize = New System.Drawing.Size(30, 30)
+        Me.UiButton5.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
+        Me.UiButton5.Location = New System.Drawing.Point(5, 105)
+        Me.UiButton5.Name = "UiButton5"
+        Me.UiButton5.Size = New System.Drawing.Size(187, 42)
+        Me.UiButton5.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
+        Me.UiButton5.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
+        Me.UiButton5.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
+        Me.UiButton5.StateStyles.FormatStyle.FontSize = 9.0!
+        Me.UiButton5.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
+        Me.UiButton5.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton5.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton5.TabIndex = 6
+        Me.UiButton5.Text = "Dashboard Register"
+        Me.UiButton5.UseCompatibleTextRendering = True
+        Me.UiButton5.VisualStyleManager = Me.VSMInterface
+        '
         'VSMInterface
         '
-        JanusColorScheme3.ActiveCaptionColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme3.ActiveCaptionTextColor = System.Drawing.Color.White
-        JanusColorScheme3.ControlColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme3.ControlDarkColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme3.ControlTextColor = System.Drawing.Color.Black
-        JanusColorScheme3.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme3.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme3.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme3.HighlightTextColor = System.Drawing.Color.White
-        JanusColorScheme3.InfoColor = System.Drawing.Color.White
-        JanusColorScheme3.InfoTextColor = System.Drawing.Color.Black
-        JanusColorScheme3.MenuColor = System.Drawing.Color.White
-        JanusColorScheme3.MenuTextColor = System.Drawing.Color.Black
-        JanusColorScheme3.Name = "DefaultInterface"
-        JanusColorScheme3.Office2007CustomColor = System.Drawing.Color.Empty
-        JanusColorScheme3.UseThemes = False
-        JanusColorScheme3.VisualStyle = Janus.Windows.Common.VisualStyle.Standard
-        JanusColorScheme3.WindowColor = System.Drawing.Color.White
-        JanusColorScheme3.WindowTextColor = System.Drawing.Color.Black
-        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme3)
+        JanusColorScheme1.ActiveCaptionColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.ActiveCaptionTextColor = System.Drawing.Color.White
+        JanusColorScheme1.ControlColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.ControlDarkColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.ControlTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightTextColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.MenuColor = System.Drawing.Color.White
+        JanusColorScheme1.MenuTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.Name = "DefaultInterface"
+        JanusColorScheme1.Office2007CustomColor = System.Drawing.Color.Empty
+        JanusColorScheme1.UseThemes = False
+        JanusColorScheme1.VisualStyle = Janus.Windows.Common.VisualStyle.Standard
+        JanusColorScheme1.WindowColor = System.Drawing.Color.White
+        JanusColorScheme1.WindowTextColor = System.Drawing.Color.Black
+        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme1)
+        '
+        'UiButton4
+        '
+        Me.UiButton4.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
+        Me.UiButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UiButton4.Image = CType(resources.GetObject("UiButton4.Image"), System.Drawing.Image)
+        Me.UiButton4.ImageSize = New System.Drawing.Size(30, 30)
+        Me.UiButton4.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
+        Me.UiButton4.Location = New System.Drawing.Point(5, 152)
+        Me.UiButton4.Name = "UiButton4"
+        Me.UiButton4.Size = New System.Drawing.Size(187, 42)
+        Me.UiButton4.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
+        Me.UiButton4.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
+        Me.UiButton4.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
+        Me.UiButton4.StateStyles.FormatStyle.FontSize = 9.0!
+        Me.UiButton4.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
+        Me.UiButton4.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton4.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton4.TabIndex = 5
+        Me.UiButton4.Text = "Dashboard Register"
+        Me.UiButton4.UseCompatibleTextRendering = True
+        Me.UiButton4.VisualStyleManager = Me.VSMInterface
+        '
+        'UiButton3
+        '
+        Me.UiButton3.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
+        Me.UiButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UiButton3.Image = CType(resources.GetObject("UiButton3.Image"), System.Drawing.Image)
+        Me.UiButton3.ImageSize = New System.Drawing.Size(30, 30)
+        Me.UiButton3.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
+        Me.UiButton3.Location = New System.Drawing.Point(5, 198)
+        Me.UiButton3.Name = "UiButton3"
+        Me.UiButton3.Size = New System.Drawing.Size(187, 42)
+        Me.UiButton3.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
+        Me.UiButton3.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
+        Me.UiButton3.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
+        Me.UiButton3.StateStyles.FormatStyle.FontSize = 9.0!
+        Me.UiButton3.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
+        Me.UiButton3.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton3.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton3.TabIndex = 4
+        Me.UiButton3.Text = "Dashboard Register"
+        Me.UiButton3.UseCompatibleTextRendering = True
+        Me.UiButton3.VisualStyleManager = Me.VSMInterface
+        '
+        'UiButton2
+        '
+        Me.UiButton2.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
+        Me.UiButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UiButton2.Image = CType(resources.GetObject("UiButton2.Image"), System.Drawing.Image)
+        Me.UiButton2.ImageSize = New System.Drawing.Size(30, 30)
+        Me.UiButton2.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
+        Me.UiButton2.Location = New System.Drawing.Point(5, 59)
+        Me.UiButton2.Name = "UiButton2"
+        Me.UiButton2.Size = New System.Drawing.Size(187, 42)
+        Me.UiButton2.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
+        Me.UiButton2.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
+        Me.UiButton2.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
+        Me.UiButton2.StateStyles.FormatStyle.FontSize = 9.0!
+        Me.UiButton2.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
+        Me.UiButton2.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton2.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
+        Me.UiButton2.TabIndex = 3
+        Me.UiButton2.Text = "Dashboard Register"
+        Me.UiButton2.UseCompatibleTextRendering = True
+        Me.UiButton2.VisualStyleManager = Me.VSMInterface
         '
         'UiButton1
         '
@@ -269,7 +357,7 @@ Partial Class UIScreening
         Me.Panel14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Panel14.Location = New System.Drawing.Point(660, 158)
         Me.Panel14.Name = "Panel14"
-        Me.Panel14.Size = New System.Drawing.Size(662, 761)
+        Me.Panel14.Size = New System.Drawing.Size(662, 968)
         Me.Panel14.TabIndex = 41
         '
         'Label6
@@ -292,7 +380,7 @@ Partial Class UIScreening
         Me.Panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel15.Location = New System.Drawing.Point(4, 36)
         Me.Panel15.Name = "Panel15"
-        Me.Panel15.Size = New System.Drawing.Size(652, 716)
+        Me.Panel15.Size = New System.Drawing.Size(652, 923)
         Me.Panel15.TabIndex = 0
         '
         'Panel12
@@ -306,7 +394,7 @@ Partial Class UIScreening
         Me.Panel12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Panel12.Location = New System.Drawing.Point(17, 158)
         Me.Panel12.Name = "Panel12"
-        Me.Panel12.Size = New System.Drawing.Size(632, 761)
+        Me.Panel12.Size = New System.Drawing.Size(632, 968)
         Me.Panel12.TabIndex = 40
         '
         'Label2
@@ -330,8 +418,24 @@ Partial Class UIScreening
         Me.Panel13.Controls.Add(Me.BtnNavigationBar)
         Me.Panel13.Location = New System.Drawing.Point(4, 36)
         Me.Panel13.Name = "Panel13"
-        Me.Panel13.Size = New System.Drawing.Size(622, 717)
+        Me.Panel13.Size = New System.Drawing.Size(622, 924)
         Me.Panel13.TabIndex = 0
+        '
+        'BtnNavigationBar
+        '
+        Me.BtnNavigationBar.BackColor = System.Drawing.Color.White
+        Me.BtnNavigationBar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnNavigationBar.FlatAppearance.BorderSize = 0
+        Me.BtnNavigationBar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.BtnNavigationBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnNavigationBar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnNavigationBar.ForeColor = System.Drawing.Color.White
+        Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
+        Me.BtnNavigationBar.Location = New System.Drawing.Point(32, 64)
+        Me.BtnNavigationBar.Name = "BtnNavigationBar"
+        Me.BtnNavigationBar.Size = New System.Drawing.Size(49, 31)
+        Me.BtnNavigationBar.TabIndex = 17
+        Me.BtnNavigationBar.UseVisualStyleBackColor = False
         '
         'Panel10
         '
@@ -637,22 +741,6 @@ Partial Class UIScreening
         Me.Button13.UseVisualStyleBackColor = False
         Me.Button13.Visible = False
         '
-        'BtnNavigationBar
-        '
-        Me.BtnNavigationBar.BackColor = System.Drawing.Color.White
-        Me.BtnNavigationBar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnNavigationBar.FlatAppearance.BorderSize = 0
-        Me.BtnNavigationBar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.BtnNavigationBar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnNavigationBar.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnNavigationBar.ForeColor = System.Drawing.Color.White
-        Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
-        Me.BtnNavigationBar.Location = New System.Drawing.Point(32, 64)
-        Me.BtnNavigationBar.Name = "BtnNavigationBar"
-        Me.BtnNavigationBar.Size = New System.Drawing.Size(49, 31)
-        Me.BtnNavigationBar.TabIndex = 17
-        Me.BtnNavigationBar.UseVisualStyleBackColor = False
-        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
@@ -799,94 +887,6 @@ Partial Class UIScreening
         Me.BtnInventory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.BtnInventory.UseVisualStyleBackColor = False
         Me.BtnInventory.Visible = False
-        '
-        'UiButton2
-        '
-        Me.UiButton2.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
-        Me.UiButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UiButton2.Image = CType(resources.GetObject("UiButton2.Image"), System.Drawing.Image)
-        Me.UiButton2.ImageSize = New System.Drawing.Size(30, 30)
-        Me.UiButton2.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
-        Me.UiButton2.Location = New System.Drawing.Point(5, 59)
-        Me.UiButton2.Name = "UiButton2"
-        Me.UiButton2.Size = New System.Drawing.Size(187, 42)
-        Me.UiButton2.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
-        Me.UiButton2.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
-        Me.UiButton2.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
-        Me.UiButton2.StateStyles.FormatStyle.FontSize = 9.0!
-        Me.UiButton2.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
-        Me.UiButton2.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton2.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton2.TabIndex = 3
-        Me.UiButton2.Text = "Dashboard Register"
-        Me.UiButton2.UseCompatibleTextRendering = True
-        Me.UiButton2.VisualStyleManager = Me.VSMInterface
-        '
-        'UiButton3
-        '
-        Me.UiButton3.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
-        Me.UiButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UiButton3.Image = CType(resources.GetObject("UiButton3.Image"), System.Drawing.Image)
-        Me.UiButton3.ImageSize = New System.Drawing.Size(30, 30)
-        Me.UiButton3.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
-        Me.UiButton3.Location = New System.Drawing.Point(5, 198)
-        Me.UiButton3.Name = "UiButton3"
-        Me.UiButton3.Size = New System.Drawing.Size(187, 42)
-        Me.UiButton3.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
-        Me.UiButton3.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
-        Me.UiButton3.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
-        Me.UiButton3.StateStyles.FormatStyle.FontSize = 9.0!
-        Me.UiButton3.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
-        Me.UiButton3.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton3.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton3.TabIndex = 4
-        Me.UiButton3.Text = "Dashboard Register"
-        Me.UiButton3.UseCompatibleTextRendering = True
-        Me.UiButton3.VisualStyleManager = Me.VSMInterface
-        '
-        'UiButton4
-        '
-        Me.UiButton4.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
-        Me.UiButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UiButton4.Image = CType(resources.GetObject("UiButton4.Image"), System.Drawing.Image)
-        Me.UiButton4.ImageSize = New System.Drawing.Size(30, 30)
-        Me.UiButton4.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
-        Me.UiButton4.Location = New System.Drawing.Point(5, 152)
-        Me.UiButton4.Name = "UiButton4"
-        Me.UiButton4.Size = New System.Drawing.Size(187, 42)
-        Me.UiButton4.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
-        Me.UiButton4.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
-        Me.UiButton4.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
-        Me.UiButton4.StateStyles.FormatStyle.FontSize = 9.0!
-        Me.UiButton4.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
-        Me.UiButton4.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton4.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton4.TabIndex = 5
-        Me.UiButton4.Text = "Dashboard Register"
-        Me.UiButton4.UseCompatibleTextRendering = True
-        Me.UiButton4.VisualStyleManager = Me.VSMInterface
-        '
-        'UiButton5
-        '
-        Me.UiButton5.FlatBorderColor = System.Drawing.SystemColors.ControlLightLight
-        Me.UiButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UiButton5.Image = CType(resources.GetObject("UiButton5.Image"), System.Drawing.Image)
-        Me.UiButton5.ImageSize = New System.Drawing.Size(30, 30)
-        Me.UiButton5.ImageVerticalAlignment = Janus.Windows.EditControls.ImageVerticalAlignment.Empty
-        Me.UiButton5.Location = New System.Drawing.Point(5, 105)
-        Me.UiButton5.Name = "UiButton5"
-        Me.UiButton5.Size = New System.Drawing.Size(187, 42)
-        Me.UiButton5.StateStyles.FormatStyle.BackColor = System.Drawing.Color.White
-        Me.UiButton5.StateStyles.FormatStyle.BackColorAlphaMode = Janus.Windows.UI.AlphaMode.Transparent
-        Me.UiButton5.StateStyles.FormatStyle.BackColorGradient = System.Drawing.Color.White
-        Me.UiButton5.StateStyles.FormatStyle.FontSize = 9.0!
-        Me.UiButton5.StateStyles.FormatStyle.ForeColor = System.Drawing.Color.Blue
-        Me.UiButton5.StateStyles.HotFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton5.StateStyles.SelectedFormatStyle.BackColor = System.Drawing.Color.Maroon
-        Me.UiButton5.TabIndex = 6
-        Me.UiButton5.Text = "Dashboard Register"
-        Me.UiButton5.UseCompatibleTextRendering = True
-        Me.UiButton5.VisualStyleManager = Me.VSMInterface
         '
         'UIScreening
         '
