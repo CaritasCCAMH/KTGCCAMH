@@ -25,7 +25,7 @@ Partial Class DashboardRegistration
         Me.components = New System.ComponentModel.Container
         Dim GridEX2_DesignTimeLayout As Janus.Windows.GridEX.GridEXLayout = New Janus.Windows.GridEX.GridEXLayout
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(DashboardRegistration))
-        Dim JanusColorScheme1 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
+        Dim JanusColorScheme11 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Dim GridEX1_DesignTimeLayout As Janus.Windows.GridEX.GridEXLayout = New Janus.Windows.GridEX.GridEXLayout
         Me.Panel10 = New System.Windows.Forms.Panel
         Me.Panel11 = New System.Windows.Forms.Panel
@@ -51,9 +51,21 @@ Partial Class DashboardRegistration
         Me.BtnFindClient = New System.Windows.Forms.ToolStripButton
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator
         Me.BtnCheckTherapy = New System.Windows.Forms.ToolStripButton
+        Me.Label4 = New System.Windows.Forms.Label
+        Me.Label5 = New System.Windows.Forms.Label
+        Me.Label8 = New System.Windows.Forms.Label
+        Me.Label9 = New System.Windows.Forms.Label
+        Me.Label10 = New System.Windows.Forms.Label
+        Me.Label11 = New System.Windows.Forms.Label
+        Me.Label12 = New System.Windows.Forms.Label
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.Label14 = New System.Windows.Forms.Label
         Me.Panel10.SuspendLayout()
+        Me.Panel11.SuspendLayout()
         Me.Panel8.SuspendLayout()
+        Me.Panel9.SuspendLayout()
         Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
         Me.Panel4.SuspendLayout()
         Me.Panel5.SuspendLayout()
         Me.Panel14.SuspendLayout()
@@ -71,9 +83,9 @@ Partial Class DashboardRegistration
         Me.Panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel10.Controls.Add(Me.Panel11)
         Me.Panel10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Panel10.Location = New System.Drawing.Point(989, 50)
+        Me.Panel10.Location = New System.Drawing.Point(982, 50)
         Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(614, 112)
+        Me.Panel10.Size = New System.Drawing.Size(621, 112)
         Me.Panel10.TabIndex = 43
         '
         'Panel11
@@ -81,10 +93,13 @@ Partial Class DashboardRegistration
         Me.Panel11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel11.Controls.Add(Me.Label12)
+        Me.Panel11.Controls.Add(Me.Label13)
+        Me.Panel11.Controls.Add(Me.Label14)
         Me.Panel11.Location = New System.Drawing.Point(6, 6)
         Me.Panel11.Name = "Panel11"
-        Me.Panel11.Size = New System.Drawing.Size(598, 98)
+        Me.Panel11.Size = New System.Drawing.Size(605, 98)
         Me.Panel11.TabIndex = 0
         '
         'Panel8
@@ -103,7 +118,10 @@ Partial Class DashboardRegistration
         Me.Panel9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel9.Controls.Add(Me.Label9)
+        Me.Panel9.Controls.Add(Me.Label10)
+        Me.Panel9.Controls.Add(Me.Label11)
         Me.Panel9.Location = New System.Drawing.Point(6, 6)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(296, 98)
@@ -125,7 +143,10 @@ Partial Class DashboardRegistration
         Me.Panel7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel7.Controls.Add(Me.Label4)
+        Me.Panel7.Controls.Add(Me.Label5)
+        Me.Panel7.Controls.Add(Me.Label8)
         Me.Panel7.Location = New System.Drawing.Point(6, 6)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(309, 98)
@@ -147,7 +168,7 @@ Partial Class DashboardRegistration
         Me.Panel5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel5.Controls.Add(Me.Label3)
         Me.Panel5.Controls.Add(Me.Label1)
         Me.Panel5.Controls.Add(Me.Label7)
@@ -161,7 +182,7 @@ Partial Class DashboardRegistration
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(12, 81)
+        Me.Label3.Location = New System.Drawing.Point(12, 40)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(78, 17)
         Me.Label3.TabIndex = 2
@@ -171,7 +192,7 @@ Partial Class DashboardRegistration
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(12, 53)
+        Me.Label1.Location = New System.Drawing.Point(12, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(94, 17)
         Me.Label1.TabIndex = 1
@@ -181,7 +202,7 @@ Partial Class DashboardRegistration
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(12, 20)
+        Me.Label7.Location = New System.Drawing.Point(12, 68)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(124, 17)
         Me.Label7.TabIndex = 0
@@ -226,26 +247,26 @@ Partial Class DashboardRegistration
         '
         'VSMInterface
         '
-        JanusColorScheme1.ActiveCaptionColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme1.ActiveCaptionTextColor = System.Drawing.Color.White
-        JanusColorScheme1.ControlColor = System.Drawing.Color.White
-        JanusColorScheme1.ControlDarkColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme1.ControlTextColor = System.Drawing.Color.Black
-        JanusColorScheme1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme1.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme1.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme1.HighlightTextColor = System.Drawing.Color.White
-        JanusColorScheme1.InfoColor = System.Drawing.Color.White
-        JanusColorScheme1.InfoTextColor = System.Drawing.Color.Black
-        JanusColorScheme1.MenuColor = System.Drawing.Color.White
-        JanusColorScheme1.MenuTextColor = System.Drawing.Color.Black
-        JanusColorScheme1.Name = "DefaultInterface"
-        JanusColorScheme1.Office2007CustomColor = System.Drawing.Color.Empty
-        JanusColorScheme1.UseThemes = False
-        JanusColorScheme1.VisualStyle = Janus.Windows.Common.VisualStyle.Standard
-        JanusColorScheme1.WindowColor = System.Drawing.Color.White
-        JanusColorScheme1.WindowTextColor = System.Drawing.Color.Black
-        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme1)
+        JanusColorScheme11.ActiveCaptionColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme11.ActiveCaptionTextColor = System.Drawing.Color.White
+        JanusColorScheme11.ControlColor = System.Drawing.Color.White
+        JanusColorScheme11.ControlDarkColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme11.ControlTextColor = System.Drawing.Color.Black
+        JanusColorScheme11.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme11.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme11.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme11.HighlightTextColor = System.Drawing.Color.White
+        JanusColorScheme11.InfoColor = System.Drawing.Color.White
+        JanusColorScheme11.InfoTextColor = System.Drawing.Color.Black
+        JanusColorScheme11.MenuColor = System.Drawing.Color.White
+        JanusColorScheme11.MenuTextColor = System.Drawing.Color.Black
+        JanusColorScheme11.Name = "DefaultInterface"
+        JanusColorScheme11.Office2007CustomColor = System.Drawing.Color.Empty
+        JanusColorScheme11.UseThemes = False
+        JanusColorScheme11.VisualStyle = Janus.Windows.Common.VisualStyle.Standard
+        JanusColorScheme11.WindowColor = System.Drawing.Color.White
+        JanusColorScheme11.WindowTextColor = System.Drawing.Color.Black
+        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme11)
         '
         'Label6
         '
@@ -308,7 +329,7 @@ Partial Class DashboardRegistration
         'ToolStrip1
         '
         Me.ToolStrip1.BackColor = System.Drawing.Color.White
-        Me.ToolStrip1.Font = New System.Drawing.Font("Segoe UI", 8.0!)
+        Me.ToolStrip1.Font = New System.Drawing.Font("Segoe UI", 10.0!)
         Me.ToolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1, Me.ToolStripSeparator1, Me.BtnFindClient, Me.ToolStripSeparator2, Me.BtnCheckTherapy})
@@ -362,6 +383,96 @@ Partial Class DashboardRegistration
         Me.BtnCheckTherapy.Text = "        Check Therapy Appointmant   "
         Me.BtnCheckTherapy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.White
+        Me.Label4.Location = New System.Drawing.Point(13, 42)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(53, 13)
+        Me.Label4.TabIndex = 5
+        Me.Label4.Text = "Total Old:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(13, 15)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(59, 13)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Total New:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.Color.White
+        Me.Label8.Location = New System.Drawing.Point(13, 70)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(34, 13)
+        Me.Label8.TabIndex = 3
+        Me.Label8.Text = "Total:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(13, 40)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(116, 13)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "B. Development Delay:"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.ForeColor = System.Drawing.Color.White
+        Me.Label10.Location = New System.Drawing.Point(13, 13)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(103, 13)
+        Me.Label10.TabIndex = 7
+        Me.Label10.Text = "A. Physical Problem:"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.ForeColor = System.Drawing.Color.White
+        Me.Label11.Location = New System.Drawing.Point(13, 68)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(118, 13)
+        Me.Label11.TabIndex = 6
+        Me.Label11.Text = "C. Psychology Problem:"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.ForeColor = System.Drawing.Color.White
+        Me.Label12.Location = New System.Drawing.Point(14, 40)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(50, 13)
+        Me.Label12.TabIndex = 11
+        Me.Label12.Text = "Reqular="
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.ForeColor = System.Drawing.Color.White
+        Me.Label13.Location = New System.Drawing.Point(14, 13)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(69, 13)
+        Me.Label13.TabIndex = 10
+        Me.Label13.Text = "Appointment:"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.ForeColor = System.Drawing.Color.White
+        Me.Label14.Location = New System.Drawing.Point(14, 68)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(51, 13)
+        Me.Label14.TabIndex = 9
+        Me.Label14.Text = "Irregular="
+        '
         'DashboardRegistration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -377,8 +488,14 @@ Partial Class DashboardRegistration
         Me.Name = "DashboardRegistration"
         Me.Size = New System.Drawing.Size(1612, 810)
         Me.Panel10.ResumeLayout(False)
+        Me.Panel11.ResumeLayout(False)
+        Me.Panel11.PerformLayout()
         Me.Panel8.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel9.PerformLayout()
         Me.Panel6.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
+        Me.Panel7.PerformLayout()
         Me.Panel4.ResumeLayout(False)
         Me.Panel5.ResumeLayout(False)
         Me.Panel5.PerformLayout()
@@ -418,5 +535,14 @@ Partial Class DashboardRegistration
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents BtnCheckTherapy As System.Windows.Forms.ToolStripButton
     Friend WithEvents GridEX2 As Janus.Windows.GridEX.GridEX
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents Label14 As System.Windows.Forms.Label
 
 End Class
