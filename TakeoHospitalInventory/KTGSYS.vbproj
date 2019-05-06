@@ -143,6 +143,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CCAMH\Regisration\DashboardRegistration.Designer.vb">
+      <DependentUpon>DashboardRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\DashboardRegistration.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="common\globalModule.vb" />
     <Compile Include="common\LabelArray.vb" />
     <Compile Include="common\ModGlobleVariable.vb" />
@@ -3186,6 +3192,9 @@
     <None Include="Models\TakeoHospitalInventory.dbml.layout">
       <DependentUpon>TakeoHospitalInventory.dbml</DependentUpon>
     </None>
+    <EmbeddedResource Include="CCAMH\Regisration\DashboardRegistration.resx">
+      <DependentUpon>DashboardRegistration.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -5793,6 +5802,8 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CCAMH\Cashflow\" />
+    <Folder Include="CCAMH\Pharmacy\" />
     <Folder Include="obj\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

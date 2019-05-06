@@ -630,3 +630,4 @@ C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.exe.licens
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\ca-ES\KTGSYS.resources.dll
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\ca\KTGSYS.resources.dll
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.exe
+C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.DashboardRegistration.resources
