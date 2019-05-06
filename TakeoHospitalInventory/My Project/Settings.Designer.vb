@@ -81,9 +81,9 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=LPTMCA;Failover Partner=192.168.111.252\sql2;Initial Catalog=CCAMH;Pe"& _ 
-            "rsist Security Info=True;User ID=sa;Password=12345;Max Pool Size=4000;Asynchrono"& _ 
-            "us Processing=True;Connect Timeout=5000;Packet Size=2768")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ITD-Sochang;Failover Partner=192.168.111.252\sql2;Initial Catalog=CCA"& _ 
+            "MH;Persist Security Info=True;User ID=sa;Password=12345;Max Pool Size=4000;Async"& _ 
+            "hronous Processing=True;Connect Timeout=5000;Packet Size=2768")>  _
         Public ReadOnly Property TakeoDBConnectionString() As String
             Get
                 Return CType(Me("TakeoDBConnectionString"),String)
