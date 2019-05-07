@@ -149,6 +149,12 @@
     <Compile Include="CCAMH\Regisration\DashboardRegistration.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="CCAMH\Regisration\FormClientRegistration.Designer.vb">
+      <DependentUpon>FormClientRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\FormClientRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="common\globalModule.vb" />
     <Compile Include="common\LabelArray.vb" />
     <Compile Include="common\ModGlobleVariable.vb" />
@@ -3194,6 +3200,9 @@
     </None>
     <EmbeddedResource Include="CCAMH\Regisration\DashboardRegistration.resx">
       <DependentUpon>DashboardRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCAMH\Regisration\FormClientRegistration.resx">
+      <DependentUpon>FormClientRegistration.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>

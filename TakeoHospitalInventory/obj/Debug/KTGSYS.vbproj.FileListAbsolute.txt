@@ -631,3 +631,4 @@ C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\ca-ES\KTGSYS.reso
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\ca\KTGSYS.resources.dll
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.exe
 C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.DashboardRegistration.resources
+C:\BanYanno\SoftProject\CCAMH\TakeoHospitalInventory\obj\Debug\KTGSYS.FormClientRegistration.resources

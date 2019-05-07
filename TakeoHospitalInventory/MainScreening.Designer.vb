@@ -24,7 +24,7 @@ Partial Class MainScreening
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainScreening))
-        Dim JanusColorScheme2 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
+        Dim JanusColorScheme1 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Me.PanelHeader = New System.Windows.Forms.Panel
         Me.Panel1 = New System.Windows.Forms.Panel
         Me.PictureBox2 = New System.Windows.Forms.PictureBox
@@ -70,9 +70,9 @@ Partial Class MainScreening
         '
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel1.Location = New System.Drawing.Point(1159, 0)
+        Me.Panel1.Location = New System.Drawing.Point(1056, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(141, 109)
+        Me.Panel1.Size = New System.Drawing.Size(244, 109)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox2
@@ -80,9 +80,9 @@ Partial Class MainScreening
         Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(137, 105)
+        Me.PictureBox2.Size = New System.Drawing.Size(237, 105)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
@@ -257,25 +257,25 @@ Partial Class MainScreening
         '
         'VSMInterface
         '
-        JanusColorScheme2.ActiveCaptionColor = System.Drawing.Color.White
-        JanusColorScheme2.ActiveCaptionTextColor = System.Drawing.Color.White
-        JanusColorScheme2.ControlColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme2.ControlDarkColor = System.Drawing.Color.White
-        JanusColorScheme2.ControlTextColor = System.Drawing.Color.Sienna
-        JanusColorScheme2.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        JanusColorScheme2.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme2.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
-        JanusColorScheme2.HighlightTextColor = System.Drawing.Color.White
-        JanusColorScheme2.InfoColor = System.Drawing.Color.White
-        JanusColorScheme2.InfoTextColor = System.Drawing.Color.Black
-        JanusColorScheme2.MenuColor = System.Drawing.Color.White
-        JanusColorScheme2.MenuTextColor = System.Drawing.Color.Black
-        JanusColorScheme2.Name = "DefaultInterface"
-        JanusColorScheme2.Office2007CustomColor = System.Drawing.Color.Empty
-        JanusColorScheme2.UseThemes = False
-        JanusColorScheme2.WindowColor = System.Drawing.Color.Bisque
-        JanusColorScheme2.WindowTextColor = System.Drawing.Color.Black
-        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme2)
+        JanusColorScheme1.ActiveCaptionColor = System.Drawing.Color.White
+        JanusColorScheme1.ActiveCaptionTextColor = System.Drawing.Color.White
+        JanusColorScheme1.ControlColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.ControlDarkColor = System.Drawing.Color.White
+        JanusColorScheme1.ControlTextColor = System.Drawing.Color.Sienna
+        JanusColorScheme1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightTextColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.MenuColor = System.Drawing.Color.White
+        JanusColorScheme1.MenuTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.Name = "DefaultInterface"
+        JanusColorScheme1.Office2007CustomColor = System.Drawing.Color.Empty
+        JanusColorScheme1.UseThemes = False
+        JanusColorScheme1.WindowColor = System.Drawing.Color.Bisque
+        JanusColorScheme1.WindowTextColor = System.Drawing.Color.Black
+        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme1)
         '
         'MainScreening
         '
