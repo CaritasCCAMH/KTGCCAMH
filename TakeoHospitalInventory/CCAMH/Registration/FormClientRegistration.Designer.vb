@@ -28,38 +28,8 @@ Partial Class FormClientRegistration
         Me.BtnClose = New System.Windows.Forms.Button
         Me.BtnSave = New System.Windows.Forms.Button
         Me.Panel3 = New System.Windows.Forms.Panel
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.TextBox5 = New System.Windows.Forms.TextBox
-        Me.TextBox4 = New System.Windows.Forms.TextBox
-        Me.Label28 = New System.Windows.Forms.Label
-        Me.Label29 = New System.Windows.Forms.Label
-        Me.TextBox12 = New System.Windows.Forms.TextBox
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton
-        Me.TextBox9 = New System.Windows.Forms.TextBox
-        Me.TextBox6 = New System.Windows.Forms.TextBox
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Button3 = New System.Windows.Forms.Button
-        Me.Button2 = New System.Windows.Forms.Button
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox
-        Me.TextBox10 = New System.Windows.Forms.TextBox
-        Me.TextBox11 = New System.Windows.Forms.TextBox
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox
-        Me.TextBox7 = New System.Windows.Forms.TextBox
-        Me.TextBox8 = New System.Windows.Forms.TextBox
-        Me.TextBox3 = New System.Windows.Forms.TextBox
-        Me.TextBox2 = New System.Windows.Forms.TextBox
-        Me.TextBox1 = New System.Windows.Forms.TextBox
-        Me.Label27 = New System.Windows.Forms.Label
-        Me.Label24 = New System.Windows.Forms.Label
-        Me.Label25 = New System.Windows.Forms.Label
-        Me.Label26 = New System.Windows.Forms.Label
+        Me.Label32 = New System.Windows.Forms.Label
+        Me.Panel2 = New System.Windows.Forms.Panel
         Me.GroupBox1 = New System.Windows.Forms.GroupBox
         Me.CboCommNo = New System.Windows.Forms.ComboBox
         Me.CboDisNo = New System.Windows.Forms.ComboBox
@@ -69,12 +39,48 @@ Partial Class FormClientRegistration
         Me.Label11 = New System.Windows.Forms.Label
         Me.Label10 = New System.Windows.Forms.Label
         Me.Label9 = New System.Windows.Forms.Label
-        Me.Label18 = New System.Windows.Forms.Label
-        Me.Label22 = New System.Windows.Forms.Label
-        Me.Label23 = New System.Windows.Forms.Label
-        Me.Label17 = New System.Windows.Forms.Label
-        Me.Label13 = New System.Windows.Forms.Label
+        Me.Button3 = New System.Windows.Forms.Button
+        Me.TextBox6 = New System.Windows.Forms.TextBox
+        Me.Button2 = New System.Windows.Forms.Button
+        Me.Label26 = New System.Windows.Forms.Label
+        Me.Button1 = New System.Windows.Forms.Button
+        Me.Label1 = New System.Windows.Forms.Label
         Me.Label14 = New System.Windows.Forms.Label
+        Me.Label13 = New System.Windows.Forms.Label
+        Me.Label17 = New System.Windows.Forms.Label
+        Me.Label23 = New System.Windows.Forms.Label
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox
+        Me.Label22 = New System.Windows.Forms.Label
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox
+        Me.Label18 = New System.Windows.Forms.Label
+        Me.TextBox10 = New System.Windows.Forms.TextBox
+        Me.Label25 = New System.Windows.Forms.Label
+        Me.TextBox11 = New System.Windows.Forms.TextBox
+        Me.Label24 = New System.Windows.Forms.Label
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox
+        Me.Label27 = New System.Windows.Forms.Label
+        Me.TextBox7 = New System.Windows.Forms.TextBox
+        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.TextBox8 = New System.Windows.Forms.TextBox
+        Me.TextBox2 = New System.Windows.Forms.TextBox
+        Me.TextBox3 = New System.Windows.Forms.TextBox
+        Me.TextBox14 = New System.Windows.Forms.TextBox
+        Me.TextBox13 = New System.Windows.Forms.TextBox
+        Me.Label31 = New System.Windows.Forms.Label
+        Me.Label30 = New System.Windows.Forms.Label
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.TextBox12 = New System.Windows.Forms.TextBox
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label3 = New System.Windows.Forms.Label
+        Me.TextBox9 = New System.Windows.Forms.TextBox
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton
+        Me.TextBox5 = New System.Windows.Forms.TextBox
+        Me.TextBox4 = New System.Windows.Forms.TextBox
+        Me.Label28 = New System.Windows.Forms.Label
+        Me.Label29 = New System.Windows.Forms.Label
         Me.Label21 = New System.Windows.Forms.Label
         Me.Label20 = New System.Windows.Forms.Label
         Me.Label19 = New System.Windows.Forms.Label
@@ -92,19 +98,16 @@ Partial Class FormClientRegistration
         Me.CboSex = New System.Windows.Forms.ComboBox
         Me.Label8 = New System.Windows.Forms.Label
         Me.TxtAge = New System.Windows.Forms.TextBox
-        Me.Label30 = New System.Windows.Forms.Label
-        Me.Label31 = New System.Windows.Forms.Label
-        Me.TextBox13 = New System.Windows.Forms.TextBox
-        Me.TextBox14 = New System.Windows.Forms.TextBox
-        Me.Panel2 = New System.Windows.Forms.Panel
-        Me.Label32 = New System.Windows.Forms.Label
+        Me.Label33 = New System.Windows.Forms.Label
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox
         Me.PanelMain.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
-        Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelMain
@@ -113,6 +116,8 @@ Partial Class FormClientRegistration
         Me.PanelMain.AutoSize = True
         Me.PanelMain.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
         Me.PanelMain.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PanelMain.Controls.Add(Me.PictureBox2)
+        Me.PanelMain.Controls.Add(Me.Label33)
         Me.PanelMain.Controls.Add(Me.PictureBox1)
         Me.PanelMain.Controls.Add(Me.BtnClose)
         Me.PanelMain.Controls.Add(Me.BtnSave)
@@ -121,7 +126,7 @@ Partial Class FormClientRegistration
         Me.PanelMain.Font = New System.Drawing.Font("Khmer OS Battambang", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelMain.Location = New System.Drawing.Point(0, 0)
         Me.PanelMain.Name = "PanelMain"
-        Me.PanelMain.Size = New System.Drawing.Size(1305, 825)
+        Me.PanelMain.Size = New System.Drawing.Size(1314, 863)
         Me.PanelMain.TabIndex = 1
         '
         'PictureBox1
@@ -144,7 +149,7 @@ Partial Class FormClientRegistration
         Me.BtnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClose.ForeColor = System.Drawing.Color.White
         Me.BtnClose.Image = CType(resources.GetObject("BtnClose.Image"), System.Drawing.Image)
-        Me.BtnClose.Location = New System.Drawing.Point(1197, 782)
+        Me.BtnClose.Location = New System.Drawing.Point(1209, 819)
         Me.BtnClose.Name = "BtnClose"
         Me.BtnClose.Size = New System.Drawing.Size(100, 37)
         Me.BtnClose.TabIndex = 2
@@ -162,7 +167,7 @@ Partial Class FormClientRegistration
         Me.BtnSave.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSave.ForeColor = System.Drawing.Color.White
         Me.BtnSave.Image = CType(resources.GetObject("BtnSave.Image"), System.Drawing.Image)
-        Me.BtnSave.Location = New System.Drawing.Point(1091, 782)
+        Me.BtnSave.Location = New System.Drawing.Point(1104, 819)
         Me.BtnSave.Name = "BtnSave"
         Me.BtnSave.Size = New System.Drawing.Size(100, 37)
         Me.BtnSave.TabIndex = 1
@@ -208,341 +213,52 @@ Partial Class FormClientRegistration
         Me.Panel3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
         Me.Panel3.Location = New System.Drawing.Point(5, 85)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1292, 691)
+        Me.Panel3.Size = New System.Drawing.Size(1308, 729)
         Me.Panel3.TabIndex = 0
         '
-        'Panel1
+        'Label32
         '
-        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel1.Controls.Add(Me.TextBox12)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.TextBox9)
-        Me.Panel1.Controls.Add(Me.GroupBox2)
-        Me.Panel1.Location = New System.Drawing.Point(640, 217)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(637, 354)
-        Me.Panel1.TabIndex = 38
+        Me.Label32.AutoSize = True
+        Me.Label32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label32.Location = New System.Drawing.Point(9, 189)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(226, 25)
+        Me.Label32.TabIndex = 55
+        Me.Label32.Text = "Family Details(Parents/Guardian):"
         '
-        'TextBox5
+        'Panel2
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.White
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Location = New System.Drawing.Point(573, 32)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(146, 32)
-        Me.TextBox5.TabIndex = 37
-        '
-        'TextBox4
-        '
-        Me.TextBox4.BackColor = System.Drawing.Color.White
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Location = New System.Drawing.Point(422, 32)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(145, 32)
-        Me.TextBox4.TabIndex = 36
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label28.Location = New System.Drawing.Point(601, 8)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(71, 25)
-        Me.Label28.TabIndex = 26
-        Me.Label28.Text = "Refer By:"
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label29.Location = New System.Drawing.Point(444, 8)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(86, 25)
-        Me.Label29.TabIndex = 25
-        Me.Label29.Text = "Brought By:"
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox12.BackColor = System.Drawing.Color.White
-        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox12.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(5, 259)
-        Me.TextBox12.Multiline = True
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(617, 88)
-        Me.TextBox12.TabIndex = 54
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(0, 231)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(128, 25)
-        Me.Label3.TabIndex = 53
-        Me.Label3.Text = "Mention subtypes:"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox2.Controls.Add(Me.RadioButton3)
-        Me.GroupBox2.Controls.Add(Me.RadioButton2)
-        Me.GroupBox2.Controls.Add(Me.RadioButton1)
-        Me.GroupBox2.Location = New System.Drawing.Point(5, 128)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(617, 96)
-        Me.GroupBox2.TabIndex = 52
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Impression:"
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(178, 22)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(172, 29)
-        Me.RadioButton3.TabIndex = 2
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Psychological Problem"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(9, 54)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(182, 29)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Developmental Disorder"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(9, 22)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(136, 29)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Neuropsychiatric"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox9.BackColor = System.Drawing.Color.White
-        Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox9.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(5, 31)
-        Me.TextBox9.Multiline = True
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(617, 93)
-        Me.TextBox9.TabIndex = 51
-        '
-        'TextBox6
-        '
-        Me.TextBox6.BackColor = System.Drawing.Color.White
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox6.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(4, 215)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(366, 30)
-        Me.TextBox6.TabIndex = 50
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(9, 3)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(168, 25)
-        Me.Label2.TabIndex = 50
-        Me.Label2.Text = "Purpose of Consultation:"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(6, 187)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(79, 25)
-        Me.Label1.TabIndex = 49
-        Me.Label1.Text = "Phone No:"
-        '
-        'Button3
-        '
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(585, 150)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(33, 35)
-        Me.Button3.TabIndex = 48
-        Me.Button3.Text = "..."
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(585, 97)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(33, 35)
-        Me.Button2.TabIndex = 47
-        Me.Button2.Text = "..."
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(585, 36)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(33, 35)
-        Me.Button1.TabIndex = 46
-        Me.Button1.Text = "..."
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(388, 153)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(191, 32)
-        Me.ComboBox3.TabIndex = 45
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(388, 97)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(191, 32)
-        Me.ComboBox2.TabIndex = 44
-        '
-        'TextBox10
-        '
-        Me.TextBox10.BackColor = System.Drawing.Color.White
-        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox10.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(197, 155)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(173, 30)
-        Me.TextBox10.TabIndex = 43
-        '
-        'TextBox11
-        '
-        Me.TextBox11.BackColor = System.Drawing.Color.White
-        Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox11.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(3, 155)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(179, 30)
-        Me.TextBox11.TabIndex = 42
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(388, 38)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(191, 32)
-        Me.ComboBox1.TabIndex = 41
-        '
-        'TextBox7
-        '
-        Me.TextBox7.BackColor = System.Drawing.Color.White
-        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox7.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(197, 97)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(173, 30)
-        Me.TextBox7.TabIndex = 39
-        '
-        'TextBox8
-        '
-        Me.TextBox8.BackColor = System.Drawing.Color.White
-        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox8.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(3, 97)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(179, 30)
-        Me.TextBox8.TabIndex = 38
-        '
-        'TextBox3
-        '
-        Me.TextBox3.BackColor = System.Drawing.Color.White
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(308, 38)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(58, 30)
-        Me.TextBox3.TabIndex = 37
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(197, 39)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(56, 30)
-        Me.TextBox2.TabIndex = 36
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(3, 38)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(179, 30)
-        Me.TextBox1.TabIndex = 35
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label27.Location = New System.Drawing.Point(386, 12)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(66, 25)
-        Me.Label27.TabIndex = 34
-        Me.Label27.Text = "Position:"
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label24.Location = New System.Drawing.Point(302, 12)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(63, 25)
-        Me.Label24.TabIndex = 33
-        Me.Label24.Text = "Female:"
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label25.Location = New System.Drawing.Point(197, 12)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(47, 25)
-        Me.Label25.TabIndex = 32
-        Me.Label25.Text = "Male:"
-        '
-        'Label26
-        '
-        Me.Label26.AutoSize = True
-        Me.Label26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label26.Location = New System.Drawing.Point(3, 12)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(58, 25)
-        Me.Label26.TabIndex = 31
-        Me.Label26.Text = "Sibling:"
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.GroupBox1)
+        Me.Panel2.Controls.Add(Me.Button3)
+        Me.Panel2.Controls.Add(Me.TextBox6)
+        Me.Panel2.Controls.Add(Me.Button2)
+        Me.Panel2.Controls.Add(Me.Label26)
+        Me.Panel2.Controls.Add(Me.Button1)
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Controls.Add(Me.Label14)
+        Me.Panel2.Controls.Add(Me.Label13)
+        Me.Panel2.Controls.Add(Me.Label17)
+        Me.Panel2.Controls.Add(Me.Label23)
+        Me.Panel2.Controls.Add(Me.ComboBox3)
+        Me.Panel2.Controls.Add(Me.Label22)
+        Me.Panel2.Controls.Add(Me.ComboBox2)
+        Me.Panel2.Controls.Add(Me.Label18)
+        Me.Panel2.Controls.Add(Me.TextBox10)
+        Me.Panel2.Controls.Add(Me.Label25)
+        Me.Panel2.Controls.Add(Me.TextBox11)
+        Me.Panel2.Controls.Add(Me.Label24)
+        Me.Panel2.Controls.Add(Me.ComboBox1)
+        Me.Panel2.Controls.Add(Me.Label27)
+        Me.Panel2.Controls.Add(Me.TextBox7)
+        Me.Panel2.Controls.Add(Me.TextBox1)
+        Me.Panel2.Controls.Add(Me.TextBox8)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.TextBox3)
+        Me.Panel2.Location = New System.Drawing.Point(9, 217)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(625, 355)
+        Me.Panel2.TabIndex = 54
         '
         'GroupBox1
         '
@@ -646,45 +362,78 @@ Partial Class FormClientRegistration
         Me.Label9.TabIndex = 7
         Me.Label9.Text = "Province:"
         '
-        'Label18
+        'Button3
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label18.Location = New System.Drawing.Point(386, 129)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(88, 25)
-        Me.Label18.TabIndex = 29
-        Me.Label18.Text = "Occupation:"
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Location = New System.Drawing.Point(585, 150)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(33, 35)
+        Me.Button3.TabIndex = 48
+        Me.Button3.Text = "..."
+        Me.Button3.UseVisualStyleBackColor = True
         '
-        'Label22
+        'TextBox6
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label22.Location = New System.Drawing.Point(197, 129)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(79, 25)
-        Me.Label22.TabIndex = 28
-        Me.Label22.Text = "Education:"
+        Me.TextBox6.BackColor = System.Drawing.Color.White
+        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox6.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox6.Location = New System.Drawing.Point(4, 215)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(366, 30)
+        Me.TextBox6.TabIndex = 50
         '
-        'Label23
+        'Button2
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label23.Location = New System.Drawing.Point(6, 127)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(112, 25)
-        Me.Label23.TabIndex = 27
-        Me.Label23.Text = "Mother's Name:"
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Location = New System.Drawing.Point(585, 97)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(33, 35)
+        Me.Button2.TabIndex = 47
+        Me.Button2.Text = "..."
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'Label17
+        'Label26
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label17.Location = New System.Drawing.Point(386, 72)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(88, 25)
-        Me.Label17.TabIndex = 26
-        Me.Label17.Text = "Occupation:"
+        Me.Label26.AutoSize = True
+        Me.Label26.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label26.Location = New System.Drawing.Point(3, 12)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(58, 25)
+        Me.Label26.TabIndex = 31
+        Me.Label26.Text = "Sibling:"
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Location = New System.Drawing.Point(585, 36)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(33, 35)
+        Me.Button1.TabIndex = 46
+        Me.Button1.Text = "..."
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(6, 187)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(79, 25)
+        Me.Label1.TabIndex = 49
+        Me.Label1.Text = "Phone No:"
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label14.Location = New System.Drawing.Point(3, 72)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(109, 25)
+        Me.Label14.TabIndex = 24
+        Me.Label14.Text = "Father's Name:"
         '
         'Label13
         '
@@ -696,15 +445,361 @@ Partial Class FormClientRegistration
         Me.Label13.TabIndex = 25
         Me.Label13.Text = "Education:"
         '
-        'Label14
+        'Label17
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label14.Location = New System.Drawing.Point(3, 72)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(109, 25)
-        Me.Label14.TabIndex = 24
-        Me.Label14.Text = "Father's Name:"
+        Me.Label17.AutoSize = True
+        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label17.Location = New System.Drawing.Point(386, 72)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(88, 25)
+        Me.Label17.TabIndex = 26
+        Me.Label17.Text = "Occupation:"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label23.Location = New System.Drawing.Point(6, 127)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(112, 25)
+        Me.Label23.TabIndex = 27
+        Me.Label23.Text = "Mother's Name:"
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(388, 153)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(191, 32)
+        Me.ComboBox3.TabIndex = 45
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label22.Location = New System.Drawing.Point(197, 129)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(79, 25)
+        Me.Label22.TabIndex = 28
+        Me.Label22.Text = "Education:"
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(388, 97)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(191, 32)
+        Me.ComboBox2.TabIndex = 44
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label18.Location = New System.Drawing.Point(386, 129)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(88, 25)
+        Me.Label18.TabIndex = 29
+        Me.Label18.Text = "Occupation:"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BackColor = System.Drawing.Color.White
+        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox10.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.Location = New System.Drawing.Point(197, 155)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(173, 30)
+        Me.TextBox10.TabIndex = 43
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label25.Location = New System.Drawing.Point(197, 12)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(47, 25)
+        Me.Label25.TabIndex = 32
+        Me.Label25.Text = "Male:"
+        '
+        'TextBox11
+        '
+        Me.TextBox11.BackColor = System.Drawing.Color.White
+        Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox11.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox11.Location = New System.Drawing.Point(3, 155)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(179, 30)
+        Me.TextBox11.TabIndex = 42
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label24.Location = New System.Drawing.Point(302, 12)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(63, 25)
+        Me.Label24.TabIndex = 33
+        Me.Label24.Text = "Female:"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(388, 38)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(191, 32)
+        Me.ComboBox1.TabIndex = 41
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label27.Location = New System.Drawing.Point(386, 12)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(66, 25)
+        Me.Label27.TabIndex = 34
+        Me.Label27.Text = "Position:"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.BackColor = System.Drawing.Color.White
+        Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox7.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox7.Location = New System.Drawing.Point(197, 97)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(173, 30)
+        Me.TextBox7.TabIndex = 39
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.Color.White
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox1.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(3, 38)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(179, 30)
+        Me.TextBox1.TabIndex = 35
+        '
+        'TextBox8
+        '
+        Me.TextBox8.BackColor = System.Drawing.Color.White
+        Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox8.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Location = New System.Drawing.Point(3, 97)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(179, 30)
+        Me.TextBox8.TabIndex = 38
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.White
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.Location = New System.Drawing.Point(197, 39)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(56, 30)
+        Me.TextBox2.TabIndex = 36
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.Color.White
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.Location = New System.Drawing.Point(308, 38)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(58, 30)
+        Me.TextBox3.TabIndex = 37
+        '
+        'TextBox14
+        '
+        Me.TextBox14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TextBox14.BackColor = System.Drawing.Color.White
+        Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox14.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox14.Location = New System.Drawing.Point(398, 602)
+        Me.TextBox14.Multiline = True
+        Me.TextBox14.Name = "TextBox14"
+        Me.TextBox14.Size = New System.Drawing.Size(376, 118)
+        Me.TextBox14.TabIndex = 53
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TextBox13.BackColor = System.Drawing.Color.White
+        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox13.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox13.Location = New System.Drawing.Point(5, 605)
+        Me.TextBox13.Multiline = True
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.Size = New System.Drawing.Size(376, 114)
+        Me.TextBox13.TabIndex = 52
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label31.Location = New System.Drawing.Point(396, 574)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(140, 25)
+        Me.Label31.TabIndex = 51
+        Me.Label31.Text = "Referred elseswher:"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label30.Location = New System.Drawing.Point(6, 574)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(247, 25)
+        Me.Label30.TabIndex = 50
+        Me.Label30.Text = "Advised:  Registration (Mention date)"
+        '
+        'Panel1
+        '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.TextBox12)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.TextBox9)
+        Me.Panel1.Controls.Add(Me.GroupBox2)
+        Me.Panel1.Location = New System.Drawing.Point(640, 217)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(653, 354)
+        Me.Panel1.TabIndex = 38
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox12.BackColor = System.Drawing.Color.White
+        Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox12.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox12.Location = New System.Drawing.Point(5, 259)
+        Me.TextBox12.Multiline = True
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(633, 88)
+        Me.TextBox12.TabIndex = 54
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(9, 3)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(168, 25)
+        Me.Label2.TabIndex = 50
+        Me.Label2.Text = "Purpose of Consultation:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(0, 231)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(128, 25)
+        Me.Label3.TabIndex = 53
+        Me.Label3.Text = "Mention subtypes:"
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox9.BackColor = System.Drawing.Color.White
+        Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox9.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox9.Location = New System.Drawing.Point(5, 31)
+        Me.TextBox9.Multiline = True
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(633, 93)
+        Me.TextBox9.TabIndex = 51
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.Controls.Add(Me.RadioButton3)
+        Me.GroupBox2.Controls.Add(Me.RadioButton2)
+        Me.GroupBox2.Controls.Add(Me.RadioButton1)
+        Me.GroupBox2.Location = New System.Drawing.Point(5, 128)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(633, 96)
+        Me.GroupBox2.TabIndex = 52
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Impression:"
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(178, 22)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(172, 29)
+        Me.RadioButton3.TabIndex = 2
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Psychological Problem"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(9, 54)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(182, 29)
+        Me.RadioButton2.TabIndex = 1
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Developmental Disorder"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(9, 22)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(136, 29)
+        Me.RadioButton1.TabIndex = 0
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Neuropsychiatric"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'TextBox5
+        '
+        Me.TextBox5.BackColor = System.Drawing.Color.White
+        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox5.Location = New System.Drawing.Point(573, 32)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(146, 32)
+        Me.TextBox5.TabIndex = 37
+        '
+        'TextBox4
+        '
+        Me.TextBox4.BackColor = System.Drawing.Color.White
+        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox4.Location = New System.Drawing.Point(422, 32)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(145, 32)
+        Me.TextBox4.TabIndex = 36
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label28.Location = New System.Drawing.Point(601, 8)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(71, 25)
+        Me.Label28.TabIndex = 26
+        Me.Label28.Text = "Refer By:"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
+        Me.Label29.Location = New System.Drawing.Point(444, 8)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(86, 25)
+        Me.Label29.TabIndex = 25
+        Me.Label29.Text = "Brought By:"
         '
         'Label21
         '
@@ -880,101 +975,34 @@ Partial Class FormClientRegistration
         Me.TxtAge.TabIndex = 6
         Me.TxtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label30
+        'Label33
         '
-        Me.Label30.AutoSize = True
-        Me.Label30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label30.Location = New System.Drawing.Point(6, 574)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(247, 25)
-        Me.Label30.TabIndex = 50
-        Me.Label30.Text = "Advised:  Registration (Mention date)"
+        Me.Label33.Font = New System.Drawing.Font("Khmer OS Moul", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(93, 2)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(1204, 80)
+        Me.Label33.TabIndex = 17
+        Me.Label33.Text = "មជ្ឈមណ្ឌលសុខភាពផ្លូវចិត្តកុមារ និងយុវវ័យ (ការីតាស-ម ស ផ ក)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "មន្ទីពេទ្យបង្អែកជ័យជំ" & _
+            "នះ តាខ្មៅ ខេត្តកណ្តាល" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label31
+        'PictureBox2
         '
-        Me.Label31.AutoSize = True
-        Me.Label31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label31.Location = New System.Drawing.Point(396, 574)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(140, 25)
-        Me.Label31.TabIndex = 51
-        Me.Label31.Text = "Referred elseswher:"
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.TextBox13.BackColor = System.Drawing.Color.White
-        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox13.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(5, 605)
-        Me.TextBox13.Multiline = True
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(376, 76)
-        Me.TextBox13.TabIndex = 52
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.TextBox14.BackColor = System.Drawing.Color.White
-        Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox14.Font = New System.Drawing.Font("Khmer OS Battambang", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(398, 602)
-        Me.TextBox14.Multiline = True
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(376, 80)
-        Me.TextBox14.TabIndex = 53
-        '
-        'Panel2
-        '
-        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Controls.Add(Me.GroupBox1)
-        Me.Panel2.Controls.Add(Me.Button3)
-        Me.Panel2.Controls.Add(Me.TextBox6)
-        Me.Panel2.Controls.Add(Me.Button2)
-        Me.Panel2.Controls.Add(Me.Label26)
-        Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Controls.Add(Me.Label14)
-        Me.Panel2.Controls.Add(Me.Label13)
-        Me.Panel2.Controls.Add(Me.Label17)
-        Me.Panel2.Controls.Add(Me.Label23)
-        Me.Panel2.Controls.Add(Me.ComboBox3)
-        Me.Panel2.Controls.Add(Me.Label22)
-        Me.Panel2.Controls.Add(Me.ComboBox2)
-        Me.Panel2.Controls.Add(Me.Label18)
-        Me.Panel2.Controls.Add(Me.TextBox10)
-        Me.Panel2.Controls.Add(Me.Label25)
-        Me.Panel2.Controls.Add(Me.TextBox11)
-        Me.Panel2.Controls.Add(Me.Label24)
-        Me.Panel2.Controls.Add(Me.ComboBox1)
-        Me.Panel2.Controls.Add(Me.Label27)
-        Me.Panel2.Controls.Add(Me.TextBox7)
-        Me.Panel2.Controls.Add(Me.TextBox1)
-        Me.Panel2.Controls.Add(Me.TextBox8)
-        Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.TextBox3)
-        Me.Panel2.Location = New System.Drawing.Point(9, 217)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(625, 355)
-        Me.Panel2.TabIndex = 54
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(34, Byte), Integer))
-        Me.Label32.Location = New System.Drawing.Point(9, 189)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(226, 25)
-        Me.Label32.TabIndex = 55
-        Me.Label32.Text = "Family Details(Parents/Guardian):"
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(303, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(102, 85)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 56
+        Me.PictureBox2.TabStop = False
         '
         'FormClientRegistration
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1305, 825)
+        Me.ClientSize = New System.Drawing.Size(1314, 863)
         Me.Controls.Add(Me.PanelMain)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "FormClientRegistration"
@@ -984,14 +1012,15 @@ Partial Class FormClientRegistration
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1071,4 +1100,6 @@ Partial Class FormClientRegistration
     Friend WithEvents Label31 As System.Windows.Forms.Label
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 End Class
