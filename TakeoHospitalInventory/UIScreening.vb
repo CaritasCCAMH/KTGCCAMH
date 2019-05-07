@@ -517,7 +517,14 @@
     End Sub
 
     Private Sub UiButton1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UiButton1.Click
-        Dim frmReg As New CLIENT_REGISTRATION_FORM
-        frmReg.ShowDialog()
+        'Dim frmReg As New CLIENT_REGISTRATION_FORM
+        'frmReg.ShowDialog()
+        'Dim frmClientReg As New FormClientRegistration
+        'frmClientReg.ShowDialog()
+    End Sub
+
+    Private Sub UiButton2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UiButton2.Click
+        Dim frmClientReg As New FormClientRegistration
+        frmClientReg.ShowDialog()
     End Sub
 End Class
