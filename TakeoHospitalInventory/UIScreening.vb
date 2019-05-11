@@ -75,6 +75,8 @@
 
     '==================== New Interface CCAMH -===========================
     Dim UICCAMHRegis As DashboardRegistration
+    Dim UICCAMHCash As DashboardCashRecieve
+    Dim PaymentSetting As DashboardCashSetting
 
     Sub New(ByVal MScreening As MainScreening, ByVal LoginForm As frmLoginInventory)
 
@@ -289,6 +291,13 @@
         Login.UpdateLabelStatus("Create User interface.", True)
         Application.DoEvents()
         UICCAMHRegis = New DashboardRegistration
+
+        Login.UpdateLabelStatus("Check CCAMH Cash...", True)
+        Application.DoEvents()
+        UICCAMHCash = New DashboardCashRecieve
+        Login.UpdateLabelStatus("CCAMH Cash setting...", True)
+        Application.DoEvents()
+        PaymentSetting = New DashboardCashSetting
     End Sub
 
 
@@ -523,5 +532,13 @@
     
     Private Sub BtnDashboardRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDashboardRegistration.Click
         AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, UICCAMHRegis, "", True)
+    End Sub
+
+    Private Sub BtnCashReceive_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCashReceive.Click
+        AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, UICCAMHCash, "", True)
+    End Sub
+
+    Private Sub BtnPaymentSetting_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPaymentSetting.Click
+        AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, PaymentSetting, "", True)
     End Sub
 End Class
