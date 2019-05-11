@@ -72,6 +72,12 @@
     Dim UReportItemTransaction As UCReportItemTransaction
     Dim URefferral As UCRefferralOfTEH
 
+
+    '==================== New Interface CCAMH -===========================
+    Dim UICCAMHRegis As DashboardRegistration
+    Dim UICCAMHCash As DashboardCashRecieve
+    Dim PaymentSetting As DashboardCashSetting
+
     Sub New(ByVal MScreening As MainScreening, ByVal LoginForm As frmLoginInventory)
 
         ' This call is required by the Windows Form Designer.
@@ -281,18 +287,29 @@
         Login.UpdateLabelStatus("Create User interface.", True)
         Application.DoEvents()
         DashReportUtility = New DashboardReportUtility
+
+        Login.UpdateLabelStatus("Create User interface.", True)
+        Application.DoEvents()
+        UICCAMHRegis = New DashboardRegistration
+
+        Login.UpdateLabelStatus("Check CCAMH Cash...", True)
+        Application.DoEvents()
+        UICCAMHCash = New DashboardCashRecieve
+        Login.UpdateLabelStatus("CCAMH Cash setting...", True)
+        Application.DoEvents()
+        PaymentSetting = New DashboardCashSetting
     End Sub
 
 
     Public Sub SetVisibleEnvisibleMenu()
-        If MenuVertical.Width = 0 Then
-            MenuVertical.Width = 242
-            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
-            'BtnNavigationBar .Image =
-        Else
-            MenuVertical.Width = 0
-            Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_Off_40px
-        End If
+        'If MenuVertical.Width = 0 Then
+        '    MenuVertical.Width = 242
+        '    Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_On_40px1
+        '    'BtnNavigationBar .Image =
+        'Else
+        '    MenuVertical.Width = 0
+        '    Me.BtnNavigationBar.Image = Global.KTGSYS.My.Resources.Resources.Switch_Off_40px
+        'End If
     End Sub
 
     Sub CheckPermistionOnForm()
@@ -303,7 +320,7 @@
         Dim indexMenu As Integer
         Application.DoEvents()
 
-        For Each ctl As Control In Me.Panel2.Controls
+        For Each ctl As Control In Me.PanelMainDetail.Controls
             If TypeOf ctl Is Button Then
                 For Each row As DataRow In tblPermistion.Rows
                     If ctl.Text = row("MenuNo") Then
@@ -429,12 +446,12 @@
 
 
     End Sub
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'SetVisibleEnvisibleMenu()
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, PatientPayment, "", True)
     End Sub
 
-    Private Sub BtnNavigationBar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnNavigationBar.Click
+    Private Sub BtnNavigationBar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         SetVisibleEnvisibleMenu()
     End Sub
 
@@ -447,52 +464,52 @@
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, NewOldPatientBook, "", True)
     End Sub
 
-    Private Sub BtnScreeningBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnScreeningBook.Click
+    Private Sub BtnScreeningBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, ScreenDashboard, "", True)
     End Sub
 
-    Private Sub BtnScreeningSetting_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnScreeningSetting.Click
+    Private Sub BtnScreeningSetting_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, ScreenSetting, "", True)
     End Sub
 
-    Private Sub BtnOpticalShop_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnOpticalShop.Click
+    Private Sub BtnOpticalShop_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UNewReceipt, "", True)
     End Sub
 
-    Private Sub BtnPharmacty_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnInventory.Click
+    Private Sub BtnPharmacty_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UDepartmentCurrenstock, "", True)
     End Sub
 
-    Private Sub BtnReports_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnReports.Click
+    Private Sub BtnReports_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, DashReportUtility, "", True)
     End Sub
 
-    Private Sub BtnOpticalShopReport_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnOpticalShopReport.Click
+    Private Sub BtnOpticalShopReport_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UOPStatisticReport, "", True)
     End Sub
 
-    Private Sub BtnOpticalIncome_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnOpticalIncome.Click
+    Private Sub BtnOpticalIncome_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UIncomeStatementOpticalShop, "", True)
     End Sub
 
-    Private Sub BtnRequestItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnRequestItem.Click
+    Private Sub BtnRequestItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, URequestOrderDep, "", True)
 
     End Sub
 
-    Private Sub BtnItemTransaction_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnItemTransaction.Click
+    Private Sub BtnItemTransaction_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
 
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UReportItemTransaction, "", True)
     End Sub
 
-    Private Sub BtnRefractionBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnRefractionBook.Click
+    Private Sub BtnRefractionBook_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, patientRefraction, "", True)
     End Sub
 
-    Private Sub BtnUserManagement_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnUserManagement.Click
+    Private Sub BtnUserManagement_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, Department, "", True)
         Department.InitDepartment()
@@ -502,17 +519,26 @@
         CheckPermistionOnForm()
     End Sub
 
-    Private Sub BtnEndOfDay_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnEndOfDay.Click
+    Private Sub BtnEndOfDay_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'GeneralAddControl(uiPanelMainContainer, URunEOD, "Main inventory Run End Of Day.")
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, URunEOD, "", True)
     End Sub
 
-    Private Sub BtnAdjustock_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnAdjustock.Click
+    Private Sub BtnAdjustock_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         'GeneralAddControl(uiPanelMainContainer, UDashboardAdjustStock, "Department items adjust stock.")
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UDashboardAdjustStock, "", True)
     End Sub
 
-    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
+    
+    Private Sub BtnDashboardRegistration_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDashboardRegistration.Click
+        AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, UICCAMHRegis, "", True)
+    End Sub
 
+    Private Sub BtnCashReceive_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnCashReceive.Click
+        AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, UICCAMHCash, "", True)
+    End Sub
+
+    Private Sub BtnPaymentSetting_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnPaymentSetting.Click
+        AddUserControl(UIMainScreening.PanelHeader, PanelMainDetail, PaymentSetting, "", True)
     End Sub
 End Class

@@ -22,7 +22,9 @@ Partial Class MainScreening
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainScreening))
+        Dim JanusColorScheme1 As Janus.Windows.Common.JanusColorScheme = New Janus.Windows.Common.JanusColorScheme
         Me.PanelHeader = New System.Windows.Forms.Panel
         Me.Panel1 = New System.Windows.Forms.Panel
         Me.PictureBox2 = New System.Windows.Forms.PictureBox
@@ -42,6 +44,7 @@ Partial Class MainScreening
         Me.ContainerPicloading = New Janus.Windows.Ribbon.ContainerControlCommand
         Me.PictureBox3 = New System.Windows.Forms.PictureBox
         Me.LabelDepartment = New Janus.Windows.Ribbon.LabelCommand
+        Me.VSMInterface = New Janus.Windows.Common.VisualStyleManager(Me.components)
         Me.PanelHeader.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,9 +70,9 @@ Partial Class MainScreening
         '
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel1.Location = New System.Drawing.Point(1159, 0)
+        Me.Panel1.Location = New System.Drawing.Point(1056, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(141, 109)
+        Me.Panel1.Size = New System.Drawing.Size(244, 109)
         Me.Panel1.TabIndex = 0
         '
         'PictureBox2
@@ -77,9 +80,9 @@ Partial Class MainScreening
         Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(0, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 2)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(137, 105)
+        Me.PictureBox2.Size = New System.Drawing.Size(237, 105)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
@@ -160,15 +163,15 @@ Partial Class MainScreening
         Me.RibboStatusBar.Margin = New System.Windows.Forms.Padding(2)
         Me.RibboStatusBar.Name = "RibboStatusBar"
         Me.RibboStatusBar.Office2007ColorScheme = Janus.Windows.Ribbon.Office2007ColorScheme.Custom
-        Me.RibboStatusBar.Office2007CustomColor = System.Drawing.Color.Green
+        Me.RibboStatusBar.Office2007CustomColor = System.Drawing.SystemColors.InactiveCaption
         Me.RibboStatusBar.RightPanelCommands.AddRange(New Janus.Windows.Ribbon.CommandBase() {Me.ContainerPicloading, Me.LabelDepartment})
         Me.RibboStatusBar.ShowToolTips = False
         Me.RibboStatusBar.Size = New System.Drawing.Size(1300, 27)
         '
         '
         '
-        Me.RibboStatusBar.SuperTipComponent.AutoPopDelay = 2000
-        Me.RibboStatusBar.SuperTipComponent.BackColor = System.Drawing.Color.Green
+        Me.RibboStatusBar.SuperTipComponent.AutoPopDelay = 200
+        Me.RibboStatusBar.SuperTipComponent.BackColor = System.Drawing.SystemColors.HighlightText
         Me.RibboStatusBar.SuperTipComponent.ImageList = Nothing
         Me.RibboStatusBar.TabIndex = 2
         Me.RibboStatusBar.Text = "RibbonStatusBar1"
@@ -252,6 +255,28 @@ Partial Class MainScreening
         Me.LabelDepartment.Name = "LabelDepartment"
         Me.LabelDepartment.Text = ""
         '
+        'VSMInterface
+        '
+        JanusColorScheme1.ActiveCaptionColor = System.Drawing.Color.White
+        JanusColorScheme1.ActiveCaptionTextColor = System.Drawing.Color.White
+        JanusColorScheme1.ControlColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.ControlDarkColor = System.Drawing.Color.White
+        JanusColorScheme1.ControlTextColor = System.Drawing.Color.Sienna
+        JanusColorScheme1.DisabledColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        JanusColorScheme1.GrayTextColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightColor = System.Drawing.Color.FromArgb(CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer), CType(CType(126, Byte), Integer))
+        JanusColorScheme1.HighlightTextColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoColor = System.Drawing.Color.White
+        JanusColorScheme1.InfoTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.MenuColor = System.Drawing.Color.White
+        JanusColorScheme1.MenuTextColor = System.Drawing.Color.Black
+        JanusColorScheme1.Name = "DefaultInterface"
+        JanusColorScheme1.Office2007CustomColor = System.Drawing.Color.Empty
+        JanusColorScheme1.UseThemes = False
+        JanusColorScheme1.WindowColor = System.Drawing.Color.Bisque
+        JanusColorScheme1.WindowTextColor = System.Drawing.Color.Black
+        Me.VSMInterface.ColorSchemes.Add(JanusColorScheme1)
+        '
         'MainScreening
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -291,4 +316,5 @@ Partial Class MainScreening
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents ContainerPicloading As Janus.Windows.Ribbon.ContainerControlCommand
     Friend WithEvents LabelDepartment As Janus.Windows.Ribbon.LabelCommand
+    Friend WithEvents VSMInterface As Janus.Windows.Common.VisualStyleManager
 End Class

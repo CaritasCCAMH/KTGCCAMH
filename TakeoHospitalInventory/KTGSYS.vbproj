@@ -44,7 +44,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>TakeoHospitalInventory.xml</DocumentationFile>
     <NoWarn>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42024,42025,42026,42029,42030,42031,42032,42036,42099,42104,42105,42106,42107,42108,42109</NoWarn>
-    <WarningLevel>1</WarningLevel>
+    <WarningLevel>0</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -54,7 +54,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>KTGSYS.xml</DocumentationFile>
     <NoWarn>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42024,42025,42026,42029,42030,42031,42032,42036,42099,42104,42105,42106,42107,42108,42109</NoWarn>
-    <WarningLevel>1</WarningLevel>
+    <WarningLevel>0</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,7 +62,7 @@
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\x86\Debug\</OutputPath>
     <DocumentationFile>KTGSYS.xml</DocumentationFile>
-    <WarningLevel>1</WarningLevel>
+    <WarningLevel>0</WarningLevel>
     <NoWarn>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42024,42025,42026,42029,42030,42031,42032,42036,42099,42104,42105,42106,42107,42108,42109</NoWarn>
     <DebugType>full</DebugType>
     <PlatformTarget>x86</PlatformTarget>
@@ -73,7 +73,7 @@
     <OutputPath>bin\x86\Release\</OutputPath>
     <DocumentationFile>KTGSYS.xml</DocumentationFile>
     <Optimize>true</Optimize>
-    <WarningLevel>1</WarningLevel>
+    <WarningLevel>0</WarningLevel>
     <NoWarn>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42024,42025,42026,42029,42030,42031,42032,42036,42099,42104,42105,42106,42107,42108,42109</NoWarn>
     <DebugType>pdbonly</DebugType>
     <PlatformTarget>x86</PlatformTarget>
@@ -143,6 +143,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="CCAMH\Cashflow\DashboardCashRecieve.Designer.vb">
+      <DependentUpon>DashboardCashRecieve.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\DashboardCashRecieve.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\FormCorrencySetting.Designer.vb">
+      <DependentUpon>FormCorrencySetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\FormCorrencySetting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\NewCashReceipt.Designer.vb">
+      <DependentUpon>NewCashReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\NewCashReceipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\ServiceSetting\DashboardCashSetting.Designer.vb">
+      <DependentUpon>DashboardCashSetting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Cashflow\ServiceSetting\DashboardCashSetting.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\DashboardRegistration.Designer.vb">
+      <DependentUpon>DashboardRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\DashboardRegistration.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\FormClientRegistration.Designer.vb">
+      <DependentUpon>FormClientRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CCAMH\Regisration\FormClientRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="common\globalModule.vb" />
     <Compile Include="common\LabelArray.vb" />
     <Compile Include="common\ModGlobleVariable.vb" />
@@ -3186,6 +3222,21 @@
     <None Include="Models\TakeoHospitalInventory.dbml.layout">
       <DependentUpon>TakeoHospitalInventory.dbml</DependentUpon>
     </None>
+    <EmbeddedResource Include="CCAMH\Cashflow\DashboardCashRecieve.resx">
+      <DependentUpon>DashboardCashRecieve.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCAMH\Cashflow\NewCashReceipt.resx">
+      <DependentUpon>NewCashReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCAMH\Cashflow\ServiceSetting\DashboardCashSetting.resx">
+      <DependentUpon>DashboardCashSetting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCAMH\Regisration\DashboardRegistration.resx">
+      <DependentUpon>DashboardRegistration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CCAMH\Regisration\FormClientRegistration.resx">
+      <DependentUpon>FormClientRegistration.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmWelcome.resx">
       <DependentUpon>frmWelcome.vb</DependentUpon>
       <SubType>Designer</SubType>
@@ -5793,6 +5844,7 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CCAMH\Pharmacy\" />
     <Folder Include="obj\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
