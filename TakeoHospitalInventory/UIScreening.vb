@@ -500,8 +500,6 @@
     End Sub
 
     Private Sub BtnItemTransaction_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-
         AddUserControl(UIMainScreening.PanelHeader, UIMainScreening.PanelDedail, UReportItemTransaction, "", True)
     End Sub
 
